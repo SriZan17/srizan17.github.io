@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search Notes</h1>
+      <input type="text" id="search-query" placeholder="Search for notes..." />
+      <input
+        type="text"
+        id="notebook-query"
+        placeholder="Search for notebook..."
+        oninput="filterNotebooks()"
+      />
+      <!-- Input for searching notebooks -->
+      <select id="search-notebook">
+        <option value="">Loading...</option>
+      </select>
+      <button onclick="searchNotes()">Search</button>
+      <div id="notes-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
