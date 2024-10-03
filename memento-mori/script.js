@@ -1,6 +1,6 @@
 // Birth date and death date
-const birthDate = new Date('2003-04-29');
-const deathDate = new Date('2080-04-29');
+const birthDate = new Date('2004-04-29');
+const deathDate = new Date('2087-04-29');
 
 // Today's date
 const today = new Date();
@@ -12,7 +12,7 @@ const totalLifeSpan = deathDate - birthDate;
 const lifePassed = today - birthDate;
 
 // Percentage of life passed
-const percentagePassed = ((lifePassed+1) / totalLifeSpan) * 100;
+const percentagePassed = (((lifePassed) / totalLifeSpan) * 100)+1.2;
 
 // Days passed and days remaining
 const daysPassed = Math.floor(lifePassed / (1000 * 60 * 60 * 24));
