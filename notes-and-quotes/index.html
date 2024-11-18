@@ -3,25 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notes Search</title>
+    <title>Smart Notes Search</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <h1>Search Notes</h1>
-      <input type="text" id="search-query" placeholder="Search for notes..." />
-      <input
-        type="text"
-        id="notebook-query"
-        placeholder="Search for notebook..."
-        oninput="filterNotebooks()"
-      />
-      <!-- Input for searching notebooks -->
-      <select id="search-notebook">
-        <option value="">Loading...</option>
-      </select>
-      <button onclick="searchNotes()">Search</button>
-      <div id="notes-container"></div>
+      <div class="search-header">
+        <h1>Notes And Quotes</h1>
+        <p class="search-description">
+          Search Notes and Quotes
+        </p>
+      </div>
+
+      <div class="search-controls">
+        <div class="search-row">
+          <div class="input-group">
+            <label for="search-query">
+              <i class="fas fa-search"></i>
+              Search Notes
+            </label>
+            <input
+              type="text"
+              id="search-query"
+              placeholder="Enter keywords to search notes..."
+              autocomplete="off"
+            />
+          </div>
+          <div class="input-group">
+            <label for="notebook-query">
+              <i class="fas fa-book"></i>
+              Filter Notebooks
+            </label>
+            <input
+              type="text"
+              id="notebook-query"
+              placeholder="Filter notebooks..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <div class="search-row">
+          <div class="input-group">
+            <label for="search-notebook">
+              <i class="fas fa-folder"></i>
+              Select Notebook
+            </label>
+            <select id="search-notebook">
+              <option value="">Loading notebooks...</option>
+            </select>
+          </div>
+          <div class="button-group">
+            <button class="search-button" onclick="searchNotes()">
+              <i class="fas fa-search"></i>
+              Search
+            </button>
+            <button class="random-button" onclick="getRandomNote()">
+              <i class="fas fa-random"></i>
+              Random Note
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="notes-container">
+        <div class="loading-indicator">
+          <i class="fas fa-spinner fa-spin"></i>
+          Loading notes...
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button
+          id="prev-page"
+          class="pagination-button"
+          onclick="changePage('prev')"
+          disabled
+        >
+          <i class="fas fa-chevron-left"></i> Previous
+        </button>
+        <span id="page-info">Page 1</span>
+        <button
+          id="next-page"
+          class="pagination-button"
+          onclick="changePage('next')"
+          disabled
+        >
+          Next <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
     </div>
 
     <script src="script.js"></script>
