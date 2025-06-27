@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <base href="/" />
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content="Portfolio website for Srijan Basnet. This portfolio showcases his education, skills & expertise, experience, acheivements and hobbies." />
+    <meta
+      name="description"
+      content="Portfolio website for Srijan Basnet. This portfolio showcases his education, skills & expertise, experience, acheivements and hobbies."
+    />
 
     <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="Srijan Basnet Portfolio" />
+    <meta
+      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
+      content="yes"
+    />
+    <meta
+      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
+      content="black"
+    />
+    <meta
+      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
+      content="Srijan Basnet Portfolio"
+    />
     <link rel="apple-touch-icon" href="icons/logo-aerium-2.png" />
 
     <!-- Favicon -->
@@ -19,31 +30,50 @@
     <title>Srijan Basnet Portfolio</title>
     <link rel="manifest" href="manifest.json" />
     <script type="application/javascript">
-        function openLink(url, target, isAsync = false) {
-            var is_safari = /^(?!.*chrome).*safari/i.test(
-                navigator.userAgent.toLowerCase()
-            );
-            if (is_safari && isAsync) {
-                window.location.href = url;
-            } else {
-                window.open(url, target);
-            }
+      function openLink(url, target, isAsync = false) {
+        var is_safari = /^(?!.*chrome).*safari/i.test(
+          navigator.userAgent.toLowerCase()
+        );
+        if (is_safari && isAsync) {
+          window.location.href = url;
+        } else {
+          window.open(url, target);
         }
+      }
     </script>
-</head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Srijan Basnet",
+        "url": "https://www.linkedin.com/in/sri017/",
+        "image": "https://srijanbasnet.com.np/icons/logo-aerium-2.png",
+        "jobTitle": "Innovation Engineer",
+        "sameAs": [
+          "hhttps://github.com/SriZan17",
+          "https://www.linkedin.com/in/sri017/"
+        ]
+      }
+    </script>
+    <noscript>
+      <div>
+        <h1>Srijan Basnet Portfolio</h1>
+        <p>Explore my projects, technical skills, experience, and more.</p>
+      </div>
+    </noscript>
+  </head>
 
-<body id="app-container">
+  <body id="app-container">
     <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
     <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", function() {
-                navigator.serviceWorker.register("flutter_service_worker.js");
-            });
-        }
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("flutter_service_worker.js");
+        });
+      }
     </script>
     <script src="main.dart.js" type="application/javascript"></script>
-</body>
-
+  </body>
 </html>
