@@ -4,7 +4,7 @@ let isSearchMode = false;
 let currentFolder = null;
 
 async function fetchData(url) {
-  const baseUrl = "http://34.171.46.200:8000";
+  const baseUrl = "https://34.171.46.200:8000";
   try {
     const response = await fetch(baseUrl + url);
     if (!response.ok) {
