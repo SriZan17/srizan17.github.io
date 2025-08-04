@@ -4,7 +4,8 @@ let isSearchMode = false;
 let currentFolder = null;
 
 async function fetchData(url) {
-  const baseUrl = "http://34.171.46.200:8000";
+  //const baseUrl = "http://34.171.46.200:8000";
+  const baseUrl = "http://localhost:8000";
   try {
     const response = await fetch(baseUrl + url);
     if (!response.ok) {
@@ -30,14 +31,23 @@ async function initializeData() {
     
     // Fetch folders
     const foldersResponse = await fetchData("/folders/");
-    allNotebooks = foldersResponse.data.map((folder) => ({
-      id: folder.name,
-      name: folder.name,
-    }));
+    if (foldersResponse && foldersResponse.data && Array.isArray(foldersResponse.data)) {
+      allNotebooks = foldersResponse.data.map((folder) => ({
+        id: folder.name,
+        name: folder.name,
+      }));
+    } else {
+      console.warn("Unexpected folders response structure:", foldersResponse);
+      allNotebooks = [];
+    }
 
     // Fetch initial notes - get all notes without pagination
     const notesResponse = await fetchData("/notes/?limit=100");
-    notesData = notesResponse;
+    if (notesResponse) {
+      notesData = notesResponse;
+    } else {
+      throw new Error("No response received from notes endpoint");
+    }
 
     // Update UI
     populateNotebooksDropdown();
@@ -48,14 +58,33 @@ async function initializeData() {
             <div class="note" style="color: var(--error-color)">
                 <i class="fas fa-exclamation-circle"></i>
                 Error loading notes. Please try again later.
+                <br><small>Details: ${escapeHtml(error.message)}</small>
             </div>
         `;
   }
 }
 
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
 function displayNotes() {
   const notesContainer = document.getElementById("notes-container");
-  const notes = isSearchMode ? notesData.data : notesData.results;
+  // Handle different response structures consistently
+  let notes;
+  let totalCount;
+  
+  if (isSearchMode) {
+    // Search endpoints return {data: [...]}
+    notes = notesData.data || [];
+    totalCount = notes.length;
+  } else {
+    // Regular notes endpoint returns {results: [...], count: number}
+    notes = notesData.results || [];
+    totalCount = notesData.count || notes.length;
+  }
 
   if (!notes || notes.length === 0) {
     notesContainer.innerHTML = `
@@ -75,7 +104,7 @@ function displayNotes() {
   if (isSearchMode && currentFolder) {
     notesContainer.innerHTML = `
         <div class="note-count">
-            Showing all ${notes.length} notes from "${currentFolder}"
+            Showing all ${notes.length} notes from "${escapeHtml(currentFolder)}"
         </div>
     `;
   } else if (isSearchMode) {
@@ -87,7 +116,7 @@ function displayNotes() {
   } else {
     notesContainer.innerHTML = `
         <div class="note-count">
-            Showing ${notes.length} of ${notesData.count} notes
+            Showing ${notes.length} of ${totalCount} notes
         </div>
     `;
   }
@@ -104,10 +133,10 @@ function displayNotes() {
             <div class="note-header">
                 <div class="notebook-name">
                     <i class="fas fa-folder"></i>
-                    ${folderName}
+                    ${escapeHtml(folderName)}
                 </div>
             </div>
-            <div class="note-content">${noteContent}</div>
+            <div class="note-content">${escapeHtml(noteContent)}</div>
         `;
     notesContainer.appendChild(noteElement);
   });
@@ -120,7 +149,7 @@ function populateNotebooksDropdown() {
   allNotebooks.forEach((folder) => {
     const option = document.createElement("option");
     option.value = folder.id;
-    option.textContent = folder.name;
+    option.textContent = folder.name; // textContent automatically escapes HTML
     notebookDropdown.appendChild(option);
   });
 }
@@ -135,34 +164,42 @@ async function searchNotes() {
 
   try {
     let response;
-    if (query || selectedNotebook) {
+    if (selectedNotebook || query) {
       if (selectedNotebook && !query) {
-        // Get all notes from a specific folder
+        // Get all notes from a specific folder using search with a space character
+        // This works because most notes contain spaces
         isSearchMode = true;
         currentFolder = selectedNotebook;
-        response = await fetchData(`/folders/${encodeURIComponent(selectedNotebook)}`);
-        const folderData = response.data;
-        const notesWithFolder = folderData.notes.map((note) => ({
-          ...note,
-          folder: folderData.folder_name,
-        }));
-        notesData = { data: notesWithFolder };
+        let searchUrl = "/notes/search/?q=" + encodeURIComponent(" ");
+        searchUrl += `&folder=${encodeURIComponent(selectedNotebook)}`;
+        response = await fetchData(searchUrl);
       } else {
         // Search notes with query and optional folder filter
         isSearchMode = true;
-        currentFolder = null;
-        let searchUrl = "/notes/search/?q=" + encodeURIComponent(query || "");
+        currentFolder = selectedNotebook || null;
+        let searchUrl = "/notes/search/?q=" + encodeURIComponent(query);
         if (selectedNotebook) {
           searchUrl += `&folder=${encodeURIComponent(selectedNotebook)}`;
         }
         response = await fetchData(searchUrl);
+      }
+      
+      if (response) {
         notesData = response;
+      } else {
+        throw new Error("No response received from search endpoint");
       }
     } else {
+      // No search criteria - get all notes
       isSearchMode = false;
       currentFolder = null;
       response = await fetchData("/notes/?limit=100");
-      notesData = response;
+      
+      if (response) {
+        notesData = response;
+      } else {
+        throw new Error("No response received from notes endpoint");
+      }
     }
 
     displayNotes();
@@ -172,6 +209,7 @@ async function searchNotes() {
               <div class="note" style="color: var(--error-color)">
                   <i class="fas fa-exclamation-circle"></i>
                   Error performing search. Please try again later.
+                  <br><small>Details: ${escapeHtml(error.message)}</small>
               </div>
           `;
   }
@@ -184,21 +222,25 @@ async function filterNotebooks() {
   notebookDropdown.innerHTML = '<option value="">Loading...</option>';
 
   try {
+    let response;
     if (notebookQuery) {
-      const response = await fetchData(
+      response = await fetchData(
         `/folders/search/?q=${encodeURIComponent(notebookQuery)}`
       );
+    } else {
+      response = await fetchData("/folders/");
+    }
+    
+    if (response && response.data && Array.isArray(response.data)) {
       allNotebooks = response.data.map((folder) => ({
         id: folder.name,
         name: folder.name,
       }));
     } else {
-      const response = await fetchData("/folders/");
-      allNotebooks = response.data.map((folder) => ({
-        id: folder.name,
-        name: folder.name,
-      }));
+      console.warn("Unexpected response structure:", response);
+      allNotebooks = [];
     }
+    
     populateNotebooksDropdown();
   } catch (error) {
     console.error("Notebook filter error:", error);
@@ -215,7 +257,13 @@ async function getRandomNote() {
   try {
     isSearchMode = true;
     const response = await fetchData("/notes/random/");
-    notesData = { data: [response.data] };
+    
+    if (response && response.data) {
+      notesData = { data: [response.data] };
+    } else {
+      throw new Error("No random note received from API");
+    }
+    
     displayNotes();
   } catch (error) {
     console.error("Random note error:", error);
@@ -223,6 +271,7 @@ async function getRandomNote() {
             <div class="note" style="color: var(--error-color)">
                 <i class="fas fa-exclamation-circle"></i>
                 Error fetching random note. Please try again later.
+                <br><small>Details: ${escapeHtml(error.message)}</small>
             </div>
         `;
   }
