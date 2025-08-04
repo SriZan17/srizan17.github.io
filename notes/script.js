@@ -1,14 +1,10 @@
 let notesData = {};
 let allNotebooks = [];
-let currentPage = 1;
-let totalPages = 1;
-let currentNextUrl = null;
-let currentPrevUrl = null;
-let notesPerPage = 50;
 let isSearchMode = false;
+let currentFolder = null;
 
 async function fetchData(url) {
-  const baseUrl = "https://notesandquotes.0xss.us";
+  const baseUrl = "http://34.171.46.200:8000";
   try {
     const response = await fetch(baseUrl + url);
     if (!response.ok) {
@@ -28,21 +24,24 @@ async function initializeData() {
     '<div class="loading-indicator"><i class="fas fa-spinner fa-spin"></i>Loading notes...</div>';
 
   try {
-    // Fetch notebooks
-    const notebooksResponse = await fetchData("/notebooks/");
-    allNotebooks = notebooksResponse.data.map((notebook) => ({
-      id: notebook.id,
-      name: notebook.name,
+    // Reset state
+    currentFolder = null;
+    isSearchMode = false;
+    
+    // Fetch folders
+    const foldersResponse = await fetchData("/folders/");
+    allNotebooks = foldersResponse.data.map((folder) => ({
+      id: folder.name,
+      name: folder.name,
     }));
 
-    // Fetch initial notes
-    const notesResponse = await fetchData("/notes/");
-    updateNotesData(notesResponse);
+    // Fetch initial notes - get all notes without pagination
+    const notesResponse = await fetchData("/notes/?limit=100");
+    notesData = notesResponse;
 
     // Update UI
     populateNotebooksDropdown();
     displayNotes();
-    updatePaginationControls();
   } catch (error) {
     console.error("Initialization error:", error);
     notesContainer.innerHTML = `
@@ -51,73 +50,6 @@ async function initializeData() {
                 Error loading notes. Please try again later.
             </div>
         `;
-  }
-}
-
-function updateNotesData(response) {
-  notesData = response;
-  if (!isSearchMode) {
-    totalPages = Math.ceil(response.count / notesPerPage);
-    currentNextUrl = response.next
-      ? new URL(response.next).pathname + new URL(response.next).search
-      : null;
-    currentPrevUrl = response.previous
-      ? new URL(response.previous).pathname + new URL(response.previous).search
-      : null;
-  } else {
-    // For search results
-    totalPages = 1;
-    currentNextUrl = null;
-    currentPrevUrl = null;
-  }
-}
-
-async function changePage(direction) {
-  if (isSearchMode) return;
-
-  const notesContainer = document.getElementById("notes-container");
-  notesContainer.innerHTML =
-    '<div class="loading-indicator"><i class="fas fa-spinner fa-spin"></i>Loading notes...</div>';
-
-  try {
-    let url;
-    if (direction === "next" && currentNextUrl) {
-      url = currentNextUrl;
-      currentPage++;
-    } else if (direction === "prev" && currentPrevUrl) {
-      url = currentPrevUrl;
-      currentPage--;
-    } else {
-      return;
-    }
-
-    const response = await fetchData(url);
-    updateNotesData(response);
-    displayNotes();
-    updatePaginationControls();
-  } catch (error) {
-    console.error("Pagination error:", error);
-    notesContainer.innerHTML = `
-            <div class="note" style="color: var(--error-color)">
-                <i class="fas fa-exclamation-circle"></i>
-                Error loading notes. Please try again later.
-            </div>
-        `;
-  }
-}
-
-function updatePaginationControls() {
-  const prevButton = document.getElementById("prev-page");
-  const nextButton = document.getElementById("next-page");
-  const pageInfo = document.getElementById("page-info");
-
-  prevButton.disabled = !currentPrevUrl || isSearchMode;
-  nextButton.disabled = !currentNextUrl || isSearchMode;
-
-  if (isSearchMode) {
-    pageInfo.textContent = "Search Results";
-  } else {
-    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
   }
 }
 
@@ -138,14 +70,24 @@ function displayNotes() {
   }
 
   notesContainer.innerHTML = "";
-  if (!isSearchMode) {
+  
+  // Show count information
+  if (isSearchMode && currentFolder) {
     notesContainer.innerHTML = `
         <div class="note-count">
-            Showing ${(currentPage - 1) * notesPerPage + 1} - ${Math.min(
-      currentPage * notesPerPage,
-      notesData.count
-    )} 
-            of ${notesData.count} notes
+            Showing all ${notes.length} notes from "${currentFolder}"
+        </div>
+    `;
+  } else if (isSearchMode) {
+    notesContainer.innerHTML = `
+        <div class="note-count">
+            Found ${notes.length} notes
+        </div>
+    `;
+  } else {
+    notesContainer.innerHTML = `
+        <div class="note-count">
+            Showing ${notes.length} of ${notesData.count} notes
         </div>
     `;
   }
@@ -153,14 +95,19 @@ function displayNotes() {
   notes.forEach((note) => {
     const noteElement = document.createElement("div");
     noteElement.className = "note";
+    
+    // Handle the backend structure: title contains the quote/content, body is usually empty
+    const noteContent = note.title || note.body || note.content || '';
+    const folderName = note.folder || note.notebook_name || 'Unknown';
+    
     noteElement.innerHTML = `
             <div class="note-header">
                 <div class="notebook-name">
-                    <i class="fas fa-book"></i>
-                    ${note.notebook_name}
+                    <i class="fas fa-folder"></i>
+                    ${folderName}
                 </div>
             </div>
-            <div class="note-content">${note.content}</div>
+            <div class="note-content">${noteContent}</div>
         `;
     notesContainer.appendChild(noteElement);
   });
@@ -168,12 +115,12 @@ function displayNotes() {
 
 function populateNotebooksDropdown() {
   const notebookDropdown = document.getElementById("search-notebook");
-  notebookDropdown.innerHTML = '<option value="">All Notebooks</option>';
+  notebookDropdown.innerHTML = '<option value="">All Folders</option>';
 
-  allNotebooks.forEach((notebook) => {
+  allNotebooks.forEach((folder) => {
     const option = document.createElement("option");
-    option.value = notebook.id;
-    option.textContent = notebook.name;
+    option.value = folder.id;
+    option.textContent = folder.name;
     notebookDropdown.appendChild(option);
   });
 }
@@ -185,36 +132,40 @@ async function searchNotes() {
 
   notesContainer.innerHTML =
     '<div class="loading-indicator"><i class="fas fa-spinner fa-spin"></i>Searching...</div>';
-  currentPage = 1;
 
   try {
     let response;
     if (query || selectedNotebook) {
-      isSearchMode = true;
       if (selectedNotebook && !query) {
-        response = await fetchData(`/notebooks/${selectedNotebook}`);
-        const notebookName = response.data.name;
-        const notesWithNotebook = response.data.notes.map((note) => ({
+        // Get all notes from a specific folder
+        isSearchMode = true;
+        currentFolder = selectedNotebook;
+        response = await fetchData(`/folders/${encodeURIComponent(selectedNotebook)}`);
+        const folderData = response.data;
+        const notesWithFolder = folderData.notes.map((note) => ({
           ...note,
-          notebook_name: notebookName,
+          folder: folderData.folder_name,
         }));
-        notesData = { data: notesWithNotebook };
+        notesData = { data: notesWithFolder };
       } else {
+        // Search notes with query and optional folder filter
+        isSearchMode = true;
+        currentFolder = null;
         let searchUrl = "/notes/search/?q=" + encodeURIComponent(query || "");
         if (selectedNotebook) {
-          searchUrl += `&notebook=${selectedNotebook}`;
+          searchUrl += `&folder=${encodeURIComponent(selectedNotebook)}`;
         }
         response = await fetchData(searchUrl);
         notesData = response;
       }
     } else {
       isSearchMode = false;
-      response = await fetchData("/notes/");
-      updateNotesData(response);
+      currentFolder = null;
+      response = await fetchData("/notes/?limit=100");
+      notesData = response;
     }
 
     displayNotes();
-    updatePaginationControls();
   } catch (error) {
     console.error("Search error:", error);
     notesContainer.innerHTML = `
@@ -235,17 +186,17 @@ async function filterNotebooks() {
   try {
     if (notebookQuery) {
       const response = await fetchData(
-        `/notebooks/search/?q=${encodeURIComponent(notebookQuery)}`
+        `/folders/search/?q=${encodeURIComponent(notebookQuery)}`
       );
-      allNotebooks = response.data.map((notebook) => ({
-        id: notebook.id,
-        name: notebook.name,
+      allNotebooks = response.data.map((folder) => ({
+        id: folder.name,
+        name: folder.name,
       }));
     } else {
-      const response = await fetchData("/notebooks/");
-      allNotebooks = response.data.map((notebook) => ({
-        id: notebook.id,
-        name: notebook.name,
+      const response = await fetchData("/folders/");
+      allNotebooks = response.data.map((folder) => ({
+        id: folder.name,
+        name: folder.name,
       }));
     }
     populateNotebooksDropdown();
@@ -266,7 +217,6 @@ async function getRandomNote() {
     const response = await fetchData("/notes/random/");
     notesData = { data: [response.data] };
     displayNotes();
-    updatePaginationControls();
   } catch (error) {
     console.error("Random note error:", error);
     notesContainer.innerHTML = `

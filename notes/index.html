@@ -14,9 +14,7 @@
     <div class="container">
       <div class="search-header">
         <h1>Notes And Quotes</h1>
-        <p class="search-description">
-          Search Notes and Quotes
-        </p>
+        <p class="search-description">Search Notes and Quotes</p>
       </div>
 
       <div class="search-controls">
@@ -35,13 +33,13 @@
           </div>
           <div class="input-group">
             <label for="notebook-query">
-              <i class="fas fa-book"></i>
-              Filter Notebooks
+              <i class="fas fa-folder"></i>
+              Filter Folders
             </label>
             <input
               type="text"
               id="notebook-query"
-              placeholder="Filter notebooks..."
+              placeholder="Filter folders..."
               autocomplete="off"
             />
           </div>
@@ -51,10 +49,10 @@
           <div class="input-group">
             <label for="search-notebook">
               <i class="fas fa-folder"></i>
-              Select Notebook
+              Select Folder
             </label>
             <select id="search-notebook">
-              <option value="">Loading notebooks...</option>
+              <option value="">Loading folders...</option>
             </select>
           </div>
           <div class="button-group">
@@ -75,26 +73,6 @@
           <i class="fas fa-spinner fa-spin"></i>
           Loading notes...
         </div>
-      </div>
-
-      <div class="pagination">
-        <button
-          id="prev-page"
-          class="pagination-button"
-          onclick="changePage('prev')"
-          disabled
-        >
-          <i class="fas fa-chevron-left"></i> Previous
-        </button>
-        <span id="page-info">Page 1</span>
-        <button
-          id="next-page"
-          class="pagination-button"
-          onclick="changePage('next')"
-          disabled
-        >
-          Next <i class="fas fa-chevron-right"></i>
-        </button>
       </div>
     </div>
 
