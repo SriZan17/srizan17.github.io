@@ -2,65 +2,105 @@ let notesData = {};
 let allNotebooks = [];
 let isSearchMode = false;
 let currentFolder = null;
+let localNotesData = null; // Store the loaded JSON data
 
 async function fetchData(url) {
-  const baseUrl = "https://api.srijanbasnet.com.np";
-  try {
-    const response = await fetch(baseUrl + url);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+  // Load local notes.json file instead of making API calls
+  if (!localNotesData) {
+    try {
+      const response = await fetch('./notes.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      localNotesData = await response.json();
+    } catch (error) {
+      console.error("Error loading notes.json:", error);
+      throw error;
     }
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Fetch error:", error);
-    throw error;
   }
+
+  // Simulate different API endpoints based on the URL
+  if (url.startsWith('/folders/')) {
+    return getFoldersData(url);
+  } else if (url.includes('/search/')) {
+    return getSearchData(url);
+  } else if (url.includes('/random/')) {
+    return getRandomData();
+  } else if (url.startsWith('/notes/')) {
+    return getNotesData(url);
+  }
+  
+  throw new Error(`Unknown endpoint: ${url}`);
 }
 
-async function initializeData() {
-  const notesContainer = document.getElementById("notes-container");
-  notesContainer.innerHTML =
-    '<div class="loading-indicator"><i class="fas fa-spinner fa-spin"></i>Loading notes...</div>';
-
-  try {
-    // Reset state
-    currentFolder = null;
-    isSearchMode = false;
-    
-    // Fetch folders
-    const foldersResponse = await fetchData("/folders/");
-    if (foldersResponse && foldersResponse.data && Array.isArray(foldersResponse.data)) {
-      allNotebooks = foldersResponse.data.map((folder) => ({
-        id: folder.name,
-        name: folder.name,
-      }));
-    } else {
-      console.warn("Unexpected folders response structure:", foldersResponse);
-      allNotebooks = [];
-    }
-
-    // Fetch initial notes - get all notes without pagination
-    const notesResponse = await fetchData("/notes/?limit=100");
-    if (notesResponse) {
-      notesData = notesResponse;
-    } else {
-      throw new Error("No response received from notes endpoint");
-    }
-
-    // Update UI
-    populateNotebooksDropdown();
-    displayNotes();
-  } catch (error) {
-    console.error("Initialization error:", error);
-    notesContainer.innerHTML = `
-            <div class="note" style="color: var(--error-color)">
-                <i class="fas fa-exclamation-circle"></i>
-                Error loading notes. Please try again later.
-                <br><small>Details: ${escapeHtml(error.message)}</small>
-            </div>
-        `;
+function getFoldersData(url) {
+  if (!localNotesData || !Array.isArray(localNotesData)) return { data: [] };
+  
+  // Extract unique folders from notes
+  const folders = [...new Set(localNotesData.map(note => note.folder).filter(Boolean))];
+  
+  if (url.includes('/search/')) {
+    // Filter folders based on search query
+    const urlParams = new URLSearchParams(url.split('?')[1]);
+    const query = urlParams.get('q')?.toLowerCase() || '';
+    const filteredFolders = folders.filter(folder => 
+      folder.toLowerCase().includes(query)
+    );
+    return { data: filteredFolders.map(name => ({ name })) };
   }
+  
+  return { data: folders.map(name => ({ name })) };
+}
+
+function getNotesData(url) {
+  if (!localNotesData || !Array.isArray(localNotesData)) return { results: [], count: 0 };
+  
+  const urlParams = new URLSearchParams(url.split('?')[1]);
+  const limit = parseInt(urlParams.get('limit')) || 100;
+  
+  const results = localNotesData.slice(0, limit);
+  return {
+    results: results,
+    count: localNotesData.length
+  };
+}
+
+function getSearchData(url) {
+  if (!localNotesData || !Array.isArray(localNotesData)) return { data: [] };
+  
+  const urlParams = new URLSearchParams(url.split('?')[1]);
+  const query = urlParams.get('q')?.toLowerCase() || '';
+  const folder = urlParams.get('folder');
+  
+  let filteredNotes = localNotesData;
+  
+  // Filter by folder if specified
+  if (folder) {
+    filteredNotes = filteredNotes.filter(note => note.folder === folder);
+  }
+  
+  // Filter by search query if not just a space (used for folder-only searches)
+  if (query && query.trim() !== '') {
+    filteredNotes = filteredNotes.filter(note => {
+      const title = (note.title || '').toLowerCase();
+      const body = (note.body || '').toLowerCase();
+      const content = (note.content || '').toLowerCase();
+      return title.includes(query) || body.includes(query) || content.includes(query);
+    });
+  }
+  
+  return { data: filteredNotes };
+}
+
+function getRandomData() {
+  if (!localNotesData || !Array.isArray(localNotesData) || localNotesData.length === 0) {
+    throw new Error("No notes available");
+  }
+  
+  const randomIndex = Math.floor(Math.random() * localNotesData.length);
+  const randomNote = localNotesData[randomIndex];
+  
+  return { data: randomNote };
 }
 
 function escapeHtml(text) {
@@ -270,6 +310,54 @@ async function getRandomNote() {
             <div class="note" style="color: var(--error-color)">
                 <i class="fas fa-exclamation-circle"></i>
                 Error fetching random note. Please try again later.
+                <br><small>Details: ${escapeHtml(error.message)}</small>
+            </div>
+        `;
+  }
+}
+
+async function initializeData() {
+  const notesContainer = document.getElementById("notes-container");
+  notesContainer.innerHTML =
+    '<div class="loading-indicator"><i class="fas fa-spinner fa-spin"></i>Loading notes...</div>';
+
+  try {
+    // Reset state
+    currentFolder = null;
+    isSearchMode = false;
+    
+    // Load and process local data
+    await fetchData("/notes/"); // This will load the JSON file
+    
+    // Fetch folders
+    const foldersResponse = await fetchData("/folders/");
+    if (foldersResponse && foldersResponse.data && Array.isArray(foldersResponse.data)) {
+      allNotebooks = foldersResponse.data.map((folder) => ({
+        id: folder.name,
+        name: folder.name,
+      }));
+    } else {
+      console.warn("Unexpected folders response structure:", foldersResponse);
+      allNotebooks = [];
+    }
+
+    // Fetch initial notes - get all notes without pagination
+    const notesResponse = await fetchData("/notes/?limit=100");
+    if (notesResponse) {
+      notesData = notesResponse;
+    } else {
+      throw new Error("No response received from notes endpoint");
+    }
+
+    // Update UI
+    populateNotebooksDropdown();
+    displayNotes();
+  } catch (error) {
+    console.error("Initialization error:", error);
+    notesContainer.innerHTML = `
+            <div class="note" style="color: var(--error-color)">
+                <i class="fas fa-exclamation-circle"></i>
+                Error loading notes. Please check if notes.json exists in the directory.
                 <br><small>Details: ${escapeHtml(error.message)}</small>
             </div>
         `;
