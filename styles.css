@@ -1,0 +1,225 @@
+/* Critical CSS for initial page load performance */
+
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* App container */
+#app-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-loaded {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Loading spinner styles */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0175c2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hide loading when app is ready */
+.app-loaded #loading {
+  display: none;
+}
+
+/* Main content wrapper for accessibility */
+#main-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Focus indicators for accessibility */
+*:focus {
+  outline: 2px solid #0175c2;
+  outline-offset: 2px;
+}
+
+/* Skip link for keyboard navigation */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #0175c2;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 10000;
+  border-radius: 4px;
+  transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  * {
+    border-color: #000 !important;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  #loading {
+    background: #1a1a1a;
+  }
+
+  .loading-spinner {
+    border-color: #333;
+    border-top-color: #0175c2;
+  }
+}
+
+/* Print styles for better printing experience */
+@media print {
+  #loading,
+  .skip-link {
+    display: none !important;
+  }
+}
+
+/* Performance optimization: minimize repaints */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Improve font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Performance optimizations for Flutter web */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Critical layout styles for Flutter content */
+flt-glass-pane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Optimize rendering performance */
+flt-scene-host {
+  pointer-events: auto;
+  contain: layout size paint;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+  image-rendering: optimizeQuality;
+}
+
+/* Ensure text remains visible during webfont load */
+.wf-loading body {
+  font-family: sans-serif;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  #app-container {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  .skip-link {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+
+  /* Support for older Safari versions */
+  @supports (-webkit-overflow-scrolling: touch) {
+    #app-container {
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  /* Modern browsers */
+  @supports (overscroll-behavior: contain) {
+    #app-container {
+      overscroll-behavior: contain;
+    }
+  }
+}
+
+/* Touch target optimization for mobile */
+@media (pointer: coarse) {
+  button,
+  input,
+  select,
+  textarea,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}

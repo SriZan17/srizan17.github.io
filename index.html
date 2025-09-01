@@ -1,34 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <base href="/" />
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
     <meta
-      name="description"
-      content="Portfolio website for Srijan Basnet. This portfolio showcases his education, skills & expertise, experience, acheivements and hobbies."
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
 
+    <!-- Critical Resource Hints for Performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="main.dart.js" as="script" />
+    <link
+      rel="preload"
+      href="manifest.json"
+      as="fetch"
+      crossorigin="anonymous"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Srijan Basnet - AI Specialist & Machine Learning Engineer Portfolio
+    </title>
+    <meta
+      name="title"
+      content="Srijan Basnet - AI Specialist & Machine Learning Engineer Portfolio"
+    />
+    <meta
+      name="description"
+      content="Portfolio website for Srijan Basnet, AI Specialist and Machine Learning Engineer. Showcasing expertise in deep learning, computer vision, PyTorch, and innovative AI projects including brain tumor classification and food recognition systems."
+    />
+    <meta
+      name="keywords"
+      content="AI Specialist, Machine Learning Engineer, Deep Learning, Computer Vision, PyTorch, Python, Brain Tumor Classification, Food Recognition, Portfolio, Srijan Basnet, AI Projects, Neural Networks"
+    />
+    <meta name="author" content="Srijan Basnet" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://srijanbasnet.com.np/" />
+    <meta
+      property="og:title"
+      content="Srijan Basnet - AI Specialist & Machine Learning Engineer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio showcasing AI/ML projects, deep learning expertise, and innovative solutions in computer vision and neural networks."
+    />
+    <meta
+      property="og:image"
+      content="https://srijanbasnet.com.np/icons/logo-aerium-2.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Srijan Basnet Portfolio" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://srijanbasnet.com.np/" />
+    <meta
+      property="twitter:title"
+      content="Srijan Basnet - AI Specialist & Machine Learning Engineer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Portfolio showcasing AI/ML projects, deep learning expertise, and innovative solutions in computer vision and neural networks."
+    />
+    <meta
+      property="twitter:image"
+      content="https://srijanbasnet.com.np/icons/logo-aerium-2.png"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://srijanbasnet.com.np/" />
+
     <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta
-      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
-      content="yes"
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
     />
-    <meta
-      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
-      content="black"
+    <meta name="apple-mobile-web-app-title" content="Srijan Basnet Portfolio" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/logo-aerium-2.png"
     />
-    <meta
-      name="Official portfolio of Srijan Basnet, a Full-Stack Developer. Explore projects, technical skills, education, achievements, and more."
-      content="Srijan Basnet Portfolio"
-    />
-    <link rel="apple-touch-icon" href="icons/logo-aerium-2.png" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="icons/logo-aerium-2.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/logo-aerium-2.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/logo-aerium-2.png"
+    />
 
-    <title>Srijan Basnet Portfolio</title>
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Theme color for mobile browsers and PWA -->
+    <meta
+      name="theme-color"
+      content="#0175C2"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0175C2"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta name="msapplication-TileColor" content="#0175C2" />
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Remove duplicate title tag -->
     <link rel="manifest" href="manifest.json" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Srijan Basnet",
+        "jobTitle": "AI Specialist & Machine Learning Engineer",
+        "description": "AI Specialist and Machine Learning Engineer with expertise in deep learning, computer vision, and PyTorch",
+        "url": "https://srijanbasnet.com.np",
+        "sameAs": [
+          "https://github.com/SriZan17",
+          "https://www.linkedin.com/in/sri017/"
+        ],
+        "knowsAbout": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning",
+          "Computer Vision",
+          "PyTorch",
+          "Python",
+          "Neural Networks"
+        ],
+        "alumniOf": {
+          "@type": "Organization",
+          "name": "Educational Institution"
+        },
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "AI Specialist",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "Nepal"
+          }
+        }
+      }
+    </script>
+
     <script type="application/javascript">
       function openLink(url, target, isAsync = false) {
         var is_safari = /^(?!.*chrome).*safari/i.test(
@@ -41,39 +181,55 @@
         }
       }
     </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Srijan Basnet",
-        "url": "https://www.linkedin.com/in/sri017/",
-        "image": "https://srijanbasnet.com.np/icons/logo-aerium-2.png",
-        "jobTitle": "Innovation Engineer",
-        "sameAs": [
-          "hhttps://github.com/SriZan17",
-          "https://www.linkedin.com/in/sri017/"
-        ]
-      }
-    </script>
-    <noscript>
-      <div>
-        <h1>Srijan Basnet Portfolio</h1>
-        <p>Explore my projects, technical skills, experience, and more.</p>
-      </div>
-    </noscript>
   </head>
 
   <body id="app-container">
-    <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Loading spinner for better perceived performance -->
+    <div id="loading">
+      <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Optimized service worker registration -->
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("flutter_service_worker.js");
+          navigator.serviceWorker
+            .register("flutter_service_worker.js")
+            .then(function (registration) {
+              console.log("ServiceWorker registration successful");
+            })
+            .catch(function (err) {
+              console.log("ServiceWorker registration failed: ", err);
+            });
         });
       }
+
+      // Hide loading spinner when Flutter app loads
+      window.addEventListener("flutter-first-frame", function () {
+        const loading = document.getElementById("loading");
+        if (loading) {
+          loading.style.display = "none";
+        }
+        document.body.classList.add("app-loaded");
+      });
+
+      // Performance optimization: preload critical resources
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "script";
+      link.href = "main.dart.js";
+      document.head.appendChild(link);
     </script>
-    <script src="main.dart.js" type="application/javascript"></script>
+
+    <!-- Main content wrapper for accessibility -->
+    <main id="main-content">
+      <!-- Flutter app will be injected here -->
+    </main>
+
+    <!-- Defer non-critical JavaScript -->
+    <script src="main.dart.js" type="application/javascript" defer></script>
   </body>
 </html>

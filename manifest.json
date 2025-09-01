@@ -1,22 +1,28 @@
 {
-    "name": "Srijan Basnet Portfolio",
-    "short_name": "Srijan Basnet Portfolio",
-    "start_url": ".",
-    "display": "minimal-ui",
-    "background_color": "#0175C2",
+    "name": "Srijan Basnet - AI Specialist Portfolio",
+    "short_name": "Srijan Basnet",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
     "theme_color": "#0175C2",
-    "description": "Portfolio website for Srijan Basnet. This portfolio showcases my education, skills & expertise, experience, acheivements and hobbies.",
-    "orientation": "portrait-primary",
+    "description": "Portfolio website for Srijan Basnet, AI Specialist and Machine Learning Engineer. Showcasing expertise in deep learning, computer vision, and innovative AI projects.",
+    "orientation": "any",
     "prefer_related_applications": false,
-    "icons": [{
+    "scope": "/",
+    "lang": "en",
+    "categories": ["productivity", "education"],
+    "icons": [
+        {
             "src": "icons/logo-aerium-2.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
             "src": "icons/logo-aerium-2.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }

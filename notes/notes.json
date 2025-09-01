@@ -35908,5 +35908,20 @@
         "title": "\"To be human is to live between the heart and the mind... never fully one, never fully the other.\"",
         "body": "",
         "folder": "Miscellaneous"
+    },
+    {
+        "title": " “We were supposed to make AI do all the work and we play games but we do all the work and the AI is playing games!”",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "“The simplicity of the preceding code illustrates the important basic concepts of the RL model. The environment could be an extremely complicated physics model, and an agent could easily be a large neural network ( NN ) that implements the latest RL algorithm, but the basic pattern will stay the  same – at every step, the agent will take some observations from the environment, do its calculations, and select the action to take. The result of this action will be a reward and a new observation.”",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": " \"This is the main characteristic of a discrete action space, where only one action from a finite set of actions is possible at a time.\"",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
     }
 ]
