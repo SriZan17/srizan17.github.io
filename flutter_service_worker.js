@@ -46,7 +46,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ee97a61301494a90520990066302f520
 "canvaskit/skwasm.js.symbols": "e72c79950c8a8483d826a7f0560573a1",
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "7854733ec7162e3cc12b1c430bcee723",
+"flutter_bootstrap.js": "1fc8fd18bec766ecff51c86f15b0381f",
 "icons/logo-aerium-1.png": "c9c1749b275f61ebc563d6596ccf2569",
 "icons/logo-aerium-2.png": "63669c59a64c28f1ba1314712fc4bd43",
 "icons/logo-aerium-3.png": "944af882badb2902374f93140bdc30ba",
