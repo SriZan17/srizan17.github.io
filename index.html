@@ -187,11 +187,6 @@
     <!-- Skip link for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <!-- Loading spinner for better perceived performance -->
-    <div id="loading">
-      <div class="loading-spinner"></div>
-    </div>
-
     <!-- Optimized service worker registration -->
     <script>
       if ("serviceWorker" in navigator) {
@@ -207,12 +202,8 @@
         });
       }
 
-      // Hide loading spinner when Flutter app loads
+      // Flutter app first frame event
       window.addEventListener("flutter-first-frame", function () {
-        const loading = document.getElementById("loading");
-        if (loading) {
-          loading.style.display = "none";
-        }
         document.body.classList.add("app-loaded");
       });
 
