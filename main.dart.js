@@ -83268,7 +83268,7 @@ a1===$&&A.a()
 p=t.kK
 o=j.e
 n=t.p
-o=A.avd(A.bJ(A.b([A.jk(s,1,30,"I dream of a day when no human has to do anything they do not wish to. All the work one doesn't wish to do oneself will be done by robots so that humans can actually focus on what matters to them. A tomorrow without tears maybe far fetched but certainly within reach is the tomorrow without toil.",i,a,q),A.jk(s,1,30,"",i,a,q),A.jk(s,1,30,"",i,a,q)],n),B.x,B.r,B.t),o,i,i,"","\u0936\u094d\u0930\u0940".toUpperCase(),"Purpose",h)
+o=A.avd(A.bJ(A.b([A.jk(s,1,30,"I dream of a day when no human has to do anything they do not wish to. All the work one doesn't wish to do oneself will be done by robots so that humans can actually focus on what matters to them. A tomorrow without tears maybe far fetched but certainly within reach is the tomorrow without toil.",i,a,q),A.jk(s,1,30,"",i,a,q),A.jk(s,1,30,"",i,a,q)],n),B.x,B.r,B.t),o,i,i,"","\u0936\u094d\u0930\u0940JAN".toUpperCase(),"Purpose",h)
 m=j.f
 a=A.bJ(A.b([A.jk(r,1,12,"I use a number of tools to aid me bring things to life. Listed below are some of the tools and technologies that I have used over the years.",i,a,q)],n),B.x,B.r,B.t)
 l=j.w
