@@ -34905,8 +34905,8 @@
         "folder": "The Laws of Human Nature"
     },
     {
-        "title": "\"Unfortunately there is no doubt about the fact that man is, as a whole, less go",
-        "body": "\"Unfortunately there is no doubt about the fact that man is, as a whole, less good than he imagines himself or wants to be. Everyone carries a shadow, and the less it is embodied in the individual’s conscious life, the blacker and denser it is.\"",
+        "title": "\"Unfortunately there is no doubt about the fact that man is, as a whole, less good than he imagines himself or wants to be. Everyone carries a shadow, and the less it is embodied in the individual’s conscious life, the blacker and denser it is.\"",
+        "body": "",
         "folder": "Carl Jung"
     },
     {
@@ -36223,5 +36223,100 @@
         "title": "\"The striking thing about Ericsson’s study is that he and his colleagues couldn’t find any “naturals,” musicians who floated effortlessly to the top while practicing a fraction of the time their peers did. Nor could they find any “grinds,” people who worked harder than everyone else, yet just didn’t have what it takes to break the top ranks. Their research suggests that once a musician has enough ability to get into a top music school, the thing that distinguishes one performer from another is how hard he or she works. That’s it. And what’s more, the people at the very top don’t work just harder or even much harder than everyone else. They work much, much harder.\"",
         "body": "",
         "folder": "Outliers"
+    },
+    {
+        "title": "\"Tensor",
+        "body": "![211766a2f9aa81f0842f5c3dbb774021.png](:/e060b7b4e6484e85861650d4b77916f7)\"",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "\"If you believe free speech is for you but not your political opponents, you're illiberal.",
+        "body": "If no contrary evidence could change your\nbeliefs, you're a fundamentalist.\n\nIf you believe the state should punish those with contrary views, you're a totalitarian.\n\nIf you believe political opponents should be\npunished with violence or death, you're a\nterrorist.\"",
+        "folder": "J. K. Rowling"
+    },
+    {
+        "title": "\"Usually, in DL, double precision is not required and it adds an extra memory and performance overhead. Common practice is to use the 32-bit float type, or even the 16-bit float type, which is more than enough.\"",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "\"We make our own choices, we pay our own prices.\"",
+        "body": "",
+        "folder": "Miscellaneous"
+    },
+    {
+        "title": "\"Many of those who study alcohol no longer consider it an agent of disinhibition. They think of it as an agent of myopia. The myopia theory was first suggested by psychologists Claude Steele and Robert Josephs, and what they meant by myopia is that alcohol’s principal effect is to narrow our emotional and mental fields of vision. It creates, in their words, “a state of shortsightedness in which superficially understood, immediate aspects of experience have a disproportionate influence on behavior and emotion.” Alcohol makes the thing in the foreground even more salient and the thing in the background less significant. It makes short-term considerations loom large, and more cognitively demanding, longer-term considerations fade away.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "“For the unhappy, Christmas is always a bad time: the terrible false jollity that comes at you from every side, braying about goodwill and peace and family fun, makes loneliness and depression particularly hard to bear.”",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"If you talk to someone from Seattle, they will tell you their city has some bad areas. But the map tells you that statement is false. Seattle does not have bad neighborhoods; it has a handful of problematic blocks scattered throughout the city. What distinguishes those problematic blocks from the rest of the city? A jumble of factors, acting in combination. Hot spots are more likely to be on arterial roads, more likely to have vacant lots, more likely to have bus stops, more likely to have residents who don’t vote, more likely to be near a public facility such as a school. The list of variables—some of which are well understood and many of which are not—goes on. And because most of those variables are pretty stable, those blocks don’t change much over time.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"The people prevented from killing themselves on the bridge wouldn’t go on to jump off something else. Their decision to commit suicide is coupled to that particular bridge. Sure enough, this is exactly what seems to be the case, according to a very clever bit of detective work by psychologist Richard Seiden. Seiden followed up on 515 people who had tried to jump from the bridge between 1937 and 1971, but had been unexpectedly restrained. Just 25 of those 515 persisted in killing themselves some other way. Overwhelmingly, the people who want to jump off the Golden Gate Bridge at a given moment want to jump off the Golden Gate Bridge only at that given moment. Suicide is coupled.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"We have a default to truth: our operating assumption is that the people we are dealing with are honest. You believe someone not because you have no doubts about them. Belief is not the absence of doubt. You believe someone because you don’t have enough doubts about them.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"The thing we want to learn about a stranger is fragile. If we tread carelessly, it will crumple under our feet. And from that follows a second cautionary note: we need to accept that the search to understand a stranger has real limits. We will never know the whole truth. We have to be satisfied with something short of that. The right way to talk to strangers is with caution and humility.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"Law enforcement didn’t need to be bigger; it needed to be more focused. If criminals operated overwhelmingly in a few concentrated hot spots, those crucial parts of the city should be more heavily policed than anywhere else, and the kinds of crime-fighting strategies used by police in those areas ought to be very different from those used in the vast stretches of the city with virtually no crime at all. There is something about the idea of coupling—of the notion that a stranger’s behavior is tightly connected to place and context—that eludes us. It leads us to misunderstand some of our greatest poets, to be indifferent to the suicidal, and to send police officers on senseless errands.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"Pronin calls this phenomenon the “illusion of asymmetric insight.” She writes: 'The conviction that we know others better than they know us—and that we may have insights about them they lack (but not vice versa)—leads us to talk when we would do well to listen and to be less patient than we ought to be when others express the conviction that they are the ones who are being misunderstood or judged unfairly.' We think we can easily see into the hearts of others based on the flimsiest of clues. We jump at the chance to judge strangers. We would never do that to ourselves, of course. We are nuanced and complex and enigmatic. But the stranger is easy. If I can convince you of one thing in this book, let it be this: Strangers are not easy.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"Waterboarding. Waterboarding is where you’re placed on a gurney with your head lower than your feet, a cloth is placed over your face, and water is poured into your mouth and nose to produce the sensation of drowning.The most aggressive protocol, the forty-second continuous pour. Waterboarding was the torture technique of last resort. They used a hospital gurney, tilted at 45 degrees. The Justice Department allowed them to pour at twenty- to forty-second intervals, separated by three breaths, for a total of twenty minutes. They preferred one forty-second pour, two twenty-second pours, and the remainder at three to ten seconds.  Before the first pour, they took a black T-shirt and lowered it over the subject’s face, covering their nose. And then you lift the cloth up, and then you put the cloth down, and then you lift the cloth up, and then you put the cloth down, and you lift the cloth up, and you put the cloth down. Literally, when you lift the cloth up, the pourer stops pouring. There’s a guy up there with a stopwatch and he’s counting the seconds so I know how many seconds it’s going on. We’ve got a physician right there.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"Common sense had always held that crime was connected to certain neighborhoods. Where there were problems such as poverty, drugs, and family dysfunction, there was crime: The broad conditions of economic and social disadvantage bred communities of lawlessness and disorder. In London, places like Brixton.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"Plath’s protagonist wasn’t looking to kill herself. She was looking for a way to kill herself. And not just any method would do. That’s the point of coupling: behaviors are specific. She needed to find a method that fit. And on that cold February night, the method that fit for Sylvia Plath happened to be right there in her kitchen.\"",
+        "body": "",
+        "folder": "Talking to Strangers"
+    },
+    {
+        "title": "\"nn.CrossEntropyLoss and nn.NLLLoss : Famous “maximum likelihood” criteria that are used in multi-class classification problems. The first version expects raw scores for each class and applies LogSoftmax internally, while the second expects to have log probabilities as the input.\"",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "\"The common blueprint of a training loop:",
+        "body": "\nfor batch_x, batch_y in iterate_batches(data, batch_size=N): \n    batch_x_t = torch.tensor(batch_x) \n    batch_y_t = torch.tensor(batch_y) \n    out_t = net(batch_x_t) \n    loss_t = loss_function(out_t, batch_y_t). \n\tloss_t.backward() \n    optimizer.step() \n    optimizer.zero_grad()\n\n\"",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "Command to launch tensorboard on localhost",
+        "body": "tensorboard --logdir runs",
+        "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "\"The simplest GAN architecture is this: we have two NNs where the first works as a ”cheater” (it is also called the generator ), and the other as a ”detective” (another name is the discriminator ). Both networks compete with each other — the generator tries to generate fake data, which will be hard for the discriminator to distinguish from your dataset, and the discriminator tries to detect the generated data samples. Over time, both networks improve their skills — the generator produces more and more realistic data samples, and the discriminator invents more sophisticated ways to distinguish the fake items.\"",
+        "body": "",
+        "folder": "Deep Reinforcement Learning Hands On"
     }
 ]
