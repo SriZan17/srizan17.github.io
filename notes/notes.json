@@ -36318,5 +36318,475 @@
         "title": "\"The simplest GAN architecture is this: we have two NNs where the first works as a ”cheater” (it is also called the generator ), and the other as a ”detective” (another name is the discriminator ). Both networks compete with each other — the generator tries to generate fake data, which will be hard for the discriminator to distinguish from your dataset, and the discriminator tries to detect the generated data samples. Over time, both networks improve their skills — the generator produces more and more realistic data samples, and the discriminator invents more sophisticated ways to distinguish the fake items.\"",
         "body": "",
         "folder": "Deep Reinforcement Learning Hands On"
+    },
+    {
+        "title": "\"We're not told anything more than we need to know.\"",
+        "body": "",
+        "folder": "Monster"
+    },
+    {
+        "title": "“I want to talk about everything to at least one person, as I would to myself.” ",
+        "body": "",
+        "folder": "The Idiot"
+    },
+    {
+        "title": "“Overfilling a cup isn’t as good as stopping; a sword oversharpened won’t keep its edge long.”",
+        "body": "",
+        "folder": "Lao Tzu"
+    },
+    {
+        "title": "\"You cannot add days to your life but you can add life to your days.\"",
+        "body": "",
+        "folder": "Miscellaneous"
+    },
+    {
+        "title": "",
+        "body": "",
+        "folder": "Assassin's Creed"
+    },
+    {
+        "title": "\"When I was a young man, I had liberty, but I did not see it. I had time, but I did not know it. And I had love, but I did not feel it. Many decades would pass before I understood the meaning of all three. And now, the twilight of my life, this understanding has passed into contentment.\"",
+        "body": "",
+        "folder": "Assassin's Creed"
+    },
+    {
+        "title": "",
+        "body": "",
+        "folder": "Assassin's Creed"
+    },
+    {
+        "title": "\"Freud (1927), the father of psychology, divided the psyche into three parts: the id, the ego, and the superego. He saw the id as our primal, animal nature; the superego as the judgment system that society has instilled within us; and the ego as our representative to the outside world that struggles to maintain a balance between the other two powerful forces.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Imagine if you were to see someone walking around constantly talking to himself. You’d think he was strange. You’d wonder, “If he’s the one who’s talking and he’s the one who’s listening, he obviously knows what’s going to be said before he says it. So what’s the point?” The same is true for the voice inside your head. Why is it talking?\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You should be experiencing the life that’s happening to you, not the one you wish was happening. Appreciate the moments you are given. Don’t you understand that every minute you’re a step closer to death? This is how to live your life. You live it as though you were on the verge of death, because you are.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"There are myriad things that you see at any given moment, yet you only narrate a few of them. The ones you discuss in your mind are the ones that matter to you. With this subtle form of preprocessing, you manage to control the experience of reality so that it all fits together inside your mind. Your consciousness is actually experiencing your mental model of reality, not reality itself. All of this helps to create a semblance of control. If your mind doesn’t do this, you simply become too uncomfortable. Reality is just too real for most of us, so we temper it with the mind.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you’re hearing it talk, it’s obviously not you. You are the one who hears the voice. You are the one who notices that it’s talking. Suppose you were looking at three objects—a flowerpot, a photograph, and a book—and were then asked, “Which of these objects is you?” You’d say, “None of them! I’m the one who’s looking at what you’re putting in front of me. It doesn’t matter what you put in front of me, it’s always going to be me looking at it.” You see, it’s an act of a subject perceiving various objects. This is also true of hearing the voice inside. It doesn’t make any difference what it’s saying, you are the one who is aware of it. As long as you think that one thing it’s saying is you, but the other thing it’s saying is not you, you’ve lost your objectivity. You may want to think of yourself as the part that says the nice things, but that’s still the voice talking. You may like what it says, but it’s not you. There is nothing more important to true growth than realizing that you are not the voice of the mind—you are the one who hears it. If you don’t understand this, you will try to figure out which of the many things the voice says is really you. People go through so many changes in the name of “trying to find myself.” They want to discover which of these voices, which of these aspects of their personality, is who they really are. The answer is simple: none of them.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The Tao is in the middle. It’s the place where there is no energy pushing in either direction. The pendulum has been permitted to come to balance concerning food, relationships, money, doing, notdoing, and everything else. Everything has its yin and yang. The Way is the place in which these forces balance quietly. And indeed, unless you go out of the Way, they will tend to stay in peaceful harmony. If you want to understand the Tao, you must take a closer look at what lies between the two extremes. This is because neither extreme can last. How long can a pendulum stay at one of its outermost positions? It can only remain there for a moment. How long can a pendulum stay at rest? It can remain there forever because there are no forces moving it out of balance. That is the Tao. It is the center. You waste tremendous energy at the extremes. The more extreme it is, the more it becomes a full-time project. For example, the relationship in which you insist upon being together all the time would be a full-time job. The only way you could have another job is if you both did the same work at the same desk. At the other extreme, if you had no relationship and you were lonely and depressed all the time, you couldn’t accomplish much. So again, it takes all your energy to do the extremes. The inefficiency of your actions is determined by how many degrees off-center you are. You will be that much less able to use your energy for living life because you are using it to adjust for the pendulum swings.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"That is the Tao. It is the eye of the storm. It is completely at peace. To give you an idea of what it feels like to be in that center, let’s use the example of sailing. We’ll begin by going sailing when there’s no wind. That’s one extreme, and we’re not going anywhere. Now let’s go sailing when there’s tremendous wind but there’s no sail. That is the opposite extreme and, again, we’re not going anywhere. Sailing is such a good example because there are many forces interacting together. There’s the wind, the sail, the rudder, and the tension of the ropes on the sail. There is a tremendous interplay of forces. What happens if the wind is blowing and you hold the sail too loosely? It doesn’t work. What if you hold it too tightly? You tip over. To sail properly you must hold it just right. But where is just right? It is in the center point of tautness of the sail against the force of the wind—not too much, and not too little. It’s what we call the “sweet spot.” Imagine that feeling when the wind hits the sail just right, and you’re holding the ropes just right. You take off with a perfect feeling of balance. Then the wind shifts and you adjust to it. You, the wind, the sail, and the water are one. All the forces are in harmony. Should one force shift, the others shift at the same instant. This is what it means to move in the Way. In the Tao of sailing, the balance point is not static; it’s a dynamic equilibrium. You move from balance point to balance point, from center to center. You can’t have any concepts or preferences; you have to let the forces move you. In the Way, nothing is personal. You are merely an instrument in the hands of the forces, participating in the harmony of balance. You must reach the point where your whole interest lies in the balance and not in any personal preference for how things should be.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When you walk through a beautiful botanical garden, you feel open and light. You feel love. You see beauty. You don’t judge the shape and placement of every leaf. The leaves are of all sizes and shapes and they face every-which-way. That’s what makes them beautiful. What if you felt that way about people? What if they didn’t all have to dress the same, believe the same, or behave the same? What if they were like the flowers, and however they happened to be seemed beautiful to you?\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The way to catch on to what your inner roommate is really like is to personify it externally. Make believe that your roommate, the psyche, has a body of its own. You do this by taking the entire personality that you hear talking to you inside and imagine it as a person talking to you on the outside. Just imagine that another person is now saying everything that your inner voice would say. Now spend a day with that person.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When a problem is disturbing you, don’t ask, “What should I do about it?” Ask, “What part of me is being disturbed by this?” If you ask, “What should I do about it?” you’ve already fallen into believing that there really is a problem outside that must be dealt with. If you want to achieve peace in the face of your problems, you must understand why you perceive a particular situation as a problem. If you’re feeling jealousy, instead of trying to see how you can protect yourself, just ask, “What part of me is jealous?” That will cause you to look inside and see that there’s a part of you that’s having a problem with jealousy. Once you clearly see the disturbed part, then ask, “Who is it that sees this? Who notices this inner disturbance?” Asking this is the solution to your every problem. The very fact that you can see the disturbance means that you are not it. The process of seeing something requires a subject-‐ object relationship. The subject is called “The Witness” because it is the one who sees what’s happening. The object is what you are seeing, in this case the inner disturbance. This act of maintaining objective awareness of the inner problem is always better than losing yourself in the outer situation. This is the essential difference between a spiritually minded person and a worldly person. Worldly doesn’t mean that you have money or stature. Worldly means that you think the solution to your inner problems is in the world outside. You think that if you change things outside, you’ll be okay. But nobody has ever truly become okay by changing things outside. There’s always the next problem. The only real solution is to take the seat of witness consciousness and completely change your frame of reference.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"What differentiates a conscious, centered being from a person who is not so conscious is simply the focus of their awareness. It’s not a difference in the consciousness itself. All consciousness is the same. Just as all light from the sun is the same, all awareness is the same. Consciousness is neither pure nor impure; it has no qualities. It’s just there, aware that it’s aware. The difference is that when your consciousness is not centered within, it becomes totally focused on the objects of consciousness. When you are a centered being, however, your consciousness is always aware of being conscious. Your awareness of being is independent of the inner and outer objects you happen to be aware of. If you really want to understand this difference, you must begin by realizing that consciousness can focus on anything. That being the case, what if consciousness were to focus on itself? When that happens, instead of being aware of your thoughts, you’re aware that you’re aware of your thoughts. You have turned the light of consciousness back onto itself. You’re always contemplating something, but this time you’re contemplating the source of consciousness. This is true meditation. True meditation is beyond the act of simple, one-pointed concentration. For the deepest meditation, you must not only have the ability to focus your consciousness completely on one object, you must also have the ability to make awareness itself be that object. In the highest state, the focus of consciousness is turned back to the Self.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"How you learn to stay open is up to you. The ultimate trick is to not close. If you don’t close, you will have learned to stay open. Do not let anything that happens in life be important enough that you’re willing to close your heart over it. When your heart starts to close, just say, “No. I’m not going to close. I’m going to relax. I’m going to let this situation take place and be there with it.” Honor and respect the situation, and deal with it. By all means deal with it. Do the best you can. But deal with it with openness. Deal with it with excitement and enthusiasm. No matter what it is, just let it be the sport of the day. In time, you will find that you forget how to close. No matter what anyone does, no matter what situation takes place, you won’t even feel the tendency to close. You will just embrace life with all your heart and soul. Once you’ve attained this very high state, your energy level will be phenomenal. You will have all the energy you need at all times. Just relax and open, and tremendous energy will rush up inside of you. You are only limited by your ability to stay open.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Through meditation, through awareness and willful efforts, you can learn to keep your centers open. You do this by just relaxing and releasing. You do this by not buying into the concept that there is anything worth closing over. Remember, if you love life, nothing is worth closing over. Nothing, ever, is worth closing your heart over\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You have to realize that since everything has its yin and yang, everything has its own balance point. It is the harmony of all these balance points, woven together, that forms the Tao. This overall balance maintains its equilibrium as it moves through time and space. Its power is phenomenal. If you want to imagine the power of the Tao, examine how much energy is wasted swinging sideways. Suppose you want to go from point A to point B, but instead of walking there directly, you move from side to side like a sine wave. That would take a long time, and you would waste a lot of energy. In other words, it’s not efficient to oscillate around the path. To be efficient, you must center all of your energies on the path. If you do this, the energies that used to be wasted swinging sideways will get pulled into the center. This concentration of energies is used to accomplish the given task much more efficiently. This is the power of the Tao. When you stop swinging between the opposites you’ll find that you have far more energy than you ever imagined. That which takes somebody else hours will take you minutes. That which wears out other people will draw very little of your energy. That’s the difference between struggling with the opposites versus staying centered in order to get something done. This principle holds true in every aspect of life. If you are in balance, you eat when it is time to eat, in a way that maintains the health of your body. To do otherwise is to waste energy dealing with the effects of eating too little, eating too much, or eating the wrong foods. It is much more efficient to deal with the body in a balanced manner than to be burdened with the effects of the extremes\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If the heart happens to hurt, we get angry, and if we stop feeling it altogether, we get empty. All of these different things happen because the heart goes through changes. These energy shifts and variations that take place in the heart run your life. You are so identified with them that you use the words “I” and “me” when you refer to what’s going on in your heart. But in truth, you are not your heart. You are the experiencer of your heart.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"One of these great saints, Ramana Maharshi, used to ask, “Who am I?” We see now that this is a very deep question. Ask it ceaselessly, constantly. Ask it and you will notice that you are the answer. There is no intellectual answer—you are the answer. Be the answer, and everything will change.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you watch it objectively, you will come to see that much of what the voice says is meaningless. Most of the talking is just a waste of time and energy. The truth is that most of life will unfold in accordance with forces far outside your control, regardless of what your mind says about it. It’s like sitting down at night and deciding whether you want the sun to come up in the morning. The bottom line is, the sun will come up and the sun will go down. Billions of things are going on in this world. You can think about it all you want, but life is still going to keep on happening. If you spend your time hoping that it doesn’t rain tomorrow, you are wasting your time. Your thoughts don’t change the rain. You will someday come to see that there is no use for that incessant internal chatter, and there is no reason to constantly attempt to figure everything out. Eventually you will see that the real cause of problems is not life itself. It’s the commotion the mind makes about life that really causes problems.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "“This above all: to thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.”",
+        "body": "",
+        "folder": "William Shakespeare"
+    },
+    {
+        "title": "\"The more you can work with the balance, the more you can just sail through life. Effortless action is what happens when you come into the Tao. Life happens, you’re there, but you don’t make it happen. There is no burden; there is no stress. The forces take care of themselves as you sit in the center. That is the Tao. It’s the most beautiful place in all of life. You can’t touch it, but you can be at one with it. Eventually you will see that in the way of the Tao you’re not going to wake up, see what to do, and then go do it. In the Tao, you are blind, and you have to learn how to be blind. You can never see where the Tao is going; you can only be there with it. A blind person walks down a city street with the use of a cane. Let’s give that cane a name: it’s the seeker of the extremes, it’s the feeler of the edges, it’s the toucher of the yin and the yang. People who walk with the use of that cane often tap from side to side. They’re not trying to find where they should walk; they’re trying to find where they shouldn’t walk. They’re finding the extremes. If you cannot see your way, all you can do is feel for the edges. But if you feel the edges, and don’t go there, you will stay in the Way. That’s how you live in the Tao. All the great teachings reveal the way of the center, the way of balance. Constantly look to see if that’s where you are living or if you are lost in the extremes. The extremes create their opposites; the wise avoid them. Find the balance in the center and you will live in harmony\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"What if it is really true that God is not judging? What if God is loving? We all know that true love doesn’t judge. Love sees nothing but beauty in its beloved. There is no impurity. There is no possibility of impurity. No matter what it beholds, it’s all beautiful. That is how true love sees. That is what it looks like through the eyes of love. So if God is love, what must it look like through those eyes—the eyes that are filled with infinite love and unconditional compassion? If you’ve ever really loved anybody, then you know what true love means. It means that you love them more than you love yourself. If you truly love someone, your love sees past their humanness. It embraces their whole being, including past wrongs and current shortcomings. It is like the unconditional love of a mother. A mother devotes every moment of her life to a child who is physically or mentally challenged. She thinks the child is beautiful. She doesn’t focus on the shortcomings; in fact, she doesn’t even see them as shortcomings. What if that is how God looks upon His creation? Then you’ve lost out if you’ve been told otherwise. Instead of being encouraged to feel completely protected, loved, honored, and respected by the Divine Force, you’ve been taught that you’re being judged. Because you’ve been taught that, you feel guilt and fear. But guilt and fear do not open your connection to the Divine; they only serve to close your heart. The reality is that God’s way is love, and you can see this for yourself. If, for even one moment, you can look at someone with the eyes of true love, you’ll know those eyes are not yours. Your eyes could never look with that amount of love. Your eyes could never be that unconditional. Your eyes could never, even in a million years, see only beauty and total perfection in your beloved. Those are the eyes of God looking down through you. When the hand of God reaches out to give through you, there’s nothing you wouldn’t give. You would give your last breath and never even think about it. It wouldn’t even cross your mind to hold back. You would give anything and everything for your beloved. When you feel love this deeply, you feel that it is coming from something greater than you. It is transcendental love. It is divine, unconditional, selfless love. The masters spoke of that love. The ones who went beyond said it’s the state you attain when you drift into Spirit. That is how Spirit looks upon its creation. That is what you should be taught. No matter what you do, and no matter what you’ve done, you will always be loved by God.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When you move in the Tao, you are always present. Life becomes absolutely simple. In the Tao, it’s easy to see what’s happening in life—it’s unfolding right in front of you. But if you have all kinds of reactions going on inside because you’re involved in the extremes, life seems confusing. That’s because you’re confused, not because life’s confusing. When you stop being confused, everything becomes simple. If you have no preference, if the only thing you want is to remain centered, then life unfolds while you simply feel for the center. That is the Tao. It is the eye of the storm. It is completely at peace.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Your inner growth is completely dependent upon the realization that the only way to find peace and contentment is to stop thinking about yourself. You’re ready to grow when you finally realize that the “I” who is always talking inside will never be content. It always has a problem with something. Honestly, when was the last time you really had nothing bothering you? Before you had your current problem, there was a different problem. And if you’re wise, you will realize that after this one’s gone, there will be another one. The bottom line is, you’ll never be free of problems until you are free from the part within that has so many problems.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you try to read about God in a book, you’ll find five other books that say the opposite. Better yet, you’ll find five interpretations of the same book. Somebody writes something and somebody else gets a Ph.D. proving it wrong. If you move your search for God down to the mental level, somebody will dispute it. It’s all part of the mind game. You can’t know God that way. It must come from actual experience.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The secret of the ascent is to never look down—always look up. No matter what happens below you, just turn your eyes upward and relax your heart. You do not have to leave the seat of Self in order to deal with the darkness. It will purify itself if you let it. Getting involved in the darkness does not dispel darkness; it feeds it. Don’t even turn toward it. If you see disturbed energies within you, it’s okay. Don’t think that you don’t have blockages left to release. Just sit in the seat of awareness and never leave. No matter what goes on below you, open your heart and let it go. Your heart will become purified, and you will never know another fall.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"To end suffering, you must first realize that your psyche is not okay. You must then acknowledge that it does not have to be that way. It can be healthy. It is truly a gift just to realize that you don’t have to put up with, or protect, your psyche. You don’t have to constantly be mulling over what you said or what this person thinks of you. What kind of life are you going to have if you worry about these things all the time? Inner sensitivity is a symptom of non-well-being. It’s the same as when the body sends pain or displays other symptoms when it’s not well. Pain is not bad; it’s how the body talks to you. When you overeat, you get a stomachache. When you do something that puts too much stress on your arm, it starts to hurt. The body is communicating through its universal language: pain. Your psyche is communicating through its universal language: fear. Self-consciousness, jealousy, insecurity, anxiety—they are all fear.  If you mistreat an animal, it becomes afraid. This is what has happened to your psyche. You have mistreated it by giving it a responsibility that is incomprehensible. Just stop for a moment and see what you have given your mind to do. You said to your mind, “I want everyone to like me. I don’t want anyone to speak badly of me. I want everything I say and do to be acceptable and pleasing to everyone. I don’t want anyone to hurt me. I don’t want anything to happen that I don’t like. And I want everything to happen that I do like.” Then you said, “Now, mind, figure out how to make every one of these things a reality, even if you have to think about it day and night.” And of course your mind said, “I’m on the job. I will work on it constantly.” Can you imagine somebody trying to do that? The mind has to try to make it so that everything you say is said the right way, taken the right way, and has the right effect on everybody. It has to make sure that everything you do is interpreted and seen the right way, and that nobody does anything that hurts you. It has to make sure that you get everything you want, and that you don’t ever get what you don’t want. The mind is constantly trying to give you advice about how to make it all okay. That is why the mind is so active; you gave it an impossible task to do. It’s equivalent to expecting your body to lift trees and scale mountains in a single jump. Your body would get sick if you kept trying to make it do things it was incapable of doing. This is what has broken the psyche.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Wise beings do not want to remain a slave to the fear of pain. They permit the world to be what it is instead of being afraid of it. They wholeheartedly participate in life, but not for the purpose of using life to avoid themselves. If life does something that causes a disturbance inside of you, instead of pulling away, let it pass through you like the wind. After all, things happen every day that cause inner disturbance. At any moment you can feel frustration, anger, fear, jealousy, insecurity, or embarrassment. If you watch, you will see that the heart is trying to push it all away. If you want to be free, you have to learn to stop fighting these human feelings.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Would you like to go beyond? Would you like to feel no edges? Imagine a comfort zone that is so expanded that it can easily fit the entire day, no matter what happens. The day unfolds and the mind doesn’t say anything. You simply interact with the day with a peaceful, fully inspired heart. If your edges happen to get hit, the mind doesn’t complain. It all just passes through. This is how great beings live. When you are trained, like a great athlete, to immediately relax through your edges when they get hit, then it’s all over. You realize that you will always be fine. Nothing can ever bother you except your edges, and now you know what to do with them. You end up loving your edges because they point your way to freedom. All you have to do is constantly relax and lean into them.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"To live at this level of freedom, you must learn not to be afraid of inner pain and disturbance. As long as you are afraid of the pain, you will try to protect yourself from it. The fear will make you do that. If you want to be free, simply view inner pain as a temporary shift in your energy flow. There is no reason to fear this experience. You must not be afraid of rejection, or of how you would feel if you got sick, or if someone died, or if something else went wrong. You cannot spend your life avoiding things that are not actually happening, or everything will become negative. All you will end up seeing is how much can potentially go wrong. Do you have any idea how many things can cause inner pain and disturbance? Probably more than there are stars in the sky. If you want to grow and be free to explore life,  you cannot spend your life avoiding the myriad things that might hurt your  heart or mind.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you fall along the way, just get up and forget it. Use the lesson to strengthen your resolve. Let go right then. Do not rationalize, blame, or try to figure it out.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When the energies inside start to move, you do not have to go there. For instance, when your thoughts start, you do not have to go with them. Let’s say you’re outside taking a walk and a car drives by. Your thoughts say, “Boy, I wish I had that car.” You could just keep on walking, but instead you start getting upset. You want a car like that, but your salary isn’t high enough. So you begin thinking about how you can get a raise or a different job. You didn’t have to do all that. It could have just been—here comes the car and there it goes, and here comes the thought and there it goes. They’re both gone together because you didn’t go with them. That is what’s called being centered. If you aren’t centered, your consciousness is just following whatever catches its attention. You see the car drive by and you’re off doing something about it. Another day you see a boat, and then it is all about the boat, and you forget about the car. There are people like that. They don’t hold jobs very well and relationships don’t tend to work out for them. They’re just all over the place; their energy is very scattered.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"In time, you will come to realize that the center from which you watch disturbance cannot get disturbed. If it appears disturbed, just notice who is noticing that disturbance. Eventually it will stop. You will then be able to rest back into the depths of your being while watching your mind and heart create their last throes of turmoil. When you reach that point, you will understand what it means to be transcendent. Awareness transcends what it is aware of. It is as separate as light is from what it shines upon. You are consciousness, and you can free yourself from all of this by relaxing behind it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When your stuff gets hit, let go right then because it will be harder later. It won’t be easier if you explore it or play with it, hoping to take the edge off. It won’t be easier to think about it, talk about it, or try to release only part of it at a time. If you want to be free to the core of your being, you must let go right away because it will not be easier later.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When the drop of consciousness that knows itself as an individual drifts back far enough, it becomes like the drop that falls into the ocean. The Atman (Soul) falls into the Paramatman (Supreme Soul). The individual consciousness falls into the Universal Oneness. And that’s it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"So you decide to use life to free yourself. You become willing to pay any price for the freedom of your soul. You will realize that the only price you have to pay is letting go of yourself. Only you can take inner freedom away from yourself, or give it to yourself. Nobody else can. It doesn’t matter what others do, unless you decide that it matters to you.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"True personal growth is about transcending the part of you that is not okay and needs protection. This is done by constantly remembering that you are the one inside that notices the voice talking. That is the way out. The one inside who is aware that you are always talking to yourself about yourself is always silent. It is a doorway to the depths of your being. To be aware that you are watching the voice talk is to stand on the threshold of a fantastic inner journey. If used properly, the same mental voice that has been a source of worry, distraction, and general neurosis can become the launching ground for true spiritual awakening. Come to know the one who watches the voice, and you will come to know one of the great mysteries of creation.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"To attain true inner freedom, you must be able to objectively watch your problems instead of being lost in them. No solution can possibly exist while you’re lost in the energy of a problem. Everyone knows you can’t deal well with a situation if you’re getting anxious, scared, or angry about it. The first problem you have to deal with is your own reaction. You will not be able to solve anything outside until you own how the situation affects you inside. Problems are generally not what they appear to be. When you get clear enough, you will realize that the real problem is that there is something inside of you that can have a problem with almost anything. The first step is to deal with that part of you. This involves a change from “outer solution consciousness” to “inner solution consciousness.” You have to break the habit of thinking that the solution to your problems is to rearrange things outside. The only permanent solution to your problems is to go inside and let go of the part of you that seems to have so many problems with reality. Once you do that, you’ll be clear enough to deal with what’s left.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you choose to center and not participate in the extremes, you will come to know the Tao. You don’t grab it; you don’t even touch it. It’s just what the energy does when it’s not being used to swing toward the extremes. It finds its own way to the center of each event that takes place in life and remains quietly in the middle. The Tao is hollow, empty. Like the eye of a hurricane, its power is its emptiness. All things swirl around it, but it is unmoved. The swirl of life draws its energy from the center and the center draws its energy from the swirl of life. All these laws are the same— in weather, in nature, and in every aspect of your life. As you center by not participating in the swings, the energies will naturally find their balance. You will become much clearer because so much energy is flowing up in you. The experience of being present in each moment will become your natural state. You won’t be fixated on certain things or caught up in thoughts about the opposites. As you get clearer, life’s events will actually seem to unfold in slow motion. Once this happens, events will no longer seem confusing or overwhelming, no matter what they are. This is quite different from how most people live. If they’re driving a car and somebody cuts them off, they get upset for the next hour, or maybe for the rest of the day. For the being who is in the Tao, events take place and last just as long as they are taking place. That’s it. If you’re driving and somebody cuts you off, you feel your energy start to pull off-center. You actually feel it in your heart. As you let go, it comes back to center. You don’t follow the extremes, so your energy comes back to the current moment. When the next event happens, you’re there. You’re always there, and that makes you much more capable than the person who is reacting to past imbalances. Almost everyone has a point at which they get out of balance. Once gone, who’s minding the store? Who takes care of the energies that unfold while you’re not there? Remember, whoever remains present with fixity of purpose comes out on top in the end.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"By watching your mind, you will notice that it is engaged in the process of trying to make everything okay. Consciously remember that this is not what you want to do, and then gently disengage. Do not fight it. Do not ever fight your mind. You will never win. It will either beat you now, or you will suppress it and it will come back and beat you later. Instead of fighting the mind, just don’t participate in it. When you see the mind telling you how to fix the world and everyone in it in order to suit yourself, just don’t listen. The key is to be quiet. It’s not that your mind has to be quiet. You be quiet. You, the one inside watching the neurotic mind, just relax. You will then naturally fall behind the mind because you have always been there. You are not the thinking mind; you are aware of the thinking mind. You are the consciousness that is behind the mind and is aware of the thoughts. The minute you stop putting your whole heart and soul into the mind as if it were your savior and protector, you will find yourself behind the mind watching it. That’s how you know about your thoughts: you are in there watching them.  Once you reach that state, your problems with the mind are over. When you pull back behind the mind, you, the awareness, are not involved in the process of thinking. Thinking is something you watch the mind do. You are just in there, aware that you are aware. You are the indwelling being, the consciousness. It is not something that you have to think about; you are it. You can watch the mind being neurotic and not get involved. That is all you have to do to unplug the disturbed mind. The mind runs because you are giving it the power of your attention. Withdraw your attention, and the thinking mind falls away.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"What you’ll find is that the only thing you really want from life is to feel enthusiasm, joy, and love. If you can feel that all the time, then who cares what happens outside? If you can always feel up, if you can always feel excited about the experience of the moment, then it doesn’t make any difference what the experience is. No matter what it is, it’s beautiful when you feel that way inside. So you learn to stay open no matter what happens. If you do, you get for free what everybody else is struggling for: love, enthusiasm, excitement, and energy. You simply realize that defining what you need in order to stay open actually ends up limiting you. If you make lists of how the world must be for you to open, you have limited your openness to those conditions. Better to be open no matter what.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You are not the events; you’re the one who experienced the events. How can you define yourself as the things that happened to you? You were aware of your existence before they happened. You are the one who is in there doing all this, seeing all this, and experiencing all this. You do not have to cling to your experiences in the name of building yourself. This is a false self you are building inside. It is just a concept of yourself that you hide behind.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The reward for not protecting your psyche is liberation. You are free to walk through this world without a problem on your mind. You are just having fun experiencing whatever happens next. Because you got rid of that scared part of you, you don’t ever have to worry about getting hurt or disturbed. You no longer have to listen to “What will they think of me?” or, “Oh God, I wish I hadn’t said that. It sounded so stupid.” You just go about your business and put your whole being into whatever’s happening, instead of putting your whole being into your personal sensitivity.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"This world is unfolding and really has very little to do with you or your thoughts. It was here long before you came, and it will be here long after you leave. In the name of attempting to hold the world together, you’re really just trying to hold yourself together.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"That’s the way to live each moment of your life. You let it fill you completely. You let it touch you to the depths of your being. There is no moment that can’t do that. Even if something terrible happens, view it as just another experience of life. Death has made you a great promise in which you can find deep peace. The promise is that all things are temporal; they are all just passing through time and space. If you have patience, this too will pass. The wise realize that in the end, life belongs to death. Death is the one who comes in his own time to take life from you. Death is the landlord and you’re just the tenant.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When you contemplate the nature of Self, you are meditating. That is why meditation is the highest state. It is the return to the root of your being, the simple awareness of being aware. Once you become conscious of the consciousness itself, you attain a totally different state. You are now aware of who you are. You have become an awakened being. It’s really just the most natural thing in the world. Here I am. Here I always was. It’s like you have been on the couch watching TV, but you were so totally immersed in the show that you forgot where you were. Someone shook you, and now you’re back to the awareness that you’re sitting on the couch watching TV. Nothing else changed. You simply stopped projecting your sense of self onto that particular object of consciousness. You woke up. That is spirituality. That is the nature of Self. That is who you are. As you pull back into the consciousness, this world ceases to be a problem. It’s just something you’re watching. It keeps changing, but there is no sense of that being a problem. The more you are willing to just let the world be something you’re aware of, the more it will let you be who you are—the awareness, the Self, the Atman, the Soul. You realize that you’re not who you thought you were. You’re not even a human being. You just happen to be watching one. You will begin to have deep experiences within your own center of consciousness. These will be deep, intuitive experiences of the true nature of Self. You will find that you are tremendously expansive. When you start to explore consciousness instead of form, you realize that your consciousness only appears to be small and limited because you are focusing on small and limited objects. That’s exactly what happens when you’re focusing solely on the TV— there’s nothing else in your world. If you pull back, however, you can see the whole room, including the TV. Likewise, instead of just focusing so intently on this one human being’s thoughts, emotions, and sensory world, you can pull back and see everything. You can move from the finite to the infinite.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Just as the sun does not leave its position in the sky to illuminate objects with its radiating light, so consciousness does not leave its center to project awareness onto the objects of form, thoughts, and emotions. If you ever want to re-center, just start saying “hello” inside, over and over. Then notice that you are aware of that thought. Don’t think about being aware of it; that’s just another thought. Simply relax and be aware that you can hear “hello” being echoed in your mind. That is your seat of centered consciousness.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The key is that consciousness has the ability to concentrate on different things. The subject, consciousness, has the ability to selectively focus awareness on specific objects. If you step back, you will clearly see that objects are constantly passing before you at all three levels: mental, emotional, and physical. When you’re not centered, your consciousness invariably gets attracted toward one or more of those objects and focuses on them. If it concentrates enough, your sense of awareness loses itself in the object. It is no longer aware that it is aware of the object; it just becomes object-conscious.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"One of the ancient names for God in the yogic tradition is Satchitananda—Eternal, Conscious Bliss. God is ecstasy. God is as high as it gets. If you want to be close to God, learn to be joyful. If you remain spontaneously happy and centered, no matter what happens, you will find God.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Pain is the price of freedom. And the moment you are willing to pay that price, you will no longer be afraid. The moment you are not afraid of the pain, you’ll be able to face all of life’s situations without fear. When you are comfortable with pain passing through you, you will be free. This world will never be able to bother you again because the worst the world can do is to hit the pain stored within you. If you do not care, if you are no longer afraid of yourself, you are free. You will then be able to walk through this world more vibrant and alive than ever before. You will feel everything at a deeper level.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When your mind starts telling you what you have to do to make everything inside okay, don’t buy into what it’s telling you. The truth is, everything will be okay as soon as you are okay with everything. And that’s the only time everything will be okay.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"One should view their spiritual work as learning to live life without stress, problems, fear, or melodrama. This path of using life to evolve spiritually is truly the highest path. There really is no reason for tension or problems. Stress only happens when you resist life’s events. If you’re neither pushing life away, nor pulling it toward you, then you are not creating any resistance. You are simply present. In this state, you are just witnessing and experiencing the events of life taking place. If you choose to live this way, you will see that life can be lived in a state of peace.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Things are going to happen to you, and you’re going to feel the tendency to close. But you have the choice to either go with it or let it go. Your mind will tell you that it’s not reasonable to stay open when these things happen. But you have limited time left in your life, and what’s really not reasonable is to not enjoy life.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The key to staying happy is really very simple. Begin by understanding your inner energies. If you look inside, you will see that when you’re happy, your heart feels open and the energy rushes up inside of you. When you aren’t happy, your heart feels closed and no energy comes up inside. So to stay happy, just don’t close your heart. No matter what happens, even if your wife leaves you or your husband dies, you don’t close.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The greatest gift one can give to God is to be pleased with His creation.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Eventually, you become wise enough to realize that you do not want that stuff inside of you. It doesn’t matter who stimulates it. It doesn’t matter what situation hits it. It doesn’t matter whether it makes sense, or whether it seems fair or not. Unfortunately, most of us are not that wise. We’re really not trying to be free of our stuff; we’re trying to justify keeping it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"When you become truly spiritual, you are totally different from everybody else. That which everybody else wants, you don’t want. That which everybody else resists, you totally accept. You want your model to break, and you honor the experience when something happens that can cause disturbance within you. Why should anything that anyone says or does cause you to get disturbed? You’re just on a planet spinning around the middle of absolutely nowhere. You came here to visit for a handful of years and then you’re going to leave. How can you live all stressed-out over everything? Don’t do it. If anything can cause disturbance inside of you, it means it hit your model. It means it hit the false part of you that you built in order to control your own definition of reality. But if that model is reality, why didn’t experiential reality fit? There’s nothing you can make up inside your mind that can ever be considered reality.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Imagine your house of thoughts standing in the middle of an ocean of light from a trillion stars. Imagine your awareness trapped inside the darkness of that house, struggling daily to live off the artificial light of your limited experiences. Now imagine the walls crumbling down, and the effortless release of consciousness expanding into the brilliance of what is and always was. Now give that experience a name—enlightenment. But what is your house made of? What are your walls made of? How can they seal off all that light and keep you locked inside? Your house is made of your thoughts and emotions. The walls are made of your psyche. That’s what that house is. It is all your past experiences; all your thoughts and emotions; all the concepts, views, opinions, beliefs, hopes, and dreams that you have collected around yourself. You hold them in place on all  sides, including above and below you. You have pulled together in your mind a specific set of thoughts and emotions, and then you have woven them together into a conceptual world in which you live. This mental  structure completely blocks you from whatever natural light is on the outside of its walls. You have walls of thoughts thick enough, and closed enough, to where nothing but darkness is inside that structure. You are so  entranced into paying attention to your thoughts and emotions that you  never go beyond the borders they create.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"It is these impressions, these Samskaras, that encrust the valve of the spiritual heart. That encrustation builds up and restricts the energy flow. So, you have a choice: Do you want to try to change the world so it doesn’t disturb your Samskaras, or are you willing to go through this process of purification? Don’t make decisions based on stimulated blockages. Learn to be centered enough to just watch this stuff come up. Once you sit deeply enough inside to stop fighting the stored energy patterns, they’ll come up constantly and pass right through you. They’ll come up during the day and they’ll even come up in your dreams. Your heart will become accustomed to the process of releasing and cleansing. Just let it all happen. Get it over with. Don’t process them one by one; that’s too slow. Stay centered behind them and let go. Just like the physical body purges bacteria and other foreign matter, the natural flow of your energy will purge the stored patterns from your heart. Your reward is a permanently open heart. There is no more valve. You live in love, and it feeds you and strengthens you. That is an open heart. That is the instrument of the heart as it was meant to be. Allow yourself to experience every note the heart can play. If you relax and release, this purification of your heart is a wonderful thing. Set your eyes on the highest state you can imagine and don’t take them off. If you slip, just get back up. It doesn’t matter. The very fact that you even want to go through this process of freeing the energy flow means you are great. You will get there. Just keep letting go.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you take on this path of unconditional happiness, you will go through all of the various stages of yoga. You will have to stay conscious, centered, and committed at all times. You will have to stay one-pointed on your commitment to remain open and receptive to life. But nobody said that you can’t do this. Staying open is what the great saints and masters taught. They taught that God is joy, God is ecstasy, and God is love. If you remain open enough, waves of uplifting energy will fill your heart. Spiritual practices are not an end in themselves. They bear fruit when you become deep enough to remain open. If you learn to stay open at all times, great things will happen to you. You simply have to learn not to close.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Billions of things could happen that you haven’t even thought of yet. The question is not whether they will happen. Things are going to happen. The real question is whether you want to be happy regardless of what happens. The purpose of your life is to enjoy and learn from your experiences. You were not put on Earth to suffer. You’re not helping anybody by being miserable. Regardless of your philosophical beliefs, the fact remains that you were born and you are going to die. During the time in between, you get to choose whether or not you want to enjoy the experience. Events don’t determine whether or not you’re going to be happy. They’re just events. You determine whether or not you’re going to be happy. You can be happy just to be alive. You can be happy having all these things happen to you, and then be happy to die. If you can live this way, your heart will be so open and your Spirit will be so free, that you will soar up to the heavens.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"All you have to do is stop expecting the mind to fix what’s wrong inside of you. That is the core, the root of it all. Your mind is not the guilty party. In fact, your mind is innocent. The mind is simply a computer, a tool. It can be used to ponder great thoughts, solve scientific problems, and serve humanity. But you, in your lost state, told it to spend its time conjuring up outer solutions for your very personal inner problems. You are the one who is trying to use the analytical mind to protect yourself from the natural unfolding of life.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You first need to get some perspective. Walk outside on a clear night and just look up into the sky. You are sitting on a planet spinning around in the middle of absolutely nowhere. Though you can only see a few thousand stars, there are hundreds of billions of stars in our Milky Way Galaxy alone. In fact, it is estimated that there are over a trillion stars in the Spiral Galaxy. And that galaxy would look like one star to us, if we could even see it. You’re just standing on one little ball of dirt and spinning around one of the stars. From that perspective, do you really care what people think about your clothes or your car? Do you really need to feel embarrassed if you forget someone’s name? How can you let these meaningless things cause pain? If you want out, if you want a decent life, you had better not devote your life to avoiding psychological pain. You had better not spend your life worrying about whether people like you or whether your car impresses people. What kind of life is that? It is a life of pain. You may not think that you feel pain that often, but you really do. To spend your life avoiding pain means it’s always right behind you. At any point you could slip and say the wrong thing. At any point anything can happen. So you end up devoting your life to the avoidance of pain. Once you look inside yourself and start to own this, you will see that you are back to the same two foundational choices. One choice is to leave the pain inside and continue to struggle with the outside. The other choice is to decide that you don’t want to spend your entire life avoiding the inner pain; you’d rather get rid of it. Few people ever dare to turn the process inside like this. Most people don’t even realize that they are running around with pockets of pain inside that need to be worked out. Do you really want to carry that inside and have to manipulate the world to avoid feeling it? What would your life be like if it wasn’t run by that pain? You would be free. You could walk around this world completely free, just having fun, just being comfortable with whatever happens. You can actually live a life full of interesting experiences and just enjoy these experiences whatever they are. In essence, you can simply live your life and experience what it’s like to be on a planet that is spinning around in the middle of nowhere\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Eventually, you will have persistently centered consciousness. Persistently centered consciousness is the seat of Self. In this state, you are always conscious of being conscious. There is never a time when you’re not totally aware. There is no effort. There is no doing anything. You’re just there, aware that thoughts and emotions are being created around you, while the world unfolds before your senses.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Suppose you’re sitting at home watching TV. You’re enjoying the program until the two main characters fall in love. Suddenly you feel loneliness, but there’s no one around to give you attention. Interestingly, you were fine just a few minutes ago. This example shows that the thorn is always in your heart; it’s just not activated until something touches it. You feel the reaction as a hollowness or a dropping sensation in your heart. It feels very uncomfortable. A sense of weakness comes over you, and you begin thinking about other times when you were left alone and of people who have hurt you. Stored energy from the past releases from the heart and generates thoughts. Now, instead of enjoying TV, you’re sitting alone caught in a wave of thoughts and emotions. What can you do to solve this besides eating something, calling somebody, or doing something else that might quiet it down? What you can do is notice that you noticed. You can notice that your consciousness was watching TV, and now it is watching your inner melodrama. The one who sees this is you, the subject. What you are looking at is an object. A feeling of emptiness is an object; it is something you feel. But who feels it? Your way out is to just notice who’s noticing. It’s really that simple. It is much less complex than the protective apparatus with all its ball bearings, wheels, and hydraulics. All you have to do is notice who it is that feels the loneliness. The one who notices is already free. If you want to be free of these energies, you must allow them to pass through you instead of hiding them inside of you.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Imagine what would happen if your awareness was free to focus only on the events actually taking place. You would have no noise going on inside. If you lived like this, you could do anything. Your capabilities would be exponential compared to what you’ve ever experienced. If you could bring this level of awareness and clarity to everything you do, your life would change.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Begin dealing with each situation with acceptance. Acceptance means that events can make it through you without resistance. If an event takes place and is able to make it through your psyche, you will be left face-to-face with the actual situation as it truly exists. Since you are dealing with the actual event, rather than stored energies stimulated by the event, you won’t assert reactive energy from your past. You will find that you are able to deal with daily situations much better. It is actually possible to never have another problem for the rest of your life. This is because events are not problems; they’re just events. Your resistance to them is what causes the problem. But, again, don’t think that because you accept reality it means you don’t deal with things. You do deal with them. You just deal with them as events that are taking place on the planet Earth, and not as personal problems.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You’re the one who throws your life away; you waste every second of it. You get in your car, drive from here to there, and you don’t see anything. You’re not even there. You’re busy thinking about what you’re going to do next. You’re a month ahead of yourself, or even a year. You’re not living life; you’re living mind. So it is you who throws your life away, not death. Death actually helps you get your life back by making you pay attention to the moment.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Your current relationship with your psyche is like an addiction. It is constantly making demands of you, and you have devoted your life to serving these demands. If you want to be free, you have to learn to treat it like any other addiction. For example, drug addicts are capable of stopping their drug use, going through withdrawals, and never doing drugs again. Maybe it isn’t easy, but they are capable. The same thing is true of the addiction to the psyche. You are capable of ceasing the absurdity of listening to the perpetual problems of your psyche. You can put an end to it. You can wake up in the morning, look forward to the day, and not worry about what will happen. Your daily life can be like a vacation. Work can be fun; family can be fun; you can just enjoy all of it. That does not mean you don’t do your best; you just have fun doing your best. Then, at night when you go to sleep, you let it all go. You just live your life without getting uptight and worrying about it. You actually live life instead of fearing or fighting it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you sit within the Self, you will experience the strength of your inner being even when your heart feels weak. This is the essence of the path. This is the essence of a spiritual life. Once you learn that it’s okay to feel inner disturbances, and that they can no longer disturb your seat of consciousness, you will be free. You will begin to be sustained by the inner energy flow that comes from behind you. When you have tasted the ecstasy of the inner flow, you can walk in this world and the world will never touch you. That’s how you become a free being—you transcend.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"People tend to burden themselves with so many choices. But, in the end, you can throw it all away and just make one basic, underlying decision: Do you want to be happy, or do you not want to be happy? It’s really that simple. Once you make that choice, your path through life becomes totally clear.  Let’s say you’ve been lost and without food for days, and you finally find your way to a house. You can hardly make it to the doorstep, but you manage to pull yourself up and knock on the door. Somebody opens the door, looks at you and says, “Oh my God! You poor thing! Do you want something to eat? What would you like?” Now the truth is, you really don’t care what they give you. You don’t even want to think about it. You just utter the word “food.” And because you really mean it when you say you need food, it no longer has anything to do with your mental preferences. The same goes for the question about happiness. The question is simply “Do you want to be happy?” If the answer is really yes, then say it without qualifying it. After all, what the question really means is “Do you want to be happy from this point forward for the rest of your life, regardless of what happens?” Now, if you say yes, it might happen that your wife leaves you, or your husband dies, or the stock market crashes, or your car breaks down on an open highway at night. Those things might happen between now and the end of your life. But if you want to walk the highest spiritual path, then when you answer yes to that simple question, you must really mean it. There are no ifs, ands, or buts about it. It’s not a question of whether your happiness is under your control. Of course it’s under your control. It’s just that you don’t really mean it when you say you’re willing to stay happy. You want to qualify it. You want to say that as long as this doesn’t happen, or as long as that does happen, then you’re willing to be happy. That’s why it seems like it is out of your control. Any condition you create will limit your happiness. You simply aren’t going to be able to control things and keep them the way you want them. You have to give an unconditional answer.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You will soon see that your mind is constantly driving you crazy over nothing. If you don’t want to be like that, then stop putting energy into your psyche. That is all there is to it. If you follow this path, the only action you ever take is to relax and release. When you start to see this stuff going on inside, you just relax your shoulders, relax your heart, and fall back behind it. Do not touch it. Do not get involved in it. And do not try to stop it. Simply be aware that you are seeing it. That’s how you get out. You just let it go.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Eventually you’ll see that this resistance is a tremendous waste of energy. The fact is, you’re generally using your will to resist one of two things: that which has already happened or that which hasn’t happened yet. You are sitting inside resisting impressions from the past or thoughts about the future. Think of how much energy is wasted resisting what has already happened. Since the event has already passed, you are actually struggling with yourself, not with the event. In addition, contemplate how much energy is wasted resisting what might happen. Since most of the things you think might happen never do, you are just throwing your energy away. How you deal with your energy flow has a major effect on your life. If you assert your will against the energy of an event that has already happened, it is like trying to stop the ripples caused by a leaf dropped into a still lake. Anything you do causes more disturbance, not less.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Imagine that you have a thorn in your arm that directly touches a nerve. When the thorn is touched, it’s very painful. Because it hurts so much, the thorn is a serious problem. It’s difficult to sleep because you roll over on it. It’s hard to get close to people because they might touch it. It makes your daily life very difficult. You can’t even go for a walk in the woods because you might brush the thorn against the branches. This thorn is a constant source of disturbance, and to solve the problem you only have two choices. The first choice is to look at your situation and decide that since it’s so disturbing when things touch the thorn, you need to make sure nothing touches it. The second choice is to decide that since it’s so disturbing when things touch the thorn, you need to take it out. You can look deep within yourself, to the core of your being, and decide that you don’t want the weakest part of you running your life. You want to be free of this. You want to talk to people because you find them interesting, not because you’re lonely. You want to have relationships with people because you genuinely like them, not because you need for them to like you. You want to love because you truly love, not because you need to avoid your inner problems.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Success regarding your psyche is comparable to health regarding your physical body. Success means you never have to think about your psyche again. A naturally healthy body is one that just does what it’s supposed to do while you’re going about your business. You never have to think about it. Likewise, you should never have to figure out how to be okay, or how not to be scared, or how to feel loved. You should not have to devote your life to your psyche.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"In the end, enjoying life’s experiences is the only rational thing to do. You’re sitting on a planet spinning around in the middle of absolutely nowhere. Go ahead, take a look at reality. You’re floating in empty space in a universe that goes on forever. If you have to be here, at least be happy and enjoy the experience. You’re going to die anyway. Things are going to happen anyway. Why shouldn’t you be happy? You gain nothing by being bothered by life’s events. It doesn’t change the world; you just suffer. There’s always going to be something that can bother you, if you let it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Meditation strengthens your center of consciousness so that you’re always aware enough to not allow your heart to close. You remain open by simply letting go and releasing the tendency to close. You just relax your heart when it starts to tighten. You don’t have to be outwardly glowing all the time; you’re just joyful inside. Instead of complaining, you’re just having fun with the different situations that unfold.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"If you want to be free, you must first accept that there is pain in your heart. You have stored it there. And you’ve done everything you can think of to keep it there, deep inside, so that you never have to feel it. There is also tremendous joy, beauty, love, and peace within you. But they are on the other side of the pain. On the other side of the pain is ecstasy. On the other side is freedom. Your true greatness hides on the other side of that layer of pain. You must be willing to accept pain in order to pass through to the other side. Just accept that it is in there and that you are going to feel it. Accept that if you relax, it will have its moment before your awareness, and then it will pass. It always does.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Begin with the little things. For example, somebody says something to you that you don’t like, or worse yet, doesn’t acknowledge you at all. You are walking along and you see a friend. You say hello to them but they just keep walking by. You don’t know if they didn’t hear you or if they actually ignored you. You aren’t sure if they’re mad at you or what’s going on. Your mind starts going a mile a minute. Good time for a reality check! There are billions of people on this planet, and one of them didn’t say hello to you. Are you saying that you can’t handle that? Is that reasonable? Use these little things that happen in daily life to free yourself. In the above example, you simply choose not to get involved in the psyche. Does that mean that you stop your mind from going around in circles trying to figure out what’s going on? No. It simply means that you are ready, willing, and able to watch your mind create its little melodrama. Watch all of its noise about how hurt you are, and how could anybody do that. Watch the mind try to figure out what to do about it. Just marvel at the fact that all of this is going on inside simply because someone didn’t say hello to you. It’s truly unbelievable. Just watch the mind talk, and keep relaxing and releasing. Fall behind the noise.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"A Samskara is a blockage, an impression from the past. It’s an unfinished energy pattern that ends up running your life. Just like energy waves, the energy that comes into you must keep moving. But that doesn’t mean it can’t get blocked within you. There is a way that the energy can both keep moving and stay in one place—and that is to circle around itself. We see this in atoms and in planetary orbits. Everything is energy, and energy will just expand outward if it is not contained. For there to be manifest creation, energy must get in the dynamic of cycling around itself to create a stable unit. That’s why energy manifesting as an atom forms the basic building block of this entire physical universe. Energy cycles around itself, and as we’ve discovered, atoms have enough harnessed energy to blow up the world when that energy is released. But unless forced otherwise, the energy will stay harnessed because of its equilibrium state. There is no other place for it to go. You won’t let it. This is how most people process their issues. This packet of cycling energy is literally stored in your energetic heart center. All the Samskaras you have collected over your life are stored there.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"The saint sees that God goes into ecstasy when He looks upon this earth, under all conditions, and at all times. Ecstasy is the only thing God knows. God’s nature is eternal, conscious bliss. No matter what you’ve done, you’re not going to be the one thing that ruins it. The beauty is that you can experience this ecstasy. And when you begin to feel this joy, that’s when you’ll know God’s nature. Then nobody will upset or disappoint you. Nothing will create a problem. It will all appear as part of the beautiful dance of creation unfolding before you. Your natural state will get higher and higher. You’ll feel love instead of shame. Instead of being unwilling to lift your eyes to the Divine because of what you’ve said or done, you’ll see the Divine as a place of unconditional refuge. Contemplate this, and let go of the idea of a judgmental God. You have a loving God. In truth, you have love itself for a God. And love cannot do other than love. Your God is in ecstasy and there’s nothing you can do about it. And if God is in ecstasy, I wonder what God sees when God looks at you?\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You just stop telling your mind that its job is to fix your personal problems. This job has broken the mind and disturbed the entire psyche. It has created fear, anxiety, and neurosis. Your mind has very little control over this world. It is neither omniscient nor omnipotent. It cannot control the weather and other natural forces. Nor can it control all people, places, and things around you. You have given your mind an impossible task by asking it to manipulate the world in order to fix your personal inner problems. If you want to achieve a healthy state of being, stop asking your mind to do this. Just relieve your mind of the job of making sure that everyone and everything will be the way you need them to be so that you can feel better inside. Your mind is not qualified for that job. Fire it, and let go of your inner problems instead.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You have to be willing to look at what it would be like if death was staring you in the face. Then you have to come to peace within yourself so that it doesn’t make any difference whether it is or not. There is a story of a great yogi who said that every moment of his life he felt as though a sword were suspended above his head by a spiderweb. He lived his life with the awareness that he was that close to death.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"You must look inside yourself and determine that from now on pain is not a problem. It is just a thing in the universe. Somebody can say something to you that can cause your heart to react and catch fire, but then it passes. It’s a temporary experience. Most people can hardly imagine what it would be like to be at peace with inner disturbance. But if you do not learn to be comfortable with it, you will devote your life to avoiding it. If you feel insecurity, it’s just a feeling. You can handle a feeling. If you feel embarrassed, it’s just a feeling. It’s just a part of creation. If you feel jealousy and your heart burns, just look at it objectively, like you would a mild bruise. It’s a thing in the universe that is passing through your system. Laugh at it, have fun with it, but don’t be afraid of it. It cannot touch you unless you touch it.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Relationships are a great way to work with yourself. Imagine if you used relationships to get to know other people, rather than to satisfy what is blocked inside of you. If you’re not trying to make people fit into your preconceived notions of what you like and dislike, you will find that relationships are not really that difficult. If you’re not so busy judging and resisting people based upon what is blocked inside of you, you will find that they are much easier to get along with—and so are you. Letting go of yourself is the simplest way to get closer to others.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Do you want to know how God looks upon this world? Do you want to know how God feels about different kinds of people? Then look at the sun. Does the sun shine more brightly on a saint than on anyone else? Is the air more available to the saint? Does the rain fall on one neighbor’s trees more than another’s? You can turn your eyes from the sun’s light and live in darkness for a hundred years. If you then turn them toward the light, the light is still there. It is there for you just the same as for the person who has enjoyed its brilliance for a hundred years. Your relationship with God is the same as your relationship with the sun. If you hid from the sun for years and then chose to come out of your darkness, the sun would still be shining as if you had never left. You don’t need to apologize. You just pick your head up and look at the sun. It’s the same way when you decide to turn toward God—you just do it. If, instead, you allow guilt and shame to interfere, that’s just your ego blocking the Divine Force. You can’t offend the Divine One; its very nature is light, love, compassion, protection, and giving. You can’t make it stop loving you. It’s just like the sun. You can’t make the sun stop shining on you; you can only choose not to look at it. The moment you look, you’ll see it’s there.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"This choice to enjoy life will lead you through your spiritual journey. In truth, it is itself a spiritual teacher. Committing yourself to unconditional happiness will teach you every single thing there is to learn about yourself, about others, and about the nature of life. You will learn all about your mind, your heart, and your will. But you have to mean it when you say that you’ll be happy for the rest of your life. Every time a part of you begins to get unhappy, let it go. Work with it. Use affirmations, or do whatever you need to do to stay open. If you are committed, nothing can stop you. No matter what happens, you can choose to enjoy the experience. If they starve you and put you in solitary confinement, just have fun being like Gandhi. No matter what happens, just enjoy the life that comes to you. As difficult as that sounds, what’s the benefit of not doing it? If you’re totally innocent and they lock you up, you might as well have fun. What good does it do to not have fun? It doesn’t change anything. In the end, if you stay happy, you win. Make that your game, and just stay happy no matter what.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "\"Learn to live as though you are facing death at all times, and you’ll become bolder and more open. If you live life fully, you won’t have any last wishes. You will have lived them every moment. Only then will you have fully experienced life and released the part of you that is afraid of living. There is no reason to be afraid of life.\"",
+        "body": "",
+        "folder": "The Untethered Soul"
+    },
+    {
+        "title": "“This above all: to thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.”",
+        "body": "",
+        "folder": "The Untethered Soul"
     }
 ]
