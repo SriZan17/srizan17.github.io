@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memento Mori</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Memento Mori</h1>
+
+      <div class="quote">
+        <p>
+          "It is not that we have a short time to live, but that we waste much
+          of it. Life is long enough, and has been given in sufficiently
+          generous measure to allow the accomplishment of the very greatest
+          things if the whole of it is well invested."
+        </p>
+      </div>
+
+      <div class="controls">
+        <div class="input-group">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" value="2004-04-29" />
+        </div>
+        <div class="input-group">
+          <label for="yearsOfLife">Years of Life:</label>
+          <input type="number" id="yearsOfLife" value="77" min="1" max="120" />
+        </div>
+        <button id="updateBtn">Update</button>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-header">
+          <div class="week-label">Week</div>
+          <div id="yearsHeader" class="years-header"></div>
+        </div>
+        <div id="weeksGrid" class="weeks-grid"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
