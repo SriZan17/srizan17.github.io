@@ -1,60 +1,82 @@
+/* Light Minimalist Design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
-  --background: #f8fafc;
-  --card-bg: #ffffff;
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --border-color: #e2e8f0;
-  --success-color: #22c55e;
-  --error-color: #ef4444;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --border: #d0d0d0;
+  --primary: #000000;
+  --primary-hover: #2a2a2a;
+  --text: #000000;
+  --text-muted: #555555;
+  --text-light: #666666;
+  --hover: #fafafa;
 }
 
 body {
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
-  background-color: var(--background);
-  color: var(--text-primary);
-  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.2;
+  min-height: 100vh;
   padding: 0;
-  line-height: 1.5;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
 }
 
+/* Header */
 .search-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
 }
 
 h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .search-description {
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  margin-top: 0.5rem;
+  font-weight: 300;
 }
 
+/* Search Controls */
 .search-controls {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .search-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-row:last-child {
+  margin-bottom: 0;
 }
 
 .input-group {
@@ -64,116 +86,213 @@ h1 {
 }
 
 .input-group label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text-primary);
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
 .input-group label i {
-  color: var(--primary-color);
+  color: var(--text-muted);
+  font-size: 0.625rem;
 }
 
 input,
 select {
   width: 100%;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  transition: all 0.2s;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 0.8125rem;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+input:hover,
+select:hover {
+  border-color: #888888;
 }
 
 input:focus,
 select:focus {
   outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+input::placeholder {
+  color: var(--text-light);
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23555555' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  padding-right: 1.5rem;
 }
 
 .button-group {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
 .search-button,
 .random-button {
-  flex: 1;
-  padding: 0.75rem 1.5rem;
-  color: white;
+  padding: 0.4rem 1.25rem;
+  background: var(--primary);
+  color: var(--bg);
   border: none;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+  border-radius: 3px;
+  font-size: 0.8125rem;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  font-family: inherit;
+  min-height: 44px;
+  letter-spacing: 0.5px;
 }
 
 .search-button {
-  background-color: var(--primary-color);
+  background: var(--primary);
+  color: var(--bg);
 }
 
 .search-button:hover {
-  background-color: var(--primary-hover);
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.search-button:active {
+  background: var(--primary);
+  transform: translateY(0);
 }
 
 .random-button {
-  background-color: var(--text-secondary);
+  background: var(--primary);
+  color: var(--bg);
 }
 
 .random-button:hover {
-  background-color: var(--text-primary);
+  background: var(--primary-hover);
+  transform: translateY(-1px);
 }
 
+.random-button:active {
+  background: var(--primary);
+  transform: translateY(0);
+}
+
+/* Notes Container */
 #notes-container {
-  display: grid;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .note {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--border-color);
-  transition: all 0.2s;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.note:first-child {
+  border-top: none;
 }
 
 .note:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  border-color: #888888;
 }
 
 .note-header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .notebook-name {
-  font-size: 0.875rem;
-  color: var(--primary-color);
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.25rem;
+}
+
+.notebook-name i {
+  font-size: 0.5625rem;
+  color: var(--text-muted);
 }
 
 .note-title {
   font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-top: 0.25rem;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  display: none;
 }
 
 .note-content {
-  color: var(--text-primary);
+  color: #2a2a2a;
   white-space: pre-wrap;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.note-count {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.loading-indicator i {
+  color: var(--text-light);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .pagination {
@@ -181,74 +300,138 @@ select:focus {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
-  padding: 1rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
 }
 
 .pagination-button {
-  padding: 0.5rem 1rem;
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  color: var(--text-primary);
-  font-size: 0.875rem;
+  padding: 0.4rem 1rem;
+  background: var(--primary);
+  color: var(--bg);
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8125rem;
+  font-weight: 500;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  min-height: 40px;
+  letter-spacing: 0.5px;
 }
 
 .pagination-button:hover:not(:disabled) {
-  background-color: var(--primary-color);
-  color: white;
-  border-color: var(--primary-color);
+  background: var(--primary-hover);
+  transform: translateY(-1px);
 }
 
 .pagination-button:disabled {
-  opacity: 0.5;
+  opacity: 0.3;
   cursor: not-allowed;
+  transform: none;
 }
 
 #page-info {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
   min-width: 100px;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.note-count {
-  text-align: center;
-  color: var(--text-secondary);
-  font-size: 0.875rem;
-  margin-bottom: 1rem;
-}
-
-.loading-indicator {
-  text-align: center;
-  padding: 2rem;
-  color: var(--text-secondary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
+/* Mobile Responsive */
 @media (max-width: 768px) {
   .container {
-    padding: 1rem;
-    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+  }
+
+  .search-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .search-row {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .button-group {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .search-button,
+  .random-button {
+    width: 100%;
+  }
+
+  .note {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .note-content {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 1rem;
   }
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
   }
+
+  .search-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .note {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .note-content {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .pagination {
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .pagination-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Touch optimization */
+button,
+a {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Focus states for accessibility */
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
