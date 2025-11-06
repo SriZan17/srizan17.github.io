@@ -34,7 +34,7 @@ html {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
@@ -208,7 +208,7 @@ select {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.5rem;
   transition: all 0.2s ease;
-  text-align: center;
+  text-align: left;
 }
 
 .note:first-child {
