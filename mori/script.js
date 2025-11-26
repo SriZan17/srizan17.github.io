@@ -33,7 +33,7 @@ function getCurrentWeek() {
 function generateYearsHeader() {
   const yearsHeader = document.getElementById('yearsHeader');
   yearsHeader.innerHTML = '';
-  
+
   // Show every 5th year for readability
   for (let year = 0; year < yearsOfLife; year++) {
     const yearLabel = document.createElement('div');
@@ -48,19 +48,19 @@ function generateYearsHeader() {
 // Generate the grid
 function generateGrid() {
   weeksGrid.innerHTML = '';
-  
+
   const totalWeeks = calculateTotalWeeks(yearsOfLife);
   const currentWeek = getCurrentWeek();
   const totalYears = yearsOfLife;
-  
+
   // Generate years header
   generateYearsHeader();
-  
+
   // Generate rows for each week (52 weeks per year)
   for (let week = 0; week < WEEKS_PER_YEAR; week++) {
     const row = document.createElement('div');
     row.className = 'week-row';
-    
+
     // Week label
     const weekLabel = document.createElement('div');
     weekLabel.className = 'week-label-cell';
@@ -68,30 +68,32 @@ function generateGrid() {
       weekLabel.textContent = week + 1;
     }
     row.appendChild(weekLabel);
-    
+
     // Year boxes container (one box per year for this week)
     const yearBoxes = document.createElement('div');
     yearBoxes.className = 'year-boxes';
-    
+
     for (let year = 0; year < totalYears; year++) {
       const yearBox = document.createElement('div');
       yearBox.className = 'week-box';
-      
+
       const weekNumber = year * WEEKS_PER_YEAR + week;
-      
+
       // Mark as lived if this week has passed
       if (weekNumber < currentWeek) {
         yearBox.classList.add('lived');
       }
-      
+
       // Add tooltip
       const weekDate = new Date(birthDate);
       weekDate.setDate(weekDate.getDate() + weekNumber * 7);
       yearBox.title = `Week ${weekNumber + 1} (Year ${year + 1}, Week ${week + 1}) - ${weekDate.toLocaleDateString()}`;
-      
+
+      yearBox.addEventListener('click', () => handleWeekClick(weekDate));
+
       yearBoxes.appendChild(yearBox);
     }
-    
+
     row.appendChild(yearBoxes);
     weeksGrid.appendChild(row);
   }
@@ -101,21 +103,79 @@ function generateGrid() {
 updateBtn.addEventListener('click', () => {
   const newBirthday = new Date(birthdayInput.value);
   const newYears = parseInt(yearsInput.value, 10);
-  
+
   if (isNaN(newBirthday.getTime())) {
     alert('Please enter a valid birthday.');
     return;
   }
-  
+
   if (isNaN(newYears) || newYears < 1 || newYears > 120) {
     alert('Please enter a valid number of years (1-120).');
     return;
   }
-  
+
   birthDate = newBirthday;
   yearsOfLife = newYears;
   generateGrid();
 });
 
 // Initial grid generation
+let memories = [];
+
+// Fetch memories manifest
+fetch('memories.json')
+  .then(response => {
+    if (response.ok) {
+      return response.json();
+    }
+    return [];
+  })
+  .then(data => {
+    memories = data;
+    generateGrid();
+  })
+  .catch(err => {
+    console.error('Error loading memories:', err);
+    generateGrid();
+  });
+
+function findClosestMemory(targetDateStr) {
+  if (!memories.length) return null;
+
+  const targetDate = new Date(targetDateStr);
+  let closestDate = memories[0];
+  let minDiff = Math.abs(targetDate - new Date(closestDate));
+
+  for (let i = 1; i < memories.length; i++) {
+    const currentDate = memories[i];
+    const diff = Math.abs(targetDate - new Date(currentDate));
+    if (diff < minDiff) {
+      minDiff = diff;
+      closestDate = currentDate;
+    }
+  }
+
+  return closestDate;
+}
+
+function handleWeekClick(weekDate) {
+  const dateStr = weekDate.toISOString().split('T')[0];
+
+  // Check if exact date exists (not strictly necessary if we always want closest, but good for optimization)
+  if (memories.includes(dateStr)) {
+    const [y, m, d] = dateStr.split('-');
+    window.location.href = `memories/${y}/${m}/${d}/index.html`;
+    return;
+  }
+
+  // Find closest date
+  const closest = findClosestMemory(dateStr);
+  if (closest) {
+    const [y, m, d] = closest.split('-');
+    window.location.href = `memories/${y}/${m}/${d}/index.html`;
+  } else {
+    console.log('No memories found');
+  }
+}
+
 generateGrid();
