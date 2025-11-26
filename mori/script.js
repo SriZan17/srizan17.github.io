@@ -122,22 +122,18 @@ updateBtn.addEventListener('click', () => {
 // Initial grid generation
 let memories = [];
 
-// Fetch memories manifest
-fetch('memories.json')
-  .then(response => {
-    if (response.ok) {
-      return response.json();
-    }
-    return [];
-  })
-  .then(data => {
-    memories = data;
-    generateGrid();
-  })
-  .catch(err => {
-    console.error('Error loading memories:', err);
-    generateGrid();
-  });
+// Determine base path from current page location
+const currentPath = window.location.pathname;
+const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+
+// Use window.MEMORIES if available (loaded from memories.js), otherwise empty array
+if (window.MEMORIES && Array.isArray(window.MEMORIES)) {
+  memories = window.MEMORIES;
+  generateGrid();
+} else {
+  console.warn('window.MEMORIES not found');
+  generateGrid();
+}
 
 function findClosestMemory(targetDateStr) {
   if (!memories.length) return null;
@@ -164,7 +160,7 @@ function handleWeekClick(weekDate) {
   // Check if exact date exists (not strictly necessary if we always want closest, but good for optimization)
   if (memories.includes(dateStr)) {
     const [y, m, d] = dateStr.split('-');
-    window.location.href = `memories/${y}/${m}/${d}/index.html`;
+    window.location.href = `${basePath}/memories/${y}/${m}/${d}/index.html`;
     return;
   }
 
@@ -172,10 +168,8 @@ function handleWeekClick(weekDate) {
   const closest = findClosestMemory(dateStr);
   if (closest) {
     const [y, m, d] = closest.split('-');
-    window.location.href = `memories/${y}/${m}/${d}/index.html`;
+    window.location.href = `${basePath}/memories/${y}/${m}/${d}/index.html`;
   } else {
     console.log('No memories found');
   }
 }
-
-generateGrid();
