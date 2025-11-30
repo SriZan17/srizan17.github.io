@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Srijan Basnet
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{https://srijanbasnet.com.np/}{\Large Srijan Basnet}} & Email : \href{mailto:sribasnet07@gmail.com}{sribasnet07@gmail.com}\\
+%   \href{https://srijanbasnet.com.np}{https://www.srijanbasnet.com.np} & Mobile : +977-9846935355 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Srijan Basnet} \\ \vspace{1pt}
+    \small +977-9846935355  $|$
+    \href{https://srijanbasnet.com.np}{\underline{srijanbasnet.com }}$|$
+    \href{https://www.linkedin.com/in/sri017/}{\underline{linkedin.com/in/sri017}} $|$
+    \href{https://github.com/SriZan17}{\underline{github.com/SriZan17 }} $|$ \href{mailto:sribasnet07@gmail.com}{\underline{sribasnet07@gmail.com}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+ \resumeSubheading
+      {Prithivi Narayan Campus}{Pokhara, Nepal}
+      {Bachelor of Science in Computer Science and Information Technology} {April 2022 -- April 2026}
+% \resumeSubheading
+   %  {Blinn College}{Bryan, TX}
+    %  {Associate's in Liberal Arts} {August 2014 -- May 2018}
+  %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI and Automation Engineer}{December 2024 -- Present}
+      {Ashray Tech}{Chicago, Illinois}
+      \resumeItemListStart
+        \resumeItem{Engineered a voice-interactive RAG system incorporating advanced speech recognition (STT) and speech synthesis (TTS) to provide accurate, context-aware responses to user inquiries. }
+        \resumeItem{Developed an automated workflow for ingesting and posting patient notes into the electronic medical record (EMR), reducing manual data entry and improving accuracy. }
+        \resumeItem{Researched and implemented content-driven quantitative and qualitative metrics to assess the quality and completeness of clinical notes through detailed analysis. }
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Second Opinion} $|$ \emph{Python, PyTorch, Fast API, React, PostgreSQL}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an AI-powered medical image analysis platform leveraging \textbf{Vision Transformers (ViT)} and \textbf{transfer learning} to support multi-condition detection for brain tumors. }
+            \resumeItem{Used transfer learning to optimize vision transfer (ViT) based models achieving \textbf{96.89\% test accuracy} on MRI-based brain tumor classification, with automated image-type verification for preprocessing reliability. }
+            \resumeItem{Implemented secure user management with OTP-based email verification, encrypted authentication, and a full dashboard for viewing predictions, histories, and probability breakdowns. }
+            \resumeItem{Built PDF-report generation and a seamless end-to-end workflow for image upload, inference, results visualization, and shareable medical summaries for clinical consultation. }
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{E-Nirikshan} $|$ \emph{Python, React Native, Node.js, ChromaDB}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a multi-service transparency platform for government procurement system. }
+            \resumeItem{Built the citizen-facing mobile app enabling project browsing, real-time tracking, and submission of geo-tagged photographic reports with multilingual support. }
+            \resumeItem{Implemented an AI assistant using a Retrieval-Augmented Generation architecture with ChromaDB and OpenAI, including \textbf{multilingual voice interaction via Speech-to-Text (STT)}. }
+            \resumeItem{Created secure, scalable API services and end-to-end infrastructure for data ingestion, analytics dashboards, and seamless communication between backend, mobile, and RAG systems. }
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{WordLens AI} $|$ \emph{Flutter/Dart}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an on-device AI image-search system using \textbf{Google ML Kit OCR}, enabling fast, fully offline text extraction across user galleries and powering an app with \textbf{5,000+ Google Play downloads}. }
+            \resumeItem{Engineered an optimized background pipeline to scan, recognize, and index text from thousands of images, using \textbf{sqflite} caching to deliver high-performance, ML-driven retrieval at scale. }
+            \resumeItem{Implemented advanced multi-keyword and date-based search on top of OCR-derived features while ensuring complete privacy by performing all AI inference locally on the device. }
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Flutter/Dart, Java, C/C++, SQL, JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: PyTorch, Selenium, React, Flask, FastAPI, Django} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, Kubernetes} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+%-----------PROGRAMMING SKILLS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{CITI Data and Specimen Research }{} \\
+     
+     \textbf{CITI Conflict of Interest }{} \\
+     \textbf{HIPAA Certification }{}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
