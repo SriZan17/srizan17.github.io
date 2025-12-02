@@ -39318,5 +39318,40 @@
         "title": "\"I was born in a city straight out of a fairytale but all I wanted was to live in science fiction.\"",
         "body": "",
         "folder": "Me"
+    },
+    {
+        "title": "\"If you are going to interview with a company, it is a great idea to read their engineering blogs and get familiar with technologies and systems adopted and implemented there. Besides, engineering blogs provide invaluable insights about certain fields.\"",
+        "body": "",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"UUID A UUID is another easy way to obtain unique IDs. UUID is a 128-bit number used to identify information in computer systems. UUID has a very low probability of getting collusion. Quoted from Wikipedia, “after generating 1 billion UUIDs every second for approximately 100 years would the probability of creating a single duplicate reach 50%”. Here is an example of UUID: 09c93e62-50b4-468d-bf8a-c07e1040bfb2. UUIDs can be generated independently without coordination between servers.\"",
+        "body": "",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"Strong consistency is usually achieved by forcing a replica not to accept new reads/writes until every replica has agreed on current write. This approach is not ideal for highly available systems because it could block new operations. Dynamo and Cassandra adopt eventual consistency, which is our recommended consistency model for our key-value store. From concurrent writes, eventual consistency allows inconsistent values to enter the system and force the client to read the values to reconcile.\"",
+        "body": "",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"CAP theorem states it is impossible for a distributed system to simultaneously provide more than two of these three guarantees: consistency, availability, and partition tolerance. Let us establish a few definitions. ",
+        "body": "Consistency: consistency means all clients see the same data at the same time no matter which node they connect to. Availability: availability means any client which requests data gets a response even if some of the nodes are down. \nPartition Tolerance: a partition indicates a communication break between two nodes. Partition tolerance means the system continues to operate despite network partitions.\"",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"Summary of how we scale our system to support millions of users:",
+        "body": "• Keep web tier stateless \n• Build redundancy at every tier \n• Cache data as much as you can \n• Support multiple data centers \n• Host static assets in CDN \n• Scale your data tier by sharding \n• Split tiers into individual services \n• Monitor your system and use automation tools\"",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"Consistent hashing is a special kind of hashing such that when a hash table is re-sized and consistent hashing is used, only k/n keys need to be remapped on average, where k is the number of keys, and n is the number of slots. In contrast, in most traditional hash tables, a change in the number of array slots causes nearly all keys to be remapped.”",
+        "body": "",
+        "folder": "System Design Interview"
+    },
+    {
+        "title": "\"Figure 1-23, we shard databases to support rapidly increasing data traffic. At the same  time, some of the non-relational functionalities are moved to a NoSQL data store to reduce  the database load. Here is an article that covers many use cases of NoSQL",
+        "body": "![4a90831191fd09fa808345446d8fe072.png](:/b10fb679992e4fdd92e024e2fff6e4e4)\"",
+        "folder": "System Design Interview"
     }
 ]
