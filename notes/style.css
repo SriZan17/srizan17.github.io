@@ -247,7 +247,7 @@ select {
   font-weight: 400;
   color: var(--text);
   margin-bottom: 0.5rem;
-  display: none;
+  display: block;
 }
 
 .note-content {

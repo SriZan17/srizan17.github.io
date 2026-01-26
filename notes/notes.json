@@ -25460,11 +25460,6 @@
         "folder": "Miscellaneous"
     },
     {
-        "title": "\"The idea of her was more important than her herself.\"",
-        "body": "",
-        "folder": "Me"
-    },
-    {
         "title": "\"The most memorable people in life are the friends who loved you when you were not very loveable.\"",
         "body": "",
         "folder": "Miscellaneous"
@@ -32905,7 +32900,7 @@
         "folder": "The Six Pillars of Self-Esteem"
     },
     {
-        "title": "\"I'm not sure if Momma raised a true gentleman but I'm certain Momma raised a too gentle man.\"",
+        "title": "\"Momma raised a Gentleman but turns out a Gentleman is too gentle a man for this world.\" ",
         "body": "",
         "folder": "Me"
     },
@@ -35231,7 +35226,7 @@
     },
     {
         "title": "git bash for change companies",
-        "body": "eval \"$(ssh-agent -s)\"\nssh-add ~/key.txt\ngit clone --mirror git@github.com:Ashray-LLC/SFTP_Merged.git\ncd SFTP_Merged.git\ngit push --mirror git@github.com:SriZan17/SFTP_Merged.git\n\ngit filter-repo --force --invert-paths \\\n  --path-glob 'pcc_note_posting/services/*.json' \\\n  --path-glob 'note_counter/*.json' \\\n  --path-glob 'bot/pcc_note_posting/services/*.json' \\\n  --path-glob 'bot/note_counter/*.json' \\\n  --path 'pcc_note_posting/.env'\n  \n",
+        "body": "eval \"$(ssh-agent -s)\"  \nssh-add ~/key.txt  \ngit clone --mirror git@github.com:Ashray-LLC/SFTP_Merged.git  \ncd SFTP_Merged.git  \ngit push --mirror git@github.com:SriZan17/SFTP_Merged.git\n\ngit filter-repo --force --invert-paths  \n\\--path-glob 'pcc_note_posting/services/*.json'  \n\\--path-glob 'note_counter/*.json'  \n\\--path-glob 'bot/pcc_note_posting/services/*.json'  \n\\--path-glob 'bot/note_counter/*.json'  \n\\--path 'pcc_note_posting/.env'  \n<br/><br/>\n\n#Create matching github repo\n\ngit remote add origin git@github.com:SriZan17/SFTP_Merged.git\n\ngit push --mirror --force",
         "folder": "Programming"
     },
     {
@@ -39353,5 +39348,1350 @@
         "title": "\"Figure 1-23, we shard databases to support rapidly increasing data traffic. At the same  time, some of the non-relational functionalities are moved to a NoSQL data store to reduce  the database load. Here is an article that covers many use cases of NoSQL",
         "body": "![4a90831191fd09fa808345446d8fe072.png](:/b10fb679992e4fdd92e024e2fff6e4e4)\"",
         "folder": "System Design Interview"
+    },
+    {
+        "title": "\"Data cleaning verification checklist:",
+        "body": "- **Sources of errors**: Did you use the right tools and functions to find the source of the errors in your dataset?\n    \n- **Null data**: Did you search for NULLs using conditional formatting and filters?\n    \n- **Misspelled words**: Did you locate all misspellings?\n    \n- **Mistyped numbers**: Did you double-check that your numeric data has been entered correctly?\n    \n- **Extra spaces and characters**: Did you remove any extra spaces or characters using the **TRIM** function?\n    \n- **Duplicates**: Did you remove duplicates in spreadsheets using the **Remove Duplicates** function or **DISTINCT** in SQL?\n    \n- **Mismatched data types**: Did you check that numeric, date, and string data are typecast correctly?\n    \n- **Messy (inconsistent) strings**: Did you make sure that all of your strings are consistent and meaningful?\n    \n- **Messy (inconsistent) date formats**: Did you format the dates consistently throughout your dataset?\n    \n- **Misleading variable labels (columns)**: Did you name your columns meaningfully?\n    \n- **Truncated data:** Did you check for truncated or missing data that needs correction?\n    \n- **Business Logic**: Did you check that the data makes sense given your knowledge of the business?\"",
+        "folder": "Programming"
+    },
+    {
+        "title": "\"Burn up who you were to become who you were meant to be.\" ",
+        "body": "",
+        "folder": "Dispatch"
+    },
+    {
+        "title": "\"In the end we all belong to God, and to Him we shall return.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Loneliness and solitude are two different things. When you are lonely, it is easy to delude yourself into believing that you are on the right path. Solitude is better for us, as it means being alone without feeling lonely. But eventually it is best to find a person, the person who will be your mirror. Remember, only in another person’s heart can you truly see yourself and the presence of God within you.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "“The past is a whirlpool. If you let it dominate your present moment, it will suck you in, Time is just an illusion. What you need is to live this very moment. That is all that matters.”",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"We were all created in His image, and yet we were each created different and unique. No two people are alike. No two hearts beat to the same rhythm. If God had wanted everyone to be the same, He would have made it so. Therefore, disrespecting differences and imposing your thoughts on others is tantamount to disrespecting God’s holy scheme.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"I feel a sudden wave of sadness take hold of me, though I can never tell why. My life is complete and fulfilled, in that I have been blessed with the three things I hold most dear: knowledge, virtue, and the capability to help others find God.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Every individual is self-sufficient in his search for the divine.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Forty is a most beautiful age for both men and women. Did you know that in mystic thought forty symbolizes the ascent from one level to a higher one and spiritual awakening? When we mourn we mourn for forty days. When a baby is born it takes forty days for him to get ready to start life on earth. And when we are in love we need to wait for forty days to be sure of our feelings. The Flood of Noah lasted forty days, and while the waters destroyed life, they also washed all impurity away and enabled human beings to make a new, fresh start. In Islamic mysticism there are forty degrees between man and God. Likewise, there are four basic stages of consciousness and ten degrees in each, making forty levels in total. Jesus went into the wilderness for forty days and nights. Muhammad was forty years old when he received the call to become a prophet. Buddha meditated under a linden tree for forty days. Not to mention the forty rules of Shams.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "37_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"rule: Life is a temporary loan, and this world is nothing but a sketchy imitation of Reality. Only children would mistake a toy for the real thing. And yet human beings either become infatuated with\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "38_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"the toy or disrespectfully break it and throw it aside. In this life stay away from all kinds of extremities, for they will destroy your inner balance. Sufis do not go to extremes. A Sufi always remains mild and moderate.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "42_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"There is such a thing in faith as not being able to see the forest for the trees. The totality of religion is far greater and deeper than the sum of its component parts. Individual rules need to be read in the light of the whole. And the whole is concealed in the essence.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "44_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"But there is no way I can answer them. At the end of the day, those who ask this question are the ones who won’t understand it, and as for those who do understand, they don’t ask such things. The\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"It’s easy to love a perfect God, unblemished and infallible that He is. What is far more difficult is to love fellow human beings with all their imperfections and defects. Remember, one can only know what one is capable of loving. There is no wisdom without love. Unless we learn to love God’s creation, we can neither truly love nor truly know God.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "39_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"How can love be worthy of its name if one selects solely the pretty things and leaves out the hardships? It is easy to enjoy the good and dislike the bad. Anybody can do that. The real challenge is to love the good and the bad together, not because you need to take the rough with the smooth but because you need to go beyond such descriptions and accept love in its entirety.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "“Fret not where the road will take you. Instead concentrate on the first step. That’s the hardest part and that’s what you are responsible for. Once you take that step let everything do what it naturally does and the rest will follow. Do not go with the flow. Be the flow.”",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"“You are too timid for me. You care too much about what other people think. But you know what? Because you are so desperate to win the approval of others, you’ll never get rid of their criticisms, no matter how hard you try.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Try not to resist the changes that come your way. Instead let life live through you. And do not worry that your life is turning upside down. How do you know that the side you are used to is better than the one to come?\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "40_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Pity the fool who thinks the boundaries of his mortal mind are the boundaries of God the Almighty. Pity the ignorant who assume they can negotiate and settle debts with God. Do such people think God is a grocer who attempts to weigh our virtues and our wrongdoings on two separate scales? Is He a clerk meticulously writing down our sins in His accounting book so as to make us pay Him back someday? Is this their notion of Oneness? Neither a grocer nor a clerk, my God is a magnificent God. A living God! Why would I want a dead God? Alive He is. His name is al-Hayy—the Ever-Living. Why would I wallow in endless fears and anxieties, always restricted by prohibitions and limitations? Infinitely compassionate He is. The name is al-Wadud. All-Praiseworthy He is. I praise Him with all my words and deeds, as naturally and effortlessly as I breathe. The name is alHamid. How can I ever spread gossip and slander if I know deep down in my heart that God hears and sees it all? His name is al-Başir. Beautiful beyond all dreams and hopes.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "“God created suffering so that joy might appear through its opposite, Things become manifest through opposites. Since God has no opposite, He remains hidden. Look at the abasement of the earth and the exaltation of the heavens. Know that all the states of the world are like this: flooding and drought, peace and war. Whatever happens, do not forget, nothing God has created is in vain, whether wrath or forbearance, honesty or guile.”",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"The idea that we could control the course of our lives through rational choices was as absurd as a fish trying to control the ocean in which it swam. I thought about your next sentence a lot: “The idea of a Knowing Self has generated not only false expectations but also disappointments in places where life does not match our expectations.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "50_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"The true Sufi is such that even when he is unjustly accused, attacked, and condemned from all sides, he patiently endures, uttering not a single bad word about any of his critics. A Sufi never apportions blame. How can there be opponents or rivals or even “others” when there is no “self” in the first place? How can there be anyone to blame when there is only One?\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"If you want to change the way others treat you, you should first change the way you treat yourself. Unless you learn to love yourself, fully and sincerely, there is no way you can be loved. Once you achieve that stage, however, be thankful for every thorn that others might throw at you. It is a sign that you will soon be showered in roses.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "67_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“My doctors tell me I have sixteen months,” Aziz said, lightly but firmly. “They might be wrong. Or they might be right. I cannot know. You see, Ella, all I can give you is the present moment. That is all I have. But the truth is, no one has more than that. It is just that we like to pretend we do.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "51_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“Numbing the pain is not the same as healing it,” Master Sameed said. “When the anesthesia wears off, the pain is still there.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "53_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“My friends, wine is not an innocent drink,” Rumi addressed us in a renewed voice, so commanding and yet so composed and solid, “because it brings out the worst in us. I believe it is better for us to abstain from drinking. That said, we cannot blame alcohol for what we are responsible for. It is our own arrogance and anger that we should be working on. That is more urgent. At the end of the day whoever wants to drink will drink and whoever wants to stay away from wine will stay away. We have no right to impose our ways on others. There is no compulsion in religion.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "59_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“What if people don’t like it? Not everyone thinks highly of dance,” I said to Shams, hoping this would have the effect of stopping whatever he was about to say next. “At least consider postponing this performance.” “Not everyone thinks highly of God,” Shams said without missing a beat. “Are we going to postpone believing in Him, too?”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "52_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“If the wine drinker Has a deep gentleness in him, He will show that, When drunk. But if he has hidden anger and arrogance, Those appear, And since most people do, Wine is forbidden to everyone.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "48_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Destiny doesn’t mean that your life has been strictly predetermined. Therefore, to leave everything to fate and to not actively contribute to the music of the universe is a sign of sheer ignorance. “The music of the universe is all-pervading and it is composed on forty different levels. “Your destiny is the level where you will play your tune. You might not change your instrument but how well to play is entirely in your hands.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "54_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“If you want to strengthen your faith, you will need to soften inside. For your faith to be rock solid, your heart needs\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "46_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“But people are saying all sorts of things about you. They even say for two men to be so fond of each other there has to be an unspeakable bond between them,” I said, my voice failing me toward the end. Upon hearing this, Shams put his hand on my arm and smiled his usual calming smile. He then told me a story. Two men were traveling from one town to another. They came to a stream that had risen due to heavy rainfall. Just when they were about to cross the water, they noticed a young, beautiful woman standing there all alone, in need of help. One of the men immediately went to her side. He picked the woman up and carried her in his arms across the stream. Then he dropped her there, waved good-bye, and the two men went their way. During the rest of the trip, the second traveler was unusually silent and sullen, not responding to his friend’s questions. After several hours of sulking, unable to keep silent anymore, he said, “Why did you touch that woman? She could have seduced you! Men and women cannot come into contact like that!” The first man responded calmly, “My friend, I carried the woman across the stream, and that is where I left her. It is you who have been carrying her ever since.” “Some people are like that,” Shams said. “They carry their own fears and biases on their shoulders, crushed under all that weight. If you hear of anyone who cannot comprehend the depth of the bond between your father and me, tell him to wash his mind!”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "70_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"words. “Between you and me, son of mine, words have dried up. I have nothing to hear from you and nothing to tell you in return,”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "72_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Little by little, one turns forty, fifty, and sixty and, with each major decade, feels more complete. You need to keep walking, though there’s no place to arrive at.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\" \"One day Moses was walking in the mountains on his own when he saw a shepherd in the distance. The man was on his knees with his hands spread out to the sky, praying. Moses was delighted. But when he got closer, he was equally stunned to hear the shepherd’s prayer. “Oh, my beloved God, I love Thee more than Thou can know. I will do anything for Thee, just say the word. Even if Thou asked me to slaughter the fattest sheep in my flock in Thy name, I would do so without hesitation. Thou would roast it and put its tail fat in Thy rice to make it more tasty.” Moses inched toward the shepherd, listening attentively. “Afterward I would wash Thy feet and clean Thine ears and pick Thy lice for Thee. That is how much I love Thee.” Having heard enough, Moses interrupted the shepherd, yelling, “Stop, you ignorant man! What do you think you are doing? Do you think God eats rice? Do you think God has feet for you to wash? This is not prayer. It is sheer blasphemy.” Dazed and ashamed, the shepherd apologized repeatedly and promised to pray as decent people did. Moses taught him several prayers that afternoon. Then he went on his way, utterly pleased with himself. But that night Moses heard a voice. It was God’s. “Oh, Moses, what have you done? You scolded that poor shepherd and failed to realize how dear he was to Me. He might not be saying the right things in the right way, but he was sincere. His heart was pure and his intentions good. I was pleased with him. His words might have been blasphemy to your ears, but to Me they were sweet blasphemy.” Moses immediately understood his mistake. The next day, early in the morning, he went back to the mountains to see the shepherd. He found him praying again, except this time he was praying in the way he had been instructed. In his determination to get the prayer right, he was stammering, bereft of the excitement and passion of his earlier prayer. Regretting what he had done to him, Moses patted the shepherd’s back and said: “My friend, I was wrong. Please forgive me. Keep praying in your own way. That is more precious in God’s eyes.” The shepherd was astonished to hear this, but even deeper was his relief. Nevertheless, he did not want to go back to his old prayers. Neither did he abide by the formal prayers that Moses had taught him. He had now found a new way of communicating with God. Though satisfied and blessed in his naïve devotion, he was now past that stage—beyond his sweet blasphemy. “So you see, don’t judge the way other people connect to God,” concluded Shams. “To each his own way and his own prayer. God does not take us at our word. He looks deep into our hearts. It is not the ceremonies or rituals that make a difference, but whether our hearts are sufficiently pure or not.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"There are more fake gurus and false teachers in this world than the number of stars in the visible universe. Don’t confuse power-driven, self-centered people with true mentors. A genuine spiritual master will not direct your attention to himself or herself and will not expect absolute obedience or utter admiration from you, but instead will help you to appreciate and admire your inner self. True mentors are as transparent as glass. They let the Light of God pass through them.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "58_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“The message is that the torment a person can inflict upon himself is endless. Hell is inside us, and so is heaven. The Qur’an says human beings are the most dignified. We are higher than the highest, but also lower than the lowest. If we could grasp the full meaning of this, we would stop looking for Sheitan outside and instead focus on ourselves. What we need is sincere self-examination. Not being on the watch for the faults of others.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "47_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"The past is an interpretation. The future is an illusion. The world does not move through time as if it were a straight line, proceeding from the past to the future. Instead time moves through and within us, in endless spirals. Eternity does not mean infinite time, but simply timelessness. If you want to experience eternal illumination, put the past and the future out of your mind and remain within the present moment.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "49_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“In this world take pity on three kinds of people. The rich man who has lost his fortune, the well-respected man who has lost his respectability, and the wise man who is surrounded by ignorants.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "68_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“Thank you for your concern,” Shams murmured. “But nothing happens outside of God’s will. It is one of the rules: This world is erected upon the principle of reciprocity. Neither a drop of kindness nor a speck of evil will remain unreciprocated. Fear not the plots, deceptions, or tricks of other people. If somebody is setting a trap, remember, so is God. He is the biggest plotter. Not even a leaf stirs outside God’s knowledge. Simply and fully believe in that. Whatever God does, He does beautifully.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "69_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“God is a meticulous clockmaker. So precise is His order that everything on earth happens in its own time. Neither a minute late nor a minute early. And for everyone without exception, the clock works accurately. For each there is a time to love and a time to die.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Patience does not mean to passively endure. It means to be farsighted enough to trust the end result of a process. What does patience mean? It means to look at the thorn and see the rose, to look at the night and see the dawn. Impatience means to be so shortsighted as to not be able to see the outcome. The lovers of God never run out of patience, for they know that time is needed for the crescent moon to become full.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"As a Sufi I had sworn to protect life and do no harm. In this world of illusions, so many people were ready to fight without any reason, and so many others fought for a reason. But the Sufi was the one who wouldn’t fight even if he had a reason.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"“How we see God is a direct reflection of how we see ourselves. If God brings to mind mostly fear and blame, it means there is too much fear and blame welled inside us. If we see God as full of love and compassion, so are we.”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "57_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"“I didn’t go out and seek love,” Ella muttered, more to herself than to him. “Rumi says we don’t need to hunt for love outside ourselves. All we need to do is to eliminate the barriers inside that keep us away from love.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Instead of an outer-oriented jihad—defined as “the war against infidels” and carried out by many in those days just as in the present—Rumi stood up for an inner-oriented jihad where the aim was to struggle against and ultimately prevail over one’s ego, nafs.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "41_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"I thank Him for all the things He has both given and denied me, for only He knows what is best for me.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "71_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"You think you cannot live anymore. You think that the light of your soul has been put out and that you will stay in the dark forever. But when you are engulfed by such solid darkness, when you have both eyes closed to the world, a third eye opens in your heart. And only then do you come to realize that eyesight conflicts with inner knowledge. No eye sees so clear and sharp as the eye of love. After grief comes another season, another valley, another you.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "60_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"’s lips. “A man who has no time for stories is a man who has no time for God,” he said. “Don’t you know that God is the best storyteller?”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "62_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Through our companionship Rumi and I had experienced an exceptional beauty and learned what it was like to encounter infinity through two mirrors reflecting each other endlessly. But the old maxim still applies: Where there is love, there is bound to be heartache.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "45_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"about. “But I have no enemies,” he said with a shrug. “The lovers of God can have critics and even rivals, but they cannot have enemies.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"Whatever happens in your life, no matter how troubling things might seem, do not enter the neighborhood of despair. Even when all doors remain closed, God will open up a new path only for you. Be thankful! It is easy to be thankful when all is well. A Sufi is thankful not only for what he has been given but also for all that he has been denied.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "56_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Nothing should stand between yourself and God. Not imams, priests, rabbis, or any other custodians of moral or religious leadership. Not spiritual masters, not even your faith. Believe in your values and your rules, but never lord them over others.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "“One of the rules says, You can study God through everything and everyone in the universe, because God is not confined in a mosque, synagogue, or church. But if you are still in need of knowing where exactly His abode is, there is only one place to look for Him: in the heart of a true lover. There is no one who has lived after seeing Him, just like there is no one who has died after seeing Him. Whoever finds Him will remain with Him forever.”",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"May love be always with you and you always surrounded with love. For despite what some people say, love is not only a sweet feeling bound to come and quickly go away. Love is the very essence and purpose of life. As Rumi reminds us, it hits everybody, including those who shun love—even those who use the word “romantic” as a sign of disapproval.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "63_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Life is about perfection. Every incident that happens, no matter how colossal or small, and every hardship that we endure is an aspect of a divine plan that works to that end. Struggle is intrinsic to being human. That is why it says in the Qur’an, Certainly we will show Our ways to those who struggle on Our way. There is no such thing as coincidence in God’s scheme.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"If a stone hits a river, the river will treat it as yet another commotion in its already tumultuous course. Nothing unusual. Nothing unmanageable. If a stone hits a lake, however, the lake will never be the same again.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"God never burdens us with more than we can bear.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "55_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"to be as soft as a feather. Through an illness, accident, loss, or fright, one way or another, we all are faced with incidents that teach us how to become less selfish and judgmental, and more compassionate and generous. Yet some of us learn the lesson and manage to become milder, while some others end up becoming even harsher than before. The only way to get closer to Truth is to expand your heart so that it will encompass all humanity and still have room for more Love.”\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "43_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Bountiful is your life, full and complete. Or so you think, until someone comes along and makes you realize what you have been missing all this time. Like a mirror that reflects what is absent rather than present, he shows you the void in your soul—the void you have resisted seeing. That person can be a lover, a friend, or a spiritual master. Sometimes it can be a child to look after. What matters is to find the soul that will complete yours. All the prophets have given the same advice: Find the one who will be your mirror!\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "66_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"In this world, it is not similarities or regularities that take us a step forward, but blunt opposites. And all the opposites in the universe are present within each and every one of us. Therefore the believer needs to meet the unbeliever residing within. And the nonbeliever should get to know the silent faithful in him. Until the day one reaches the stage of Insan-i Kâmil, the perfect human being, faith is a gradual process and one that necessitates its seeming opposite: disbelief\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"When I was a child, I saw God, I saw angels; I watched the mysteries of the higher and lower worlds. I thought all men saw the same. At last I realized that they did not see.…\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"I did the dirty work of others. Even God recognized the need for someone like me in His holy scheme when He appointed Azrael the Archangel of Death to terminate lives. In this way human beings feared, cursed, and hated the angel while His hands remained clean and His name unblemished. It wasn’t fair to the angel. But then again, this world was not known for its justice, was it?\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"“The sharia is like a candle,” said Shams of Tabriz. “It provides us with much valuable light. But let us not forget that a candle helps us to go from one place to another in the dark. If we forget where we are headed and instead concentrate on the candle, what good is it?”\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "64_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Submission does not mean being weak or passive. It leads to neither fatalism nor capitulation. Just the opposite. True power resides in submission—a power that comes from within. Those who submit to the divine essence of life will live in unperturbed tranquillity and peace even when the whole wide world goes through turbulence after turbulence.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "“So you see, don’t judge the way other people connect to God, To each his own way and his own prayer. God does not take us at our word. He looks deep into our hearts. It is not the ceremonies or rituals that make a difference, but whether our hearts are sufficiently pure or not.”",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"There were more important things than passion and love in a marriage, such as understanding, affection, compassion, and that most godlike act a person could perform, forgiveness.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "\"I did not approve of his big ego, but for the well-being of our lodge I did my best to remain on good terms with this man of influence.\"",
+        "body": "",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "65_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"do. “Please come with me,” implored Sultan Walad, interrupting my thoughts. “The people who gossiped about you and treated you badly are remorseful. Everything will be better this time, I promise.” My boy, you can’t make such promises, I wanted to tell him. Nobody can!\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "61_The Forty Rules Of Love A Novel Of Rumi",
+        "body": "\"Every true love and friendship is a story of unexpected transformation. If we are the same person before and after we loved, that means we haven’t loved enough.\"",
+        "folder": "The Forty Rules of Love"
+    },
+    {
+        "title": "eval \"$(ssh-agent -s)\"",
+        "body": "eval \"$(ssh-agent -s)\"  \nssh-add ~/key.txt  \ngit clone --mirror git@github.com:Ashray-LLC/ERA-REMIT-Sharepoint.git  \ncd ERA-REMIT-Sharepoint.git  \ngit push --mirror git@github.com:SriZan17/ERA-REMIT-Sharepoint.git\n\ngit filter-repo --force --invert-paths\n\n\\--path-glob 'CHE_era/WinSCP_download.log*'  \n*  \n<br/>#Create matching github repo\n\ngit remote add origin git@github.com:SriZan17/ERA-REMIT-Sharepoint.git\n\ngit push --mirror --force",
+        "folder": "Programming"
+    },
+    {
+        "title": "\"I am not sure how to make use of that information.\"",
+        "body": "",
+        "folder": "Dispatch"
+    },
+    {
+        "title": "\"Some people are like black holes, kid. You reach out to help them, they suck you in and do whatever the hell black holes do. I don't know, they fuck you up.\"",
+        "body": "",
+        "folder": "Dispatch"
+    },
+    {
+        "title": "\"When the pain is constant, it's easier to get used to.\"",
+        "body": "",
+        "folder": "Dispatch"
+    },
+    {
+        "title": "“There is in the most occidental part of Iberia, a very strange society, they don´t rule themselves, nor do they allow others to rule them.”",
+        "body": "",
+        "folder": "Julius Caesar"
+    },
+    {
+        "title": "“The only good copies are those which exhibit the defects of bad originals. ”",
+        "body": "",
+        "folder": "Rochefoucauld"
+    },
+    {
+        "title": "\"Any boardroom sitter with a taste for Wall Street lore has heard of the retort that J. P. Morgan the Elder is supposed to have made to a naïve acquaintance who had ventured to ask the great man what the market was going to do. “It will fluctuate,” replied Morgan dryly.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"A press conference is perhaps the only kind of show whose success is in direct proportion to the number of people who leave before it is over.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Business people who are otherwise meticulous in their observance of the law seem to regard copyright infringement about as seriously as they regard jaywalking. A writer I’ve heard about was invited to a seminar of high-level and high-minded industrial leaders and was startled to find that a chapter from his most recent book had been copied and distributed to the participants, to serve as a basis for discussion. When the writer protested, the businessmen were taken aback, and even injured; they had thought the writer would be pleased by their attention to his work, but the flattery, after all, was of the sort shown by a thief who commends a lady’s jewelry by making off with it.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "“It’s an everlasting battle, which we may or may not win.”",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Greene was a kind of business father confessor to me. I remember his saying, ‘You think you’ll make your pile and then be independent. My friend, in Wall Street you don’t just win your independence at one stroke. To paraphrase Thomas Jefferson, you have to win your independence over again every day.’\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Maybe it means that a time has come when—as in Elizabethan drama but seldom before in American business—failure can have a certain grandeur that success never knows.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"When the role of dissenter is left to the Fool, there may be trouble ahead for everybody\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"But I don’t think that for me boxing was an expression of combativeness for its own sake. I think I considered competence at defending yourself a means of preserving your personal independence.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"“I don’t think money makes much difference, as long as you have enough.” “I don’t quite agree,” said Mrs. Lilienthal. “It doesn’t make much difference when you’re young. You don’t mind then, as long as you can struggle along. But as you get older, it is helpful.”\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Paxton explained to the Subcommittee that his thinking on the subject had been influenced not directly by Adam Smith but, rather, by way of a former G.E. boss he had worked under—the late Gerard Swope. Swope, Paxton testified, had always believed firmly that the ultimate goal of business was to produce more goods for more people at lower cost. “I bought that then, I buy it now,” said Paxton. “I think it is the most marvelous statement of economic philosophy that any industrialist has ever expressed.”\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"You could tell by looking at him that he wouldn’t trade independence for security.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Complains that his son has a low opinion of business; attributes this to ‘reverse snobbery’—but even then remains calm.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"All four makes looked very much alike and had almost the same horsepower under their hoods, only served to bear out Wallace’s premise that the automobile fancier, like a young man in love, is incapable of sizing up the object of his affections in anything resembling a rational manner.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"A woman of dignity, patience, practicality, and gentle strength.\"",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Sometimes common sense is not common practice.\"",
+        "body": "",
+        "folder": "Miscellaneous"
+    },
+    {
+        "title": "\"Ignorance is anything but bliss. So powerless and evil.\"",
+        "body": "",
+        "folder": "Spy x Family"
+    },
+    {
+        "title": "\"Truth does not matter. Perception is everything.\"",
+        "body": "",
+        "folder": "Me"
+    },
+    {
+        "title": "“I'm not picky. As long as she's smart and pretty, sweet and gentle and tender and refined and lovely and carefree.”",
+        "body": "",
+        "folder": "Butch Cassidy and the Sundance Kid"
+    },
+    {
+        "title": "\"I am tired of fighting battles that are not even worth winning.\"",
+        "body": "",
+        "folder": "Me"
+    },
+    {
+        "title": "\"The city is good in the sense that the noise outside you is so loud that you sometimes forget the noise inside you.\"",
+        "body": "",
+        "folder": "Miscellaneous"
+    },
+    {
+        "title": "“The only good copies are those which exhibit the defects of bad originals. ”",
+        "body": "",
+        "folder": "Business Adventures"
+    },
+    {
+        "title": "\"Boy, a few dark clouds appear on your horizon, you just go all to pieces, don't you?\"",
+        "body": "",
+        "folder": "Butch Cassidy and the Sundance Kid"
+    },
+    {
+        "title": "\"I want to live for immortality, and I will accept no compromise.\"",
+        "body": "",
+        "folder": "The Brothers Karmazov"
+    },
+    {
+        "title": "“If you have second thoughts about playing for Barcelona, you are no longer of service to us.”",
+        "body": "",
+        "folder": "Miscellaneous"
+    },
+    {
+        "title": "\"I do not know the correct answer. ",
+        "body": "And no amount of logic or evidence can prove anything in either direction in regards to predetemination and fate/destiny.\n\nBut taking Kirkegard's leap of faith might simply be more beneficial/productive in my situation for the confidence boost and peace of mind.\n\nLike Churchill said: \"For me I am an optimist, I see no use in being anything else.\"\n\nBut again the plunge is simply the plunge into what is beneficial as in the favorable birth chart. We ignore every bad \"destiny\" which would make one less productive. \n\nThere's a door across the desert. It'll only open if the person's destiny allows. But we need to cross the desert first. \n\nThe door will open if we can get to the door.\n\nThe clouds will part to reveal the view if you can climb the mountain.\"",
+        "folder": "Me"
+    },
+    {
+        "title": "he wandered over the world, and in the world there was neither love nor loving-kindness nor charity for him, but it was even such a world as he had made for himself in the days of his great pride.",
+        "body": "",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "And he rose up from his feet, and looked at them, and lo! they were a King and a",
+        "body": "And he rose up from his feet, and looked at them, and lo! they were a King and a Queen. And the Queen said to him, ‘This is thy father whom thou hast succoured.’ And the King said, ‘This is thy mother whose feet thou hast washed with thy tears.’ And they fell on his neck and kissed him, and brought him into the palace and clothed him in fair raiment, and set the crown upon his head, and the sceptre in his hand, and over the city that stood by the river he ruled, and was its lord. Much justice and mercy did he show to all, and the evil Magician he banished, and to the Woodcutter and his wife he sent many rich gifts, and to their children he gave high honour. Nor would he suffer any to be cruel to bird or beast, but taught love and loving-kindness and charity, and to the poor he gave bread, and to the naked he gave raiment, and there was peace and plenty in the land.  \n<br/>Yet ruled he not long, so great had been his suffering, and so bitter the fire of his testing, for after the space of three years he died. And he who came after him ruled evilly",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "\"In war,’ answered the weaver, ‘the strong make slaves of the weak, and in peace the rich make slaves of the poor. We must work to live, and they give us such mean wages that we die. We toil for them all day long, and they heap up gold in their coffers, and our children fade away before their time, and the faces of those we love become hard and evil. We tread out the grapes, and another drinks the wine. We sow the corn, and our own board is empty. We have chains, though no eye beholds them; and are slaves, though men call us free.’\"",
+        "body": "",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "\" ‘How strange a thing this is! The Priest telleth me that the soul is worth all the gold in the world, and the merchants say that it is not worth a clipped piece of silver.’\"",
+        "body": "",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "\"He bade the ambassadors tell their master that the King of Spain was already wedded to Sorrow, and that though she was but a barren bride he loved her better than Beauty;\"",
+        "body": "",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "\"The secrets of art are best learned in secret, and that Beauty, like Wisdom, loves the lonely worshipper.\"",
+        "body": "",
+        "folder": "A House of Pomegranates"
+    },
+    {
+        "title": "TCREI (task, context, references, evaluate, and iterate) framework to guide your prompts. When you Thoughtfully Create Really Excellent Inputs, you’re more likely to get results that work for you!",
+        "body": "",
+        "folder": "Programming"
+    },
+    {
+        "title": "$0 Shipping",
+        "body": "![4533f6915cf1cc59cc909c9d2e2b584a.png](:/3a8933efb0ea4c71a20d781d00a3a65e)",
+        "folder": "Programming"
+    },
+    {
+        "title": "cvF%qe8^XvcZQff&ZTsa",
+        "body": "",
+        "folder": "Programming"
+    },
+    {
+        "title": "\"What is honor compared to a woman's love? What is duty against the feel of a newborn son in your arms . . . or the memory of a brother's smile? Wind and words. Wind and words. We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy.\"",
+        "body": "",
+        "folder": "A Song of Ice and Fire"
+    },
+    {
+        "title": "\"Wu Nepali chatra haru ko mutu matra thiyena ki Hindustani chatra haru ko pani Wu bado priya thiyo. Mera Hindustani sathi haru pani usko charcha garthe ra vanthe 'Bado sundar cha tero Nepali Basnet.' \" ",
+        "body": "",
+        "folder": "Babu, Ama ra Chora"
+    },
+    {
+        "title": "\"Ladies prefer boys but marry men.\" ",
+        "body": "",
+        "folder": "Me"
+    },
+    {
+        "title": "02_Never Eat Alone",
+        "body": "\"Before my eyes, I saw proof that success breeds success and, indeed, the rich do get richer. Their web of friends and associates was the most potent club the people I caddied for had in their bags. Poverty, I realized, wasn’t only a lack of nancial resources; it was isolation from the kind of people who could help you make more of yourself. I came to believe that in some very specic ways life, like golf, is a game, and that the people who know the rules, and know them well, play it best and succeed. And the rule in life that has unprecedented power is that the individual who knows the right people, for the right reasons, and utilizes the power of these relationships, can become a member of the “club,” whether he started out as a caddie or not. This realization came with some empowering implications. To achieve your goals in life, I realized, it matters less how smart you are, how much innate talent you’re born with, or even, most eye opening to me, where you came from and how much you started out with. Sure, all these are important, but they mean little if you don’t understand one thing: You can’t get there alone. In fact, you can’t get very far at all.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "114_Never Eat Alone",
+        "body": "\"Too much hubris and not enough humility,\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "110_Never Eat Alone",
+        "body": "\"They often fret over the fact that their public persona becomes indistinguishable from their private personality. They feel misunderstood and underappreciated for who they really are. To assure them that you’re interested in them for themselves, rather than what the public perceives them to be, stay away from their fame and focus, instead, on their interests. You can certainly let them know that you respect their work, but don’t dwell. Take them away from what they are normally barraged with.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "104_Never Eat Alone",
+        "body": "\"“Everyone sees what you appear to be,” observed Machiavelli, “few really know what you are.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "115_Never Eat Alone",
+        "body": "\"“Never sell beyond the close,” as they say, and I thought I had the close. Do they ever add that you better be damn sure both parties know what, exactly, is being closed and that both remember thereafter?\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "113_Never Eat Alone",
+        "body": "\"be part of a social group, if not three. He believed that a group of like-minded, achievement-oriented individuals could dramatically leverage each other’s success to do things otherwise impossible.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "123_Never Eat Alone",
+        "body": "\"wrote, “Our souls are not hungry for fame, comfort, wealth, or power. Those rewards create almost as many problems as they solve. Our souls are hungry for meaning, for the sense that we have\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "10_Never Eat Alone",
+        "body": "\"Reaching your goals can be dicult. But if you have goals to begin with, a realizable plan to achieve them, and a cast of trusted friends to help you, you can do just about anything— even becoming an engineer after the age of forty.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "108_Never Eat Alone",
+        "body": "\"Newt Gingrich, the famous Republican politician and all-aboutWashington gady, is known to tell a story about a lion and a eld mouse. A lion, he says, can use his prodigious hunting skills to capture a eld mouse with relative ease anytime he wants, but at the end of the day, no matter how many mice he’s ensnared, he’ll still be starving. The moral of the story: Sometimes, despite the risk and work involved, it’s worth our time to go for the antelope.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "04_Never Eat Alone",
+        "body": "\"There is no such thing as a “self-made” man. We are made up of thousands of others. Everyone who has ever done a kind deed for us, or spoken one word of encouragement to us, has entered into the make-up of our character and of our thoughts, as well as our success.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "116_Never Eat Alone",
+        "body": "\"To teach is to learn again.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "125_Never Eat Alone",
+        "body": "\"“Young lovers seek perfection. Old lovers sew shreds together and see beauty in the multiplicity of patches.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "21_Never Eat Alone",
+        "body": "\"Spectacular achievement is always preceded by spectacular preparation.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "102_Never Eat Alone",
+        "body": "\"When you’ve gured out what your content is, tell an inspiring story that will propel your friends and associates into action with spirit and fearlessness, motivated and mobilized by your simple but profound storytelling.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "122_Never Eat Alone",
+        "body": "\"We human beings are social beings. We come into the world as the result of others’ actions. We survive here in dependence on others. Whether we like it or not, there is hardly a moment of our lives when we do not benet from others’ activities. For this reason, it is hardly surprising that most of our happiness arises in the context of our relationships with others. —the Dalai Lama\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "53_Never Eat Alone",
+        "body": "\"Henry Kissinger’s technique for commanding a room: “Enter the room. Step to the right. Survey the room. See who is there. You want other people to see you.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "22_Never Eat Alone",
+        "body": "\". As Winston Churchill would tell us, preparation is—if not the key to genius—then at least the key to sounding like a genius.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "11_Never Eat Alone",
+        "body": "\"don’t wait until you’re out of a job, or on your own, to begin reaching out to others. You’ve got to create a community of colleagues and friends before you need it. Others around you are far more likely to help you if they already know and like you\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "31_Never Eat Alone",
+        "body": "\"away. 2. State your value.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "09_Never Eat Alone",
+        "body": "\"grew up. My friend had been inspired by her tale of triumph. Hearing her story, I felt the same way. At forty-four, Feigles decided she no longer wanted to be a hairdresser; she wanted to be an engineer. From the get-go, there were naysayers, people who insisted it couldn’t be done. Their negativity simply provided more fuel for her re. “I lost a lot of friends during this whole thing,” Feigles says. “People become jealous when you decide to do what no one thought you would, or could. You just have to push through.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "59_Never Eat Alone",
+        "body": "\"The Johari Window is a model, invented by two American psychologists, that provides insight into how much people reveal of themselves. Some people are introverted, revealing little; they keep their window relatively closed. Other people are extroverted, revealing a great deal and keeping their windows open. These tendencies also uctuate in dierent environments. In new and strange situations, with people we are unfamiliar with, our window remains small; we reveal little and expect others to do the same. If, on the other hand, the climate is safe and trusting, with others that are similar to us, we share more of ourselves. Our windows open wider. Successful communication depends, according to the model, on the degree to which we can align ourselves and our windows to match those we interact with.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "34_Never Eat Alone",
+        "body": "\"immediately. It is a dialogue, not a scripted monologue. Even my fteen-second intro above left time for the casual “uh-huh, yes” or “hmm” from the other person. Don’t ever talk at someone. Give them time to come along with you. Remember, in most instances, the sole objective of the cold call is, ultimately, to get an appointment where you can discuss the proposition in more detail, not to close the sale. In my experience, deals, like friendships, are made only one-on-one, face-to-face. Take as little time as possible in your cold call to ensure that the next time you speak to them it’s in their oce, or better yet, over some linguine and wine.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "49_Never Eat Alone",
+        "body": "\"audience buzzing. Ideally, the question should be related to your expertise so you have something to say when someone comes up and says, “That was an interesting question.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "05_Never Eat Alone",
+        "body": "\"generosity of others. “But,” I continue, “here’s the hard part: You’ve got to be more than willing to accept generosity. Often, you’ve got to go out and ask for it.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "12_Never Eat Alone",
+        "body": "\"Seize this very minute; what you can do, or dream you can, begin it; Boldness has genius, power and magic in it. —Johann Wolfgang von Goethe\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "47_Never Eat Alone",
+        "body": "\"Study after study shows that the more speeches one gives, the higher one’s income bracket tends to be.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "52_Never Eat Alone",
+        "body": "\"You can’t, however, rely solely on chance to nd them at cocktails or on a break. I usually ask the conference organizer to point to the area where they’ll be and I watch where they sit. Most people continue to sit in the same seats throughout the conference. For example, Barry Diller, the CEO of InterActiveCorp, was someone I’d wanted to meet for years. He’s a visionary in commerce and media, with an uncanny ability to foresee, before anyone else, where innovation will turn into prot. He smells money. Researching one of my conferences, I noticed he was scheduled to speak. I found out when and where and got access to the area where he would have to get on and o the stage. I positioned myself in a place where it would be damn near impossible to get by without giving me a little nudge. As he walked by, I got his attention. “Mr. Diller, my name is Keith Ferrazzi. I work for Barry Sternlicht as his CMO at Starwood. He’s mentioned before that you and I should talk, and I thought I’d just make the introduction myself. I know you’re busy, but I’m wondering if I can call your oce and arrange a time to meet with you when we get back home?” Pause—during which he responded, “Sure, call my New York oce.” “Great, I wanted to talk to you about a number of ideas I have about your business, but I’ve also admired your career and the pioneering work you’ve done for a long time.” That was it. I played my heaviest and hardest card, which was my boss, a fellow visionary entrepreneur for whom Diller held respect. With a name as big as Diller, sometimes the bump can’t be as deep as you’d like. Still, with limited time I managed to gain credibility by dropping a familiar and trusted name, show a bit of vulnerability in admitting I admired his career, and suggest I had value to oer with my ideas. That bump went on to realize a job oer and introductions within his company that are still important to my business today.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "117_Never Eat Alone",
+        "body": "\"“Always try to rub up against money, for if you rub up against money long enough, some of it may rub o on you.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "62_Never Eat Alone",
+        "body": "\"Remember people’s names. Be a good listener. Don’t criticize, condemn, or complain.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "20_Never Eat Alone",
+        "body": "\"an inner truth about the skill of reaching out to others: Those who are best at it don’t network—they make friends. They gain admirers and win trust precisely because their amicable overtures extend to everyone. A widening circle of inuence is an unintended result, not a calculated aim.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "15_Never Eat Alone",
+        "body": "\"Set a goal for yourself of initiating a meeting with one new person a week. It doesn’t matter where or with whom. Introduce yourself to someone on the bus. Slide up next to someone at the bar and say hello. Suggest a coee with someone you’re connected to online but whom you’ve never actually met. Hang out at the company watercooler and force yourself to talk to a fellow employee you’ve never spoken with. You’ll nd that it gets easier and easier with practice. Best of all, you’ll get comfortable with the idea of rejection. With that perspective, even failure becomes a step forward. Embrace it as learning. As the playwright Samuel Beckett wrote, “Fail, fail again. Fail better.” Fear debilitates. Once you realize there’s no benet to holding back, every situation and every person—no matter how seemingly beyond your reach—becomes an opportunity to succeed.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "100_Never Eat Alone",
+        "body": "\"What truly moves us as human beings, what prompts us into action, is emotion. Despite the odds, the Dalai Lama makes us believe that the seemingly impossible is, in fact, possible. In your own stories, use emotion to convince your doubters that underdogs sometimes win and Goliaths sometimes crumble.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "48_Never Eat Alone",
+        "body": "\"When sessions open up for questions, try and be among the rst people to put your hand in the air. A really well-formed and insightful question is a mini-opportunity to get seen by the entire audience. Be sure to introduce yourself, tell people what company you work for, what you do, and then ask a question that leaves the\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "63_Never Eat Alone",
+        "body": "\"Carnegie’s homespun logic remains as relevant as ever. People, after all, are still people, and who couldn’t use a reminder of lessons like: • “Become genuinely interested in other people.” • “Be a good listener. Encourage others to talk about themselves.” • “Let the other person do a great deal of the talking.” • “Smile.” • “Talk in terms of the other person’s interests.” • “Give honest and sincere appreciation.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "118_Never Eat Alone",
+        "body": "\"Eleanor Roosevelt (1884–1962) “Connecting should advance, rather than compromise, your principles.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "119_Never Eat Alone",
+        "body": "\"Yes, loyalty matters. But not when it means sacricing your principles.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "42_Never Eat Alone",
+        "body": "\"remember—and this is critical—don’t remind them of what they can do for you; instead, focus on what you might be able to do for them.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "35_Never Eat Alone",
+        "body": "\"4. Oer a compromise. In any informal negotiation, you go big at the outset, leaving room for compromise and the ability to ratchet down for an easier close.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "120_Never Eat Alone",
+        "body": "\"the best thing about a relationship-driven career is that it isn’t a career at all. It’s a way of living. Several years ago, I started to realize that connecting was actually a way of seeing the world. When I thought and behaved in that way, dividing my life between professional and personal spheres no longer made sense. I realized that what made you successful in both worlds were other people and the way you related to them. Whether those people were family people, work people, or friend people, real connecting insists that you bring the same values to every relationship. As a result, I no longer needed to make a distinction between my career happiness and my life happiness—they were both pieces of me. My life.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "17_Never Eat Alone",
+        "body": "\"Politicians understand this in a way too few executives grasp: We vote for the people we like and respect. Great companies are built by CEOs who inspire love and admiration. In today’s world, mean guys nish last.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "16_Never Eat Alone",
+        "body": "\"Use an open-ended question. A request that is expressed as a question—one that cannot be answered by a yes or no—is less threatening. How do you feel about this? How can we solve this problem? The issue has been raised, your feelings expressed, your desires articulated. With an open-ended suggestion or question, you invite the other person to work toward a solution with you.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "25_Never Eat Alone",
+        "body": "\"So how do you manage a cold call? First, it’s all about attitude. Your attitude. You’re never going to be completely ready to meet new people; there is no perfect moment. Your fears will never be completely quieted, because inviting rejection is never going to be appealing. There are always a hundred reasons to procrastinate. The trick is just to plunge right in. Remember, if you don’t believe you are going to get what you want from the call, you probably won’t. So, in the words of Caddy Shack, “Be the ball.” You have to envision yourself winning to win. You have to view getting to know new people as a challenge and an opportunity. The very idea should spark your competitive res, silencing the wallower in all of us that shies away from socially adventuresome behavior. And second, cold calls are for suckers. I don’t call cold—ever. I’ve created strategies that ensure that every call I make is a warm one.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "33_Never Eat Alone",
+        "body": "\"3. Talk a little, say a lot. Make it quick, convenient, and denitive. You want to impart both a sense of urgency and a sense of convenience. Instead of closing with “We should get together sometime soon,” I like to nalize with something like “I’m going to be in town next week. How about lunch on Tuesday? I know this is going to be important for both of us, so I’ll make time no matter what.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "23_Never Eat Alone",
+        "body": "\". As William James wrote: “The deepest principle in human nature is the craving to be appreciated.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "126_Never Eat Alone",
+        "body": "\"There’s nothing wrong with wanting to be the best in the world, as long as you remember that doing so also means wanting to be the best for the world.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "50_Never Eat Alone",
+        "body": "\"You must remember to talk with speakers before they’ve hit the stage. Often, that anonymous schlub slurping yogurt at the breakfast table will take on the aura of a celebrity after he’s spoken onstage. Find them before they’ve gained celebrity status, and you have a better chance to connect. Or ask the conference organizer (who has become your buddy anyway) to point them out if you don’t know what they look like.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "14_Never Eat Alone",
+        "body": "\"since. My father simply couldn’t be embarrassed when it came to fullling his family’s needs. I remember once we were driving down the road to our home when Dad spotted a broken Big Wheel tricycle in someone’s trash. He stopped the car, picked it up, and knocked on the door of the home where the discarded toy lay waiting to be picked up. “I spotted this Big Wheel in your trash,” he told the owner. “Do you mind if I take it? I think I can x it. It would make me feel wonderful to give my son something like this.” What guts! Can you imagine such a proud, working-class guy approaching that woman and, essentially, admitting he’s so poor that he’d like to have her garbage? Oh, but that’s not the half of it. Imagine how that woman felt, having been given an opportunity to give such a gift to another person. It surely made her day. “Of course,” she gushed, explaining that her children were grown and that years had passed since the toy had been used. “You’re welcome to the bicycle I have, too. It’s nice enough that I just couldn’t throw it away …” So we drove on. I had a “new” Big Wheel to ride and a bike to grow into. She had a smile and a uttering heart that only benevolence breeds. And Dad had taught me that there is genius, even kindness, in being bold\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "109_Never Eat Alone",
+        "body": "\"The irony of celebrities is that they often have very fragile egos.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "13_Never Eat Alone",
+        "body": "\"hoped. I got one of the best educations in America, starting with Valley School, then Kiski School, Yale University, and on to Harvard Business School. And it would never have happened if my father hadn’t believed that it never hurts to ask.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "26_Never Eat Alone",
+        "body": "\"As with so many business dealings, that alone didn’t do the deed. Serge was busy, and I heard nothing back from him or his administrative assistant after several e-mails. This isn’t unusual. Frequently, people won’t get back to you. You have to put your ego aside and persist in calling or writing. And when you do nally connect, don’t sabotage your eorts by expressing how annoyed you are that they didn’t get back to you as quickly as you would have liked. Nor should you apologize for your persistence. Just dive in as if you caught him on the rst call. Make it comfortable for everyone.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "24_Never Eat Alone",
+        "body": "\"Once again, your goal in such a setting is to transform what could be a forgettable encounter into a blossoming friendship. There are shortcuts in my system, but this isn’t one of them.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "127_Never Eat Alone",
+        "body": "\"Remember that love, reciprocity, and knowledge are not like bank accounts that grow smaller as you use them. Creativity begets more creativity, money begets more money, knowledge begets more knowledge, more friends beget more friends, success begets even more success\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "44_Never Eat Alone",
+        "body": "\"an all-too-common misperception that conferences are places to nd insight. Wrong. Real, actionable insight mostly comes from experience, books, and other people. Roundtable discussions and keynote speeches can be fun, even inspirational, but rarely is there the time to impart true knowledge. But there may be no better place to extend your professional network and, on occasion, get deals done.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "41_Never Eat Alone",
+        "body": "\"Contrary to popular business wisdom, I don’t believe there has to be a rigid line between our private and public lives. Old-school business views the expression of emotions and compassion as vulnerability; today’s new businesspeople see such attributes as the glue that binds us. When our relationships are stronger, our businesses and careers are more successful\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "111_Never Eat Alone",
+        "body": "\"Just remember that famous and powerful people are rst and foremost people: They’re proud, sad, insecure, hopeful, and if you can help them achieve their goals, in whatever capacity, they will be appreciative.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "38_Never Eat Alone",
+        "body": "\"make the gatekeeper an ally rather than an adversary. And never, ever get on his or her bad side. Many executive assistants are their bosses’ minority partners. Don’t think of them as “secretaries” or as “assistants.” In fact, they are associates and lifelines. Every time I have ever tried to go head-to-head with an administrative assistant, I’ve lost. It’s like that childhood game: rock, paper, scissors. Well, in this game, as Mary Abdo taught me, the “associate” trumps all.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "89_Never Eat Alone",
+        "body": "\"if we would all just own up to our failures, we could stop perpetuating the crippling illusion that the ultra-successful get that way by succeeding over and over again. No! They get that way by failing over and over again, in increasingly ambitious experiments, until they succeed and succeed big.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "72_Never Eat Alone",
+        "body": "\"To paraphrase Dale Carnegie: You can be more successful in two months by becoming really interested in other people’s success than you can in two years trying to get other people interested in your own success.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "70_Never Eat Alone",
+        "body": "\"sense of gratication and allows them to protect other time for productive work on their own projects.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "32_Never Eat Alone",
+        "body": "\"Once you have someone’s commitment to hear you out for thirty seconds, you’ll need to be prepared to deliver a high-value proposition. You’ve got very little time to articulate why that person should not try to get o the phone as quickly as possible. Remember, it’s all about them. What can you do for them? When researching for a connection to the people you want to meet, rst do some reconnaissance about the company and industry they’re selling in. Selling is, reduced to its essence, solving another person’s problems. And you can do that only when you know what those problems are.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "65_Never Eat Alone",
+        "body": "\"if you’re going to deal with people’s most important issues, give those issues the commitment that they deserve. If not, your best intentions will backre. Hell hath no fury like a person for whom you’ve promised the most intimate of help and delivered none.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "30_Never Eat Alone",
+        "body": "\"Our task, then, is to tap our network of friends, family, clients, neighbors, classmates, associates, and church members to nd a path back to the person we’re trying to reach. When you mention someone both of you have in common, all of a sudden the person you’re calling has an obligation not only to you but also to the friend or associate you just mentioned.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "69_Never Eat Alone",
+        "body": "\"Grant’s explanation for how they do it provides a few useful crib notes to guide you in purposeful giving: • Give to Givers: Smart givers recognize takers and are cautious about giving to them, preferring to focus their eorts on those who might pay it forward. • Feed Your Network First: They channel giving to bolster their social ties—in other words, they are aware of the need to nurture their own networks. • Calendar Time for Giving: They “consolidate their giving” into chunks of energy and attention, which increases thei\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "76_Never Eat Alone",
+        "body": "\"Finally he stammers out, “Yeah.” He was choked up, audibly holding back tears. “You all right?” “You remembered my birthday?” he said. People are always shocked by this. “You know, Keith, this year none of my brothers or sisters or family … well, nobody remembered my birthday. Nobody remembered,” he said. “Thank you so much.” He never forgot. People never do.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "61_Never Eat Alone",
+        "body": "\"If All Else Fails, Five Words That Never Do “You’re wonderful. Tell me more.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "77_Never Eat Alone",
+        "body": "\"Frankly, anyone who can add a little electricity to your dinner party is an anchor tenant. Journalists, I’ve found, are terric anchor guests. They aren’t particularly well paid (which makes them suckers for free meals), their profession has a good deal of intrigue, they are always on the lookout for good material and see such dinners as a potential venue for new ideas, they’re generally good conversationalists, and many folks enjoy an opportunity to get their ideas heard by someone who might publicize them to a larger audience.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "46_Never Eat Alone",
+        "body": "\"success came from organizing a conference around its real function: an intimate gathering of like-minded professionals in an atmosphere that facilitates protable relationships.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "66_Never Eat Alone",
+        "body": "\"Grant stumbled onto the insight that giving, aka “prosocial behavior,” boosts performance when he was a lowly undergraduate ad salesman for the Let’s Go travel guide series. “I was a pushover,” he says in his book Give and Take, “losing revenues for the company and sacricing my own commission.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "37_Never Eat Alone",
+        "body": "\"Here’s what you need to know beyond the rules I’ve already laid out to get responses from “warm” e-mails. • Live and die by your Subject line. If you don’t, your e-mail may never get read. Focus on your strongest hook, either the contact you have in common or the specic value you have to oer. Make them curious. • Game the timing. There’s a lot of debate about the best time to email, but I personally like to re away when I think the person is apt to be spending time on e-mailing. Their morning, lunchtime, and the last hours of the workday are typical. • Be brief. Once you’ve written a draft, the “best” version of it is usually 50 percent shorter. Yes, we’re half as interesting as we think! Your e-mail should t into a single screen. If I have to scroll to get to the point, I’ve already lost interest. • Have a clear call to action. What do you want them to do? Make your rst request clear and easy. Request fteen minutes on the phone, not just a vague phone call. Oer suggested dates and times, not just “a meeting sometime.” Short-circuit the process as much as you can, and don’t make them guess what you’re looking for. • Read it out loud. I had an assistant who would do this with every e-mail she wrote, and it always made me laugh when I caught her in the act. But she was smart. Listening to herself, she ensured that the language was clear and conversational, and she timed it, too, with a forty-ve-second limit.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "60_Never Eat Alone",
+        "body": "\"As William James pointed out, “The deepest principle in human nature is the craving to be appreciated.” You should be governed by the idea that one should seek rst to understand, then to be understood. We’re often so worried about what we’re going to say next that we don’t hear what’s being said to us now\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "107_Never Eat Alone",
+        "body": "\"As long as you’re going to think anyway, think big. —Donald Trump\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "78_Never Eat Alone",
+        "body": "\"Most dinner parties don’t call for anything fancy. Follow the KISS principle (Keep It Simple, Silly). Good food. Good people. Lots of wine. Good conversation. That’s a successful dinner party. I always underdress just so no one else feels they did. Jeans and a jacket are my standard fare, but you judge for yourself.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "27_Never Eat Alone",
+        "body": "\"my four rules for what I call warm calling: (1) Convey credibility by mentioning a familiar person or institution—in this case, John, Je, and WebMD. (2) State your value proposition: Je’s new product would help Serge sell his new products. (3) Impart urgency and convenience by being prepared to do whatever it takes whenever it takes to meet the other person on his or her own terms. (4) Be prepared to oer a compromise that secures a denite follow-up at a minimum.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "64_Never Eat Alone",
+        "body": "\"Ralph Waldo Emerson once said: “Every man I meet is my superior in some way. In that, I learn of him.” Everyone\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "79_Never Eat Alone",
+        "body": "\"Guests take their cues from the host—if you’re having fun, odds are that they will, too.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "58_Never Eat Alone",
+        "body": "\"In analyzing thousands of interviews, she found a pattern among those who felt worthy of belonging and connection, which she termed “the wholehearted.” What they had in common was what Brown refers to as courage, in the sense of the original denition of the word, “to tell the story of who you are with your whole heart.” They had the courage to be imperfect, to risk pain, and above all to share themselves authentically. “They believed that what made them vulnerable made them beautiful,” she found.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "87_Never Eat Alone",
+        "body": "\"the best subject lines tease one of two human needs: Utility or Curiosity. Either they clearly state the usefulness (“How to Fine-Tune Your EMail Subject Lines and Get Read”) or they set up an intriguing mystery that clicking will solve (“You Won’t Believe What I Did to Get My E-Mail Read”). And by the way, always make sure that your piece pays o the promise of the headline. There’s nothing generous about a bait and switch.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "92_Never Eat Alone",
+        "body": "\"They used to say fortune prefers the prepared mind. Now it’s fortune prefers the networked mind.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "28_Never Eat Alone",
+        "body": "\"detail: 1. Draft o a reference.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "124_Never Eat Alone",
+        "body": "\"gured out how to live so that our lives matter, so the world will at least be a little bit dierent for our having passed through it.” But\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "39_Never Eat Alone",
+        "body": "\"Always respect the gatekeeper’s power. Treat them with the dignity they deserve. If you do, doors will open for you even to the most powerful decision makers. What does it mean to treat them with dignity? Acknowledge their help. Thank them by phone, or with owers or a note.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "86_Never Eat Alone",
+        "body": "\"Great ideas, a great product—it’s not enough. Take the dieting book The Moderate Carbohydrate Diet. Ever hear of it? Probably not. Despite its good ideas (at least as far as the dieting genre goes), the book was published with a thud. Repackaged as The South Beach Diet, the book became a cultural phenomenon. The messages you send out into the world need to be in language that matters. Tell people how you’re solving a problem they already know they have. Putting yourself in your reader’s shoes and responding to their needs is generous—and it will also get you read.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "83_Never Eat Alone",
+        "body": "\"whether you’re cool, etc. Articles, blog posts, proles, status updates —every bit and byte that’s produced and associated with you and your name adds up to something.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "81_Never Eat Alone",
+        "body": "\"And when you reach out on the site, show people you’ve read their prole by directly referencing it. On the online dating site OKCupid, the e-mails that get the most responses are the ones that say things like, “ ‘You mention’ … or ‘I noticed that’ … In other words, phrases that showed that the person had carefully read the other’s prole,” writes Reid.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "88_Never Eat Alone",
+        "body": "\"Facebook’s prompt has become “What’s on your mind”—a big step, no doubt data-driven, in the right direction. Still, I like mine better: What’s got your attention? (Go ahead, tweet something now.)\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "106_Never Eat Alone",
+        "body": "\"Learn to be brief—in both your written and phone pitches. Brevity is cherished in the media. Look at the evolution of the modern sound bite: Some thirty years ago, a presidential nominee was allowed an average sound bite of forty-two seconds. Today, it’s somewhere under seven seconds. If the president is getting only a few seconds, how much time do you think you’ll get? Think in terms of talking points. Pick the three most interesting points about your story and make them fast, make them colorful, and make them catchy.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "91_Never Eat Alone",
+        "body": "\"try writing your LinkedIn prole for the job you want to have, not the job you have.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "71_Never Eat Alone",
+        "body": "\"“Stop driving yourself—and everyone else—crazy thinking about how to make yourself successful. Start thinking about how you’re going to make everyone around you successful.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "75_Never Eat Alone",
+        "body": "\"I was in New York some years back and up popped a reminder on my mobile: “Birthday—Kent Blosil.” Kent was the man who successfully got past my gatekeeper. When I met Kent that day, and I received his contact information, I asked for his birth date, as I try to do with everyone. Even today I still interact with plenty of people who aren’t using Facebook, or at least who aren’t using it for professional relationships. Asking for a birth date isn’t intrusive, and most people forget I’ve done so the moment after they tell me. Kent was a Mormon. Born in Salt Lake City, Utah, he had upward of ten brothers and sisters. With such a large family, you’d think the man’s phone would be ringing o the hook on his birthday. I hadn’t spoken to him for over a year. It was a busy day for me, and I didn’t see the reminder until close to 3 P.M. that afternoon. Generally, I like to make birthday calls in the early morning. This way I get someone’s voice mail, and when they come in to work that morning, they’re greeted with my rendition of “Happy Birthday.” I can’t tell you how many New York City cabdrivers must think I’m an utter lunatic. So when Kent actually picked up his phone that afternoon, my personal Pavarotti of “Happy Birthday” greeted him. No greetings. No niceties. I just let it rip. Normally, I get laughter and a grateful “Thanks.” This time, after I had nished, the phone went silent. “Kent, you there? It’s your birthday, right?” Nothing. Not a word. I thought I’d made a jerk out of myself and missed the day or something. “Kent?”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "85_Never Eat Alone",
+        "body": "\"Attention is the scarce resource we all compete for these days. As the stream scrolls by, we have an eyeblink of time to encourage someone to click us instead of the many other links before and after ours. The clarity, eciency, and eectiveness with which you communicate who you are and why it’s relevant is the lynchpin for expanding your recognition, increasing your inuence, and attracting attention.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "93_Never Eat Alone",
+        "body": "\"lab, “If you plan your whole life, by denition you can’t get lucky. So you have to leave that little slot open.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "73_Never Eat Alone",
+        "body": "\"My personal favorite pinging occasion remains birthdays. It used to be that as you got older, the people around you started forgetting your big day (mostly because they think they want to forget their own). Now that anyone active in social media receives ubiquitous reminders, most of us wake up to a hearty, network-wide congratulations on our public proles on our birthdays. It’s honestly heartwarming—all that quantity feels good. But we still want quality, too, although people are quick to deny it.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "18_Never Eat Alone",
+        "body": "\"In connecting, online and o, you’re only as good as what you give away.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "82_Never Eat Alone",
+        "body": "\"What we’re talking about is content, the one true vehicle for building trust online. Content is how people come to know who you are, what you’re about, what you want, what you can provide,\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "84_Never Eat Alone",
+        "body": "\"The more you can be yourself, the more people will trust that you’re giving them the straight dope. It’s better to be rough around the edges than polished into a bland sheen.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "121_Never Eat Alone",
+        "body": "\"America’s focus on individualism works against reaching out to others. Comparative studies on levels of job stress and worker dissatisfaction show that people of individualistic cultures typically report much higher stress levels than do the people who work in more community-oriented cultures. In spite of our high standard of living, wealth and privilege haven’t produced emotional well-being. Instead, as these studies show, it’s a sense of belonging that brings us happiness.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "43_Never Eat Alone",
+        "body": "\"Before deciding to attend a conference, I sometimes informally go so far as using a simple return-on-investment-type thought process. Is the likely return I’ll get from the relationships I establish and build equal to or greater than the price of the conference and the time I spend there? If so, I attend. If not, I don’t. It’s that simple. That may seem like an awfully pragmatic view of conferences, but it works.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "67_Never Eat Alone",
+        "body": "\"Then he had a conversation with a student who was paying her way through school with her job at Let’s Go. Suddenly he saw his work selling ads not as a thankless grind, but as a chance to help. The more ads he sold, the more jobs Let’s Go could support. Inspired by that idea, he became much more organized and aggressive as a salesman. Deals started stacking up. Within the year, he had sold the largest advertising package in the company’s history.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "95_Never Eat Alone",
+        "body": "\"Consultants call it the airport question. In the lengthy interview process that that industry has become famous for—a peppering of complicated case studies and logic-testing puzzles—the one question consultants use to choose one person over a pool of equally talented candidates is the one question they ask only of themselves: “If I were trapped in John F. Kennedy Airport for a few hours [and all travel-weary consultants inevitably spend too much time in airports], would I want to spend it with this person?”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "07_Never Eat Alone",
+        "body": "\"Remember, it’s easier to get ahead in the world when those below you are happy to help you get ahead, rather than hoping for your downfall.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "06_Never Eat Alone",
+        "body": "\"line: It’s better to give before you receive. And never keep score. If your interactions are ruled by generosity, your rewards will follow suit.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "36_Never Eat Alone",
+        "body": "\"Boy Scouts, who are often turned down initially when trying to sell rae tickets. It has been statistically shown, however, that when the Scout then oers candy bars instead, a less costly item, customers will buy the candy even if they don’t really want it. In giving in to the concession, people feel as if they’re holding up their social obligation to others. So remember, try for a lot—it will help you settle for what it is you really need.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "80_Never Eat Alone",
+        "body": "\"The most common and unfortunate misconception about networking these days is that connecting broadly to the Fringe somehow devalues your real friendships. Nonsense! The fact is, network management scales easily, while intimacy almost always requires one on one. Most critics conate the two, hung something like, “See, look at what social media has done; these kids today have 5,000 ‘friends’ but no real relationships.” Meanwhile, the “kids”—those doing it right, who refuse the notion that the two concepts must be mutually exclusive—have a small core of very strong, intimate relationships and a large, diverse network from which they can pull the resources, information, and people they require to address unexpected needs.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "94_Never Eat Alone",
+        "body": "\"“Some people collect art. I always say I am a people collector.” Her\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "105_Never Eat Alone",
+        "body": "\"You may be thinking, “I’m shy. I don’t like to talk about myself. Isn’t modesty a virtue?” Well, I can assure you that if you hide your accomplishments, they’ll remain hidden. If you don’t promote yourself, however graciously, no one else will. Like it or not, your success is determined as much by how well others know your work as by the quality of your work.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "03_Never Eat Alone",
+        "body": "\"Success in any eld, but especially in business, is about working with people, not against them. No tabulation of dollars and cents can account for one immutable fact: Business is a human enterprise, driven and determined by people.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "99_Never Eat Alone",
+        "body": "\"Creativity is worthless if it can’t be applied. The bottom line for your work has to be: This will make us more money. The lifeblood of any company is sales and cash ow. All great ideas are meaningless in business until someone pays for them.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "74_Never Eat Alone",
+        "body": "\"Don’t kid yourself—EVERYONE CARES ABOUT HIS OR HER BIRTHDAY!\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "54_Never Eat Alone",
+        "body": "\"Personal contacts are the key to opening doors—not such a revolutionary idea. What is surprising, however, is that of those personal connections that reaped dividends for those in the study, only 17 percent saw their personal contact often—as much as they would if they were good friends—and 55 percent saw their contact only occasionally. And get this, 28 percent barely met with their contact at all. In other words, it’s not necessarily strong contacts, like family and close friends, that prove the most powerful; to the contrary, often the most important people in our network are those who are acquaintances.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "103_Never Eat Alone",
+        "body": "\"In terms of branding, then, the bottom line for everyone comes down to a choice: to be distinct or extinct.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "90_Never Eat Alone",
+        "body": "\"Put some thought into your prole photos, by far the most desirable real estate on your page. Do you need a professional headshot? If you can aord a good photographer, go for it. If not, don’t sweat it. The most successful LinkedIn photo is a crisp, vivid shot of your head and shoulders that conveys life and energy. Ask friends to weigh in—we don’t always recognize the perfect photo when we see it.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "40_Never Eat Alone",
+        "body": "\"The dynamics of a network are similar to those of a would-be celebrity in Hollywood: Invisibility is a fate far worse than failure. It means that you should always be reaching out to others—over breakfast, lunch, whatever. It means that if one meeting happens to go sour, you have six other engagements lined up just like it the rest of the week. In building a network, remember: Above all, never, ever disappear.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "96_Never Eat Alone",
+        "body": "\"him: “Create a story about your company and the ideas it embodies that readers will care about. That’s your content. Then share it. Have you ever picked up the phone and actually talked to a reporter about why you think what you do is so special? You cannot outsource this to PR; journalists deal with thousands of PR people a day. Who’s going to be more passionate and more informed than you? You’re the expert on what you do.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "112_Never Eat Alone",
+        "body": "\"Franklin’s autobiography tells us every man should\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "51_Never Eat Alone",
+        "body": "\"With each person, President Clinton will reach out to shake his or her hand. Most of the time, he’ll use two hands or clasp a person’s elbow to create instantaneous warmth. He’ll make direct eye contact and, in that eeting moment, ask a personal question or two. I don’t know how many times I’ve heard dierent people from the same event comment about how incredible it was to be the sole focus of the man’s attention. And that’s even the Republicans. The profoundness of that connection doesn’t come from the president’s desire to impart his opinion or ri on policy. His goal is at once very simple and powerful. The president wants you to like him (so in his own now-famous words, he “feels” what you feel). When he shows in those brief moments that he likes and cares about you, the human response is to reciprocate. He is nely tuned in to the radio station that we each listen to, WIIFM, also known as What’s in It for Me? I never once heard Clinton ask for a vote or talk about himself when engaged in these quick, casual encounters. His questions always revolved around what the other person was thinking, what was troubling him or her. Most people think a conference is a good time to market their wares. They rush from room to room desperately trying to sell themselves. But a commando knows that you have to get people to like you rst. The sales come later—in the follow-up discussions you have after the conference. Now is the time to begin to build trust and a relationship.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "01_Never Eat Alone",
+        "body": "\"SUCCESS IN LIFE = (THE PEOPLE YOU MEET) + (WHAT YOU CREATE TOGETHER)\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "29_Never Eat Alone",
+        "body": "\"You can see the total lack of credibility one has when making a cold call. Credibility is the rst thing you want to establish in any interaction, and, ultimately, no one will buy from you unless you establish trust. Having a mutual friend or even acquaintance will immediately make you stand out from the other anonymous individuals vying for a piece of someone’s time.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "56_Never Eat Alone",
+        "body": "\"In one word: connect. In four better words: connect with the connectors.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "68_Never Eat Alone",
+        "body": "\"In the decade since, he’s devoted a prolic research career toward studying the relationship between giving and success. Grant has found that people fall into one of three orientations: There are givers, who seek opportunities to give to others without expectation of anything in return; takers, who hoard resources and look for ways others can serve them; and nally matchers, who like to give as much as they get. But here’s Grant’s most important insight: The most successful people aren’t just givers, but a particular subset. They are those who give freely but also maintain a high degree of self-interest. They are strategic with their giving, and in the long run, it protects them from becoming doormats and washing out.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "97_Never Eat Alone",
+        "body": "\"Some of the best CEOs I know refuse to turn away business even when it might call for skills or experience that their company doesn’t have. These CEOs see such a scenario as an opportunity. “We can do that,” they’ll say. In the process, both the CEOs and their employees learn skills they need. They jump at trying something new, and they get the job done.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "57_Never Eat Alone",
+        "body": "\"Never forget the person who brought you to the dance. I once mistakenly invited a brand-new friend to a party without inviting the person who introduced us. It was a terrible mistake, and an unfortunate lapse in judgment on my part. Trust is integral to an exchange of networks that demands treating the other person’s contacts with the utmost respect.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "98_Never Eat Alone",
+        "body": "\"My rst e-mail to the CEO of ICI regarding TQM was never returned. To this day, I face rejection on a regular basis. If you’re going to be creative, cutting edge, out of the mainstream, you’d better get used to rockin’ the boat. And guess what—when you’re rockin’ the boat, there will always be people who will try to push you out. That’s the risk you have to take. Deeply committed professionals need to know the score: Passion keeps you going through the rough times, come hell or high water—and both will come. There will be continual changes and challenges requiring you to be persistent and committed. Focus on the results and keep your eyes open for what is happening on the edges of your industry.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "08_Never Eat Alone",
+        "body": "\"break. “If you follow your bliss, you put yourself on a kind of track that has been there all the while, waiting for you, and the life that you ought to be living is the one you are living.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "45_Never Eat Alone",
+        "body": "\"Those who use conferences properly have a huge leg up at your average industry gathering. While others quietly sit taking notes, content to sip their free bottled water, these men and women are setting up one-on-one meetings, organizing dinners, and, in general, making each conference an opportunity to meet people who could change their lives.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "55_Never Eat Alone",
+        "body": "\"wrote, “Acquaintances, in short, represent a source of social power, and the more acquaintances you have, the more powerful you are.” Throughout this\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "19_Never Eat Alone",
+        "body": "\"Be transparent. “I am what I am,” the cartoon character Popeye used to say. In the information age, openness—whether it concerns your intentions, the information you provide, or even your admiration—has become a valuable and much-sought-after attribute. People respond with trust when they know you’re dealing straight with them. At a conference, when I run into someone I’ve been dying to meet, I don’t hide my enthusiasm. “It’s a pleasure to nally meet you. I’ve admired your work from afar for quite some time and have been thinking how benecial it might be if we could meet one another.” Coy games may work in a bar, but not when you’re looking to establish a deeper, more meaningful connection.\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "101_Never Eat Alone",
+        "body": "\"few talents are more important to managerial success than knowing how to tell a good story.”\"",
+        "folder": "Never Eat Alone"
+    },
+    {
+        "title": "\"Knowledge in the world of AI might not consist so much of having the right answer, but being able to ask the right questions.\"",
+        "body": "",
+        "folder": "Me"
+    },
+    {
+        "title": "\"I choose not to hurt myself trying to make this work.\"",
+        "body": "",
+        "folder": "Me"
+    },
+    {
+        "title": "\"Remember, what one man can do another man can do.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Some guidelines about expressing feelings. Don't focus on the other person, \"You are making me mad.\" Instead, take responsibility for what you are feeling: \"I am feeling angry.\" Don't use feeling words to describe what you are thinking, as in \"I feel like Joe was trying to take advantage of me.\" Instead, pay attention to what you are experiencing in your body: \"I'm feeling helpless and frightened.\" In general, try to begin feeling statements with \"I\", rather than \"you.\"\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"In general, women view men who try to please them as weak and hold these men in contempt. Most women do not want a man who tries to please them — they want a man who knows how to please himself.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"To help Nice Guys decide if they need to set a boundary with a particular behavior, I have them apply the Second Date Rule. Using the second date rule, Nice Guys ask themselves, \"If this behavior had occurred on the second date, would there have been a third?\" This question helps them see if they have been putting up with something that they shouldn't.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Wounded people are attracted to wounded people. When Nice Guys enter a relationship, they frequently choose partners who look more dysfunctional than they do. This creates a dangerous illusion that one of them is sicker than the other. This is a distortion, because healthy people are not attracted to unhealthy people — and vice versa. I frequently tell couples that if you have one obviously wounded person in a relationship, you always have two. No exception.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"When recovering Nice Guys create relationships with people who don't need fixing, they improve their odds of finding the love they want. This doesn't mean searching for the perfect partner, just one who is already taking responsibility for her own life. Over time, the members of my No More Mr. Nice Guy! groups have come up with a number of traits to consciously look for when creating new relationships. These traits include (in no particular order):  Passion.  Integrity.  Happiness.  Intelligence.  Sexual assertiveness.  Financial responsibility.  Commitment to personal growth. This list isn't meant as a magic formula. There are no perfect people and no perfect relationships. But by consciously looking for the traits listed above in a prospective partner, Nice Guys can save themselves a lot of grief and improve their chances of actually finding what they are looking for.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"If a Nice Guy was called on to take care of a critical, needy, or dependent parent, he received a double dose of toxic shame. A child believes he should be able to please a critical parent, fix the problems of a depressed parent, and meet the needs of a smothering parent. Unfortunately, he can't. As a result of their inability to fix, please, or take care of one or more parents, many Nice Guys developed a deep-seated sense of inadequacy. They believed they should be able to do the job. Nevertheless, they never could seem to do it right or good enough — mom was still depressed, dad was still critical. This internalized sense of inadequacy and defectiveness is carried into adulthood. Some Nice Guys compensate by trying to do everything right. They hope that by doing so, no one will ever find out how inadequate they are. Other Nice Guys just give up before they try. This feeling of inadequacy prevents Nice Guys from making themselves visible, taking chances, or trying something new. It keeps them in the same old rut, never seeing how talented and intelligent they really are. Everyone around them can see these things, but their distorted childhood lenses won't let them accurately see their true potential and ability.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"The Nice Guy's need to hide is often the most pronounced in areas that are just part of being human and alive. That they are sexual. That they have bodily functions. That they are getting older. That they are losing their hair. That they have needs. That they are imperfect.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"I am the only person I have to please.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Most folks tend to be attracted to individuals who have some substance and sense of self. Chameleons usually don't draw much of a crowd or get many ovations. By shedding their chameleon skin and learning to please themselves, recovering Nice Guys begin to experience the intimacy and connection they have always desired. By learning to approve of themselves, they begin to radiate a life energy and charisma that draws people to them. As Nice Guys stop seeking approval and stop trying to hide their perceived flaws, they open a door to start getting what they really want in love and life\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"The essence of recovery from the Nice Guy Syndrome is the conscious decision to live one's life just as one desires. I frequently encourage recovering Nice Guys to be just who they are, without reservation. I support them in deciding what is right for them and being that with all of their energy for the whole world to see. The people who like them just as they are will hang around. The people who don't, won't. This is the only way to have a healthy relationship. No one really wants to believe that they have to be false or hide who they really are to get someone to love them or stay with them. Yet, this is a common dynamic in the intimate relationships Nice Guys create.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"The bull moose don't sit around trying to figure out what will make the girls like them. They are just themselves: fierce, strong, competitive, and sexually proud. Because they are what they are and do what they do, prospective mates are attracted. As in nature, the greatest aphrodisiac is self-confidence. As recovering Nice Guys become comfortable just being themselves, they begin to look more attractive. Self-respect, courage, and integrity look good on a man. As recovering Nice Guys chart their own path and put themselves first, people respond.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"The difficulty Nice Guys have with sex can be directly linked to two issues: shame and fear. All Nice Guys have shame and fear about being sexual and about being sexual beings. In my experience, this is probably the most difficult concept for Nice Guys to understand and accept about themselves. Sex is a basic human drive. Because most Nice Guys believe they are bad for being sexual, or believe that other people will think they are bad, sexual impulses have to be kept hidden from view. The Nice Guy's sexuality doesn't go away, it just goes underground.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Boundary setting isn't about getting other people to be different, but about getting themselves to be different. If someone is crossing their boundary, it isn't the other person's problem, it is theirs.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"In order to balance his fear of vulnerability and fear of abandonment, a Nice Guy needs help. He finds it in people who are equally wounded and also have difficulty with intimacy. Together they co-create relationships that simultaneously frustrate all parties while protecting them from their fear of being found out. Even though it may look like many of the problems Nice Guys experience in relationships are caused by the baggage their partner brings with them, this is not the case. It is the relationship the Nice Guy and his partner cocreate that is the problem. It is true that Nice Guys often pick partners who appear to be projects, and indeed, they do at times pick some pretty messed up people. The fact that these partners may have challenges — they are single moms, they have financial problems, they are angry, addictive, depressed, overweight, nonsexual, or unable to be faithful — is precisely the reason Nice Guys invite these people into their lives. As long as attention is focused on the flaws of the partner, it is diverted away from the internalized toxic shame of the Nice Guy. This balancing act ensures that the Nice Guy's closest relationship will most likely be his least intimate.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"People love and accept me just as I am.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"I tell Nice Guys, \"No one was put on this planet to meet your needs\" (except their parents — and their job is done). I also remind them they weren't put on this planet to meet anyone else's needs (except those of their children).\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"I am lovable just as I am.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"No one was put into this world to meet your needs but you.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Being integrated means being able to accept all aspects of one's self. An integrated man is able to embrace everything that makes him uniquely male: his power, his assertiveness, his courage, and his passion as well as his imperfections, his mistakes, and his dark side. An integrated male possesses many of the following attributes: He has a strong sense of self. He likes himself just as he is. He takes responsibility for getting his own needs met. He is comfortable with his masculinity and his sexuality. He has integrity. He does what is right, not what is expedient. He is a leader. He is willing to provide for and protect those he cares about. He is clear, direct, and expressive of his feelings. He can be nurturing and giving without caretaking or problem-solving. He knows how to set boundaries and is not afraid to work through conflict. An integrated male doesn't strive to be perfect or gain the approval of others. Instead he accepts himself just as he is, warts and all. An integrated male accepts that he is perfectly imperfect.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Caring Vs. Caretaking Though Nice Guys see everything they do for others as loving, caretaking has very little to do with caring. Here are the differences:  Caretaking  1) Gives to others what the giver needs to give.  2) Comes from a place of emptiness within the giver.  3) Always has unconscious strings attached.    Caring  1) Gives to others what the receiver needs.  2) Comes from a place of abundance within the giver.  3) Has no strings attached.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Nice Guys have difficulty getting the love they want because they spend too much time trying to make bad relationships work. Basically, Nice Guys suffer from the age-old problem of looking for love in all the wrong places. If a Nice Guy spends all of his time stuck in a bad relationship, it pretty much guarantees he won't find one that might work better. When healthy individuals recognize that they have created a relationship that is not a good fit, or that a partner they have chosen lacks the basic qualities they desire, they move on. Not Nice Guys. Due to their conditioning, Nice Guys just keep trying harder to get a non-workable situation to work or get someone to be something they are not. This tendency frustrates everybody involved. Even when Nice Guys do try to end a relationship, they are not very good at it. They frequently do it too late and in indirect, blaming, or deceitful ways.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Humans connect with humans. Hiding one's humanity and trying to project an image of perfection makes a person vague, slippery, lifeless, and uninteresting. I often refer to Nice Guys as Teflon Men. They work so hard to be smooth, nothing can stick to them. Unfortunately, this Teflon coating also makes it difficult for people to get close. It is actually a person's rough edges and human imperfections that give others something to connect with.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"I frequently tell Nice Guys, \"If you keep doing what you've always done, you'll keep getting what you've always had.\" To reiterate what I've illustrated before, Nice Guys prevent themselves from getting what they want in love and life by: Seeking the approval of others. Trying to hide their perceived flaws and mistakes. Putting other people's needs and wants before their own. Sacrificing their personal power and playing the role of a victim. Disassociating themselves from other men and their own masculine energy. Co-creating relationships that are less than satisfying. Creating situations in which they do not have very much good sex. Failing to live up their full potential.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Define intimacy as \"knowing the self, being known by another, and knowing another.\" Intimacy requires two people who are willing to courageously look inward and make themselves totally visible to another.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"Ironically, the most important aspect of reclaiming personal power and getting what one wants in love and life is surrender. Surrender doesn't mean giving up, it means letting go of what one can't change and changing what one can. Letting go doesn't mean not caring or not trying. Letting go means letting be. It is like opening up a tightly clenched fist and releasing the tension stored inside.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"If a man is talking in the forest and no woman is there to hear him, is he still wrong?\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
+    },
+    {
+        "title": "\"The essence of all life is evolution and change. In order for this process to occur naturally and completely in an individual, a person has to be willing to let go of control. Letting go allows the beautiful, serendipitous chaos of creation to resonate through one's self. The result is a dynamic, fulfilling life.\"",
+        "body": "",
+        "folder": "No More Mr. Nice Guy"
     }
 ]

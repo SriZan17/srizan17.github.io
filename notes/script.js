@@ -165,9 +165,23 @@ function displayNotes() {
     noteElement.className = "note";
     
     // Handle the backend structure: title contains the quote/content, body is usually empty
-    const noteContent = note.title || note.body || note.content || '';
+    const noteTitle = note.title || '';
+    const noteBody = note.body || note.content || '';
     const folderName = note.folder || note.notebook_name || 'Unknown';
     
+    let contentHtml = '';
+    if (noteTitle) {
+        contentHtml += `<div class="note-title">${escapeHtml(noteTitle)}</div>`;
+    }
+    if (noteBody) {
+        contentHtml += `<div class="note-content">${escapeHtml(noteBody)}</div>`;
+    }
+    
+    // Fallback if both are empty
+    if (!contentHtml) {
+         contentHtml = `<div class="note-content"></div>`;
+    }
+
     noteElement.innerHTML = `
             <div class="note-header">
                 <div class="notebook-name">
@@ -175,7 +189,7 @@ function displayNotes() {
                     ${escapeHtml(folderName)}
                 </div>
             </div>
-            <div class="note-content">${escapeHtml(noteContent)}</div>
+            ${contentHtml}
         `;
     notesContainer.appendChild(noteElement);
   });
